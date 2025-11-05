@@ -1,1 +1,3 @@
-Notes section
+Notes Section: 
+Working with the Git :
+where performing tasks like reset, revert, cherry-pick,bisect, stash 
