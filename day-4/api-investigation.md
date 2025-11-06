@@ -25,9 +25,8 @@ traceroute --version
 node -v
 npm -v
 ````
+
 ![alt text](<Screenshot from 2025-11-06 13-00-45.png>)
-
-
 ---
 
 ## 🔹 DNS and Network Forensics
@@ -37,7 +36,9 @@ npm -v
 ```bash
 nslookup dummyjson.com
 ```
+
 ![alt text](<Screenshot from 2025-11-06 13-01-29.png>)
+
 **Output:**
 
 ```
@@ -74,6 +75,7 @@ traceroute dummyjson.com
 ```bash
 curl -v "https://dummyjson.com/products?limit=5&skip=10"
 ```
+
 ![alt text](<Screenshot from 2025-11-06 13-02-09.png>)
 
 **Observations:**
@@ -97,8 +99,7 @@ curl -v -H "User-Agent:" "https://dummyjson.com/products?limit=5&skip=10"
 * Result: `200 OK`
 * DummyJSON ignores the `User-Agent` header
 
-
-![alt text](<Screenshot from 2025-11-06 13-04-50.png>)
+![alt text](<Screenshot from 2025-11-06 13-04-50-1.png>)
 
 ### Add Fake Authorization
 
@@ -109,8 +110,7 @@ curl -v -H "Authorization: Bearer faketoken123" "https://dummyjson.com/products?
 * Public endpoint ignores Authorization
 * Secure endpoints would reject fake tokens
 
-![alt text](<Screenshot from 2025-11-06 13-05-21.png>)
-
+![alt text](<Screenshot from 2025-11-06 13-05-21-1.png>)
 
 **Header Manipulation Table**
 
@@ -132,7 +132,7 @@ curl -v -H "Authorization: Bearer faketoken123" "https://dummyjson.com/products?
 curl -I https://dummyjson.com/products/1
 ```
 
-![alt text](<Screenshot from 2025-11-06 13-06-19.png>)
+![alt text](<Screenshot from 2025-11-06 13-06-19-1.png>)
 
 * Displays HTTP metadata including `ETag` and `Cache-Control`
 
@@ -146,13 +146,11 @@ curl -v -H 'If-None-Match: W/"5e6-bX+IgjHKZz+TflDmEXfyyaBO9Hk"' https://dummyjso
 * Server confirms resource hasn’t changed — saves bandwidth
 * Demonstrates HTTP caching mechanism
 
+![alt text](<Screenshot from 2025-11-06 13-06-53-1.png>)
+
+![alt text](<Screenshot from 2025-11-06 13-07-23-1.png>)
+
 ---
-
-![alt text](<Screenshot from 2025-11-06 13-06-53.png>)
-
-![alt text](<Screenshot from 2025-11-06 13-07-23.png>)
-
-
 
 ## 🔹 Node.js HTTP Server
 
@@ -203,19 +201,21 @@ server.listen(PORT, () => console.log(`Server running on http://localhost:${PORT
 
 ```bash
 curl -v http://localhost:3000/echo
+```
 
 ![alt text](<Screenshot from 2025-11-06 14-26-17.png>)
 
+```bash
 curl -v http://localhost:3000/slow?ms=3000
+```
 
 ![alt text](<Screenshot from 2025-11-06 14-26-57.png>)
 
+```bash
 curl -v http://localhost:3000/cache
+```
 
 ![alt text](<Screenshot from 2025-11-06 14-27-21.png>)
-
-
-```
 
 * `/echo` shows headers
 * `/slow` delays response by specified milliseconds
@@ -241,3 +241,4 @@ curl -v http://localhost:3000/cache
 * CURL provides deep visibility into HTTP request-response cycles
 
 ```
+
