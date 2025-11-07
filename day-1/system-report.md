@@ -172,6 +172,8 @@ const targetBytes = 500 * 1024 * 1024; // 50 MB
 let currentBytes = 0;
 
 const stream = fs.createWriteStream('textfile.txt', { flags: 'w' });
+// flags -- overwritten if exists 
+// stream -- write in chunks
 
 while (currentBytes < targetBytes) {
   const chunk = loremIpsum({
@@ -181,6 +183,8 @@ while (currentBytes < targetBytes) {
   }) + ' ';
 
   const chunkBytes = Buffer.byteLength(chunk, 'utf8');
+  
+// exact number of bytes in string.....
 
   // Write only the amount needed to reach target size
   if (currentBytes + chunkBytes > targetBytes) {
