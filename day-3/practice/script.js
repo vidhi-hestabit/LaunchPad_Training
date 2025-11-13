@@ -1,5 +1,5 @@
-let counter = 0; // variable that can change
-const appName = "JS DOM Demo"; // constant (cannot change)
+let counter = 0;
+const appName = "JS DOM Demo";
 
 const greetUser = (name = "Guest") => {
   console.log(`Welcome to ${appName}, ${name}!`);
@@ -63,9 +63,7 @@ if (openModalBtn && modal && closeModalBtn) {
   });
 }
 
-// ------------------------------
 // 4. Event Listeners (counter + key events)
-// ------------------------------
 
 const countDisplay = document.querySelector("#count");
 const incBtn = document.querySelector("#increment");

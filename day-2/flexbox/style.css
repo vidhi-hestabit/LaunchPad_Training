@@ -1,121 +1,111 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  margin:20px;
+  margin: 20px;
   font-family: Arial, sans-serif;
-  display: flex;                 /* make body a column flex container */
-  flex-direction: column;        /* stack children vertically */
-  min-height: 100vh;
-  gap: 10px;                     /* space between major sections (header, hero, content, banner) */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-/* Top nav (header + menu in a row) */
 .top-nav {
-  display: flex;                 /* put header and menu side-by-side */
-  gap: 10px;                     /* small gap between header and menu */
-  align-items: stretch;          /* make children match height (unless their own height differs) */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-/* header box */
 .header-section {
   background-color: #1a2332;
   color: #fff;
   padding: 2rem;
   font-size: 1.5rem;
-  font-weight: bold;
-  display: flex;                 /* center content inside the header box */
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 20%;                 /* flex-grow:0, flex-shrink:0, base width:20% */
-  min-width: 150px;
+  text-align: center;
+  flex: 1 1 150px;
 }
 
-/* menu box */
 .menu-section {
   background-color: #ee4c5c;
   color: #fff;
   padding: 2rem;
   font-size: 1.5rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1 1 0;                   /* flex-grow:1 (take remaining space), flex-shrink:1, base 0 */
-  min-width: 300px;
+  text-align: center;
+  flex: 3 1 300px;
 }
 
-/* hero */
 .hero-section {
   background-color: #5b9bd5;
   color: white;
-  padding: 4rem 2rem;
+  padding: 6rem 1rem;
   font-size: 2rem;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 200px;
-  width: 100%;
+  text-align: center;
 }
 
-/* content area: main + sidebar */
 .content-wrapper {
-  display: flex;                 /* horizontal layout: main | sidebar */
-  gap: 10px;                     /* gap between main and sidebar */
-  align-items: flex-start;       /* align items at top of the row */
-  width: 100%;
-  padding: 0 0;                  /* optional horizontal padding */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 350px;
 }
 
-/* main */
 .main {
   background-color: #2d3e50;
   color: white;
-  padding: 3rem 2rem;
+  padding: 6rem 1rem;
   font-size: 1.8rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 250px;
-
-  /* control width with flex shorthand */
-  flex: 0 0 60%;                 /* don't grow, don't shrink, base width 60% */
-  /* alternative: flex: 1 1 60%; to allow small growing/shrinking */
-  min-width: 300px;
+  text-align: center;
+  flex: 1 1 40%;
+  height: 80px;
 }
 
-/* sidebar */
 .sidebar {
   display: flex;
   flex-direction: column;
-  gap: 10px;                     /* gap between image and extra box */
-  flex: 0 0 40%;                 /* fixed base width 40% */
-  min-width: 250px;
+  gap: 10px;
+  flex: 1 1 10%;
 }
 
-/* sidebar children */
-.image-box, .extra-box {
+.image-box,
+.extra-box {
   padding: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 125px;
+  text-align: center;
+  min-height: 80px;
 }
-.image-box { background: #b8dbd9; color:#2d3e50; }
-.extra-box { background: #5fbe9d; color:#2d3e50; }
 
-/* banner/footer */
+.image-box {
+  background: #b8dbd9;
+  color: #2d3e50;
+}
+
+.extra-box {
+  background: #5fbe9d;
+  color: #2d3e50;
+}
+
 .banner-section {
   background-color: #f4cd6f;
   color: #2d3e50;
   padding: 2rem;
   font-size: 1.8rem;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100px;
-  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .top-nav {
+    flex-direction: column;
+  }
+
+  .main, .sidebar, .hero-section, .banner-section {
+    font-size: 1.3rem;
+  }
 }
