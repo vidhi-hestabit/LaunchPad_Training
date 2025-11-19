@@ -1,0 +1,8 @@
+Overall commits description inside the day-3 repo : 
+1. Added README.md 
+2. Added an app.py file which contains add() function 
+3. Added multiply.py file which contains multiply() function 
+4. Added a bug inside the app.py file 
+5. Added another notes.txt file which will contains notes related to learning 
+6. Added a test file which will going to check the add functionality from app.py 
+7. More defined README.md file
