@@ -1,14 +1,14 @@
 [
   {
     "method": "fs.readFile (Buffer)",
-    "fileSize": "500.00 MB",
-    "executionTimeMs": 261,
-    "memoryUsed": "501.29 MB"
+    "fileSize": "50.00 MB",
+    "executionTimeMs": 32,
+    "memoryUsed": "50.18 MB"
   },
   {
     "method": "fs.createReadStream (Stream)",
-    "fileSize": "500.00 MB",
-    "executionTimeMs": 512,
-    "memoryUsed": "39.51 MB"
+    "fileSize": "50.00 MB",
+    "executionTimeMs": 63,
+    "memoryUsed": "-20062208.00 B"
   }
 ]
