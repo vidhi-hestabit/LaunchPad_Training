@@ -1,8 +1,0 @@
-git bisect start
-# status: waiting for both good and bad commits
-# bad: [cc4f87e94ae188a6a5fb5a5c759af1f8ec0e4139] BUG introduced in the fourth commit inside add() function
-git bisect bad cc4f87e94ae188a6a5fb5a5c759af1f8ec0e4139
-# status: waiting for good commit(s), bad commit known
-# good: [d354fefc69e53c16906a7f8a56feadfd8e6d7795] Commit 3: Added multiply() function
-git bisect good d354fefc69e53c16906a7f8a56feadfd8e6d7795
-# first bad commit: [cc4f87e94ae188a6a5fb5a5c759af1f8ec0e4139] BUG introduced in the fourth commit inside add() function

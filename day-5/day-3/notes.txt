@@ -1,6 +1,0 @@
-Temporary local change
-<<<<<<< HEAD
-Change from main repo
-=======
-Change from clone repo
->>>>>>> clone/main
