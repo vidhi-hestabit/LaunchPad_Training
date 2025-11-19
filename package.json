@@ -1,0 +1,33 @@
+{
+  "name": "training-week-1-day-5",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint 'src/**/*.js' --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "./validate.sh",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidhi-hestabit/Training-Week-1-Day-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidhi-hestabit/Training-Week-1-Day-5/issues"
+  },
+  "homepage": "https://github.com/vidhi-hestabit/Training-Week-1-Day-5#readme",
+  "devDependencies": {
+    "@eslint/json": "^0.14.0",
+    "eslint": "^9.39.1",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-json": "^4.0.1",
+    "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2"
+  }
+}
