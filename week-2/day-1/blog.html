@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Stand Blog - Example semantic HTML5 blog layout built using only semantic elements (no CSS)." />
+  <title>Stand Blog — Semantic HTML5 Blog (No CSS)</title>
+</head>
+<body>
+  <!-- Page Header -->
+  <header role="banner" aria-label="Site header">
+    <h1>STAND BLOG<span aria-hidden="true">.</span></h1>
+
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#entries">Blog Entries</a></li>
+        <li><a href="#post-details">Post Details</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Featured posts (hero area) -->
+  <section aria-label="Featured posts" role="region">
+    <table border="0" cellspacing="10" cellpadding="10">
+      <tr>
+        <td>
+          <article aria-labelledby="f1-title">
+            <h3 id="f1-title">FASHION — Morbi Dapibus Condimentum</h3>
+            <figure>
+              <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=60" alt="Mountain view" width="300" height="180">
+              <figcaption>Admin | <time datetime="2020-05-12">May 12, 2020</time> | 12 Comments</figcaption>
+            </figure>
+          </article>
+        </td>
+        <td>
+          <article aria-labelledby="f2-title">
+            <h3 id="f2-title">NATURE — Donec Porttitor Augue At Velit</h3>
+            <figure>
+              <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?crop=faces&w=600&q=60" alt="Nature scene" width="300" height="180">
+              <figcaption>Admin | <time datetime="2020-05-14">May 14, 2020</time> | 24 Comments</figcaption>
+            </figure>
+          </article>
+        </td>
+        <td>
+          <article aria-labelledby="f3-title">
+            <h3 id="f3-title">LIFESTYLE — Best HTML Templates On TemplateMo</h3>
+            <figure>
+              <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=600&q=60" alt="City view" width="300" height="180">
+              <figcaption>Admin | <time datetime="2020-05-16">May 16, 2020</time> | 36 Comments</figcaption>
+            </figure>
+          </article>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Promo / callout banner -->
+  <section aria-label="Promotional banner">
+    <article>
+      <header>
+        <h2>Creative HTML Template For Bloggers!</h2>
+      </header>
+      <p>Stand Blog HTML5 Template — <a href="#download" role="button">Download Now</a></p>
+    </article>
+  </section>
+
+  <!-- Main content area with posts and sidebar using table -->
+  <main role="main" aria-label="Main content">
+    <table border="0" width="100%" cellspacing="10" cellpadding="10">
+      <tr valign="top">
+        <!-- Left side: main articles -->
+        <td width="70%">
+          <section aria-labelledby="posts-heading">
+            <h2 id="posts-heading">Blog Posts</h2>
+
+            <article aria-labelledby="post1-title">
+              <header>
+                <h3 id="post1-title">LIFESTYLE — Best Template Website For HTML CSS</h3>
+                <p>Admin | <time datetime="2020-05-31">May 31, 2020</time> | 12 Comments</p>
+              </header>
+
+              <figure>
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=60" alt="Landscape" width="500" height="300">
+              </figure>
+
+              <p>
+                Stand Blog is a free HTML CSS template for your CMS theme. You can adapt it for any static or dynamic website. You may use it for your projects but not redistribute the ZIP file.
+              </p>
+              <footer>
+                <p>Tags: <a href="#tag-beauty">Beauty</a>, <a href="#tag-nature">Nature</a></p>
+              </footer>
+            </article>
+
+            <article aria-labelledby="post2-title">
+              <header>
+                <h3 id="post2-title">HEALTHY — Etiam Id Diam Vitae Lorem Dictum</h3>
+                <p>Admin | <time datetime="2020-05-24">May 24, 2020</time> | 36 Comments</p>
+              </header>
+
+              <figure>
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&q=60" alt="Fog statue" width="500" height="300">
+              </figure>
+
+              <p>
+                You can support via PayPal. Contact <a href="#">TemplateMo</a> for questions. Check other templates such as resume or video layouts.
+              </p>
+
+              <footer>
+                <p>Tags: <a href="#tag-html5">HTML5</a>, <a href="#tag-css">CSS</a></p>
+              </footer>
+            </article>
+
+            <nav aria-label="Archive navigation">
+              <p><a href="#archive" role="button">View All Posts</a></p>
+            </nav>
+          </section>
+        </td>
+
+        <!-- Right side: sidebar -->
+        <td width="30%">
+          <aside aria-labelledby="sidebar-heading" role="complementary">
+            <!-- Search -->
+            <section aria-labelledby="search-heading">
+              <form action="/search" method="get" role="search">
+                <input name="q" type="search" placeholder="Type to search.." required>
+                <button type="submit">Search</button>
+              </form>
+            </section>
+
+            <!-- Recent posts -->
+            <section aria-labelledby="recent-posts-heading">
+              <h3 id="recent-posts-heading">Recent Posts</h3>
+              <ul>
+                <li><a href="#">Vestibulum id turpis porttitor sapien facilisis</a></li>
+                <li><a href="#">Suspendisse et metus nec libero ultricies varius</a></li>
+                <li><a href="#">Swag hella echo park leggings</a></li>
+              </ul>
+            </section>
+
+            <!-- Categories -->
+            <section aria-labelledby="categories-heading">
+              <h3 id="categories-heading">Categories</h3>
+              <ul>
+                <li><a href="#">Nature Lifestyle</a></li>
+                <li><a href="#">Awesome Layouts</a></li>
+                <li><a href="#">Creative Ideas</a></li>
+              </ul>
+            </section>
+
+            <!-- Tags -->
+            <section aria-labelledby="tags-heading">
+              <h3 id="tags-heading">Tag Clouds</h3>
+              <ul>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Creative</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">Photoshop</a></li>
+              </ul>
+            </section>
+          </aside>
+        </td>
+      </tr>
+    </table>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo" aria-label="Site footer">
+    <nav aria-label="Footer social links">
+      <ul>
+        <li><a href="https://facebook.com" target="_blank">FACEBOOK</a></li>
+        <li><a href="https://twitter.com" target="_blank">TWITTER</a></li>
+        <li><a href="https://behance.net" target="_blank">BEHANCE</a></li>
+        <li><a href="https://linkedin.com" target="_blank">LINKEDIN</a></li>
+        <li><a href="https://dribbble.com" target="_blank">DRIBBBLE</a></li>
+      </ul>
+    </nav>
+    <small>&copy; <time datetime="2020">2020</time> STAND BLOG CO. — DESIGN BY TEMPLATEMO</small>
+  </footer>
+</body>
+</html>

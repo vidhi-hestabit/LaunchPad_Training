@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MyShop - Premium Products</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <div class="logo-icon">W</div>
+          <span>E-commerce Website</span>
+        </a>
+        <div
+          class="theme-toggle"
+          onclick="toggleTheme()"
+          role="button"
+          aria-label="Toggle theme"
+        >
+          <div class="theme-toggle-slider">☀️</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Discover Amazing Products</h1>
+      <p>Explore our curated collection of premium items</p>
+    </section>
+
+    <!-- Controls -->
+    <div class="controls-section">
+      <div class="controls">
+        <div class="search-wrapper">
+          <span class="search-icon">🔍</span>
+          <input
+            id="search"
+            type="search"
+            placeholder="Search products, brands, categories..."
+            aria-label="Search products"
+          />
+        </div>
+        <select id="sort" aria-label="Sort products">
+          <option value="default">Sort: Default</option>
+          <option value="price-desc">Price: High → Low</option>
+          <option value="price-asc">Price: Low → High</option>
+          <option value="name-asc">Name: A → Z</option>
+        </select>
+        <div id="status" class="status" role="status" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <main class="container">
+      <section
+        id="product-grid"
+        class="grid"
+        aria-label="Product list"
+      ></section>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>

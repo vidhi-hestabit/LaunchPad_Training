@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.top-nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.header-section{
+    background-color: rgb(3, 48, 33);
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    flex: 1 1 150px;
+}
+.menu-section{
+    background-color: crimson;
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    flex: 3 1 300px;
+}
+.hero-section{
+    background-color: darkorange;
+    color: #fff;
+    padding: 4em;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.content-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 350px;
+}
+.main{
+    background-color: rgb(33, 12, 87);
+    color: white;
+    padding: 4rem 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+    flex: 1 1 30%;
+}
+.sidebar{
+    padding: 4rem 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+    flex: 1 1 20%;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.banner-section{
+    background-color: purple;
+    color: white;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.image-box{
+    background-color: #444;
+    color: white;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.extra-box{
+    background-color: #666;
+    color: white;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}

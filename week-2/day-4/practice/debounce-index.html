@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Debounce Test</title>
+</head>
+<body>
+  <h2>Debounce Search Example</h2>
+  <input type="text" id="search" placeholder="Type something..." />
+
+  <script>
+    function debounce(fn, delay) {
+      let timer;
+      return function(...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn.apply(this, args), delay);
+      };
+    }
+
+    function searchQuery(event) {
+      console.log("Searching for:", event.target.value);
+    }
+
+    const debouncedSearch = debounce(searchQuery, 800);
+    document.getElementById("search").addEventListener("input", debouncedSearch);
+  </script>
+</body>
+</html>
