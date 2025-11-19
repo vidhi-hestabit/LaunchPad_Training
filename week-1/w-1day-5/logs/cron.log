@@ -1,0 +1,11 @@
+0: command not found
+✅ Build artifact created: artifacts/build-20251107-145020.tgz
+🔑 Checksum saved to: artifacts/build-20251107-145020.sha256
+✅ Build artifact created: artifacts/build-20251107-145101.tgz
+🔑 Checksum saved to: artifacts/build-20251107-145101.sha256
+tar: src: Cannot stat: No such file or directory
+tar: config.json: Cannot stat: No such file or directory
+tar: logs: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+✅ Build artifact created: artifacts/build-20251107-145502.tgz
+🔑 Checksum saved to: artifacts/build-20251107-145502.sha256
