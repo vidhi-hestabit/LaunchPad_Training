@@ -31,6 +31,9 @@ By completing this module, you will:
 
 ## ⚙️ Project Structure
 
+#### Deployed Link of Todo app - 
+https://todo-app-nine-drab-18.vercel.app/
+
 ```
 
 /todo-app/
