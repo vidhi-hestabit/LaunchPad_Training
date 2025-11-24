@@ -19,7 +19,7 @@ export default function Sidebar({ isSidebarOpen }) {
   return (
     <aside
       className={`fixed top-16 left-0 h-[calc(100vh-4rem)] bg-gray-900 text-white shadow-lg transition-all duration-300 z-40 overflow-y-auto ${
-        isSidebarOpen ? "w-56" : "w-20"
+        isSidebarOpen ? "w-56" : "w-0"
       }`}
     >
       <div className="p-4 space-y-6">
