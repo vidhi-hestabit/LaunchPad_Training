@@ -1,4 +1,4 @@
-import { BarChart2, Table, ChevronRight, AreaChart } from "lucide-react";
+import { BarChart2, Table, AreaChart } from "lucide-react";
 import Button from "../components/ui/Button";
 import Card from "../components/ui/Card";
 import Input from "../components/ui/Input";
@@ -43,10 +43,9 @@ export default function DashboardPage() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <Card title="Area Chart Example">
+        
+            <Card title="Area Chart Example">
           <div className="flex items-center gap-2 mb-4">
-            <AreaChart size={18} />
-            <span className="text-sm text-gray-600">Area Chart Example</span>
           </div>
           <div className="flex">
             <div className="flex flex-col justify-between h-64 mr-4 text-sm text-gray-600">
@@ -104,10 +103,6 @@ export default function DashboardPage() {
 
         <Card title="Bar Chart Example">
           <div className="flex items-center gap-2 mb-4">
-            <BarChart2 size={18} color="black" />
-            <h3 className="text-lg font-semibold text-black">
-              Bar Chart Example
-            </h3>
           </div>
           <div className="flex">
             <div className="flex flex-col justify-between h-64 mr-4 text-sm text-gray-600">
