@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
 /* Floating animation (hero image) */
 @layer utilities {
