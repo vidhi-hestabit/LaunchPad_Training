@@ -1,0 +1,26 @@
+[2025-11-27 14:45:25] INFO: ⏳ Bootstrapping application...
+[2025-11-27 14:45:26] INFO: ✔ Database connected
+[2025-11-27 14:45:26] INFO: ✔ Middlewares loaded
+[2025-11-27 14:45:26] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 14:45:26] INFO: ✔ Server started on port 3001
+[2025-11-27 16:15:33] INFO: ⏳ Bootstrapping application...
+[2025-11-27 16:15:34] INFO: ✔ Database connected
+[2025-11-27 16:15:34] INFO: ✔ Middlewares loaded
+[2025-11-27 16:15:34] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 16:15:34] INFO: ✔ Server started on port 3001
+[2025-11-27 16:59:20] INFO: ⏳ Bootstrapping application...
+[2025-11-27 16:59:21] INFO: ✔ Database connected
+[2025-11-27 16:59:21] INFO: ✔ Middlewares loaded
+[2025-11-27 16:59:21] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 16:59:21] INFO: ✔ Server started on port 3001
+[2025-11-27 17:00:51] INFO: ⏳ Bootstrapping application...
+[2025-11-27 17:01:45] INFO: ⏳ Bootstrapping application...
+[2025-11-27 17:01:45] INFO: ✔ Database connected
+[2025-11-27 17:01:45] INFO: ✔ Middlewares loaded
+[2025-11-27 17:01:45] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 17:01:45] INFO: ✔ Server started on port 3001
+[2025-11-27 17:25:03] INFO: ⏳ Bootstrapping application...
+[2025-11-27 17:25:05] INFO: ✔ Database connected
+[2025-11-27 17:25:05] INFO: ✔ Middlewares loaded
+[2025-11-27 17:25:05] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 17:25:05] INFO: ✔ Server started on port 3001
