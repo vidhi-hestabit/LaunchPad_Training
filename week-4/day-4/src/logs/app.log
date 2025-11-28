@@ -1,0 +1,75 @@
+[2025-11-27 14:45:25] INFO: ⏳ Bootstrapping application...
+[2025-11-27 14:45:26] INFO: ✔ Database connected
+[2025-11-27 14:45:26] INFO: ✔ Middlewares loaded
+[2025-11-27 14:45:26] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 14:45:26] INFO: ✔ Server started on port 3001
+[2025-11-27 16:15:33] INFO: ⏳ Bootstrapping application...
+[2025-11-27 16:15:34] INFO: ✔ Database connected
+[2025-11-27 16:15:34] INFO: ✔ Middlewares loaded
+[2025-11-27 16:15:34] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 16:15:34] INFO: ✔ Server started on port 3001
+[2025-11-27 17:04:13] INFO: ⏳ Bootstrapping application...
+[2025-11-27 17:04:14] INFO: ✔ Database connected
+[2025-11-27 17:04:14] INFO: ✔ Middlewares loaded
+[2025-11-27 17:04:14] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 17:04:14] INFO: ✔ Server started on port 3001
+[2025-11-27 17:36:29] INFO: ⏳ Bootstrapping application...
+[2025-11-27 17:36:31] INFO: ✔ Database connected
+[2025-11-27 17:36:31] INFO: ✔ Middlewares loaded
+[2025-11-27 17:36:31] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-27 17:36:31] INFO: ✔ Server started on port 3001
+[2025-11-28 11:59:59] INFO: ⏳ Bootstrapping application...
+[2025-11-28 11:59:59] INFO: ✔ Database connected
+[2025-11-28 11:59:59] INFO: ✔ Middlewares loaded
+[2025-11-28 11:59:59] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 11:59:59] INFO: ✔ Server started on port 3001
+[2025-11-28 12:36:45] INFO: ⏳ Bootstrapping application...
+[2025-11-28 12:36:47] INFO: ✔ Database connected
+[2025-11-28 12:36:47] INFO: ✔ Middlewares loaded
+[2025-11-28 12:36:47] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 12:36:47] INFO: ✔ Server started on port 3001
+[2025-11-28 12:38:11] INFO: ⏳ Bootstrapping application...
+[2025-11-28 12:38:12] INFO: ✔ Database connected
+[2025-11-28 12:38:12] INFO: ✔ Middlewares loaded
+[2025-11-28 12:38:12] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 12:38:12] INFO: ✔ Server started on port 3001
+[2025-11-28 12:39:09] INFO: ⏳ Bootstrapping application...
+[2025-11-28 12:39:09] INFO: ✔ Database connected
+[2025-11-28 12:39:09] INFO: ✔ Middlewares loaded
+[2025-11-28 12:39:09] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 12:39:09] INFO: ✔ Server started on port 3001
+[2025-11-28 12:39:28] INFO: ⏳ Bootstrapping application...
+[2025-11-28 12:39:29] INFO: ✔ Database connected
+[2025-11-28 12:39:29] INFO: ✔ Middlewares loaded
+[2025-11-28 12:39:29] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 12:39:29] INFO: ✔ Server started on port 3001
+[2025-11-28 12:40:04] INFO: ⏳ Bootstrapping application...
+[2025-11-28 12:40:05] INFO: ✔ Database connected
+[2025-11-28 12:40:05] INFO: ✔ Middlewares loaded
+[2025-11-28 12:40:05] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 12:40:05] INFO: ✔ Server started on port 3001
+[2025-11-28 13:14:48] INFO: ⏳ Bootstrapping application...
+[2025-11-28 13:14:49] INFO: ✔ Database connected
+[2025-11-28 13:14:49] INFO: ✔ Middlewares loaded
+[2025-11-28 13:14:49] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 13:14:49] INFO: ✔ Server started on port 3001
+[2025-11-28 13:15:04] INFO: ⏳ Bootstrapping application...
+[2025-11-28 13:15:05] INFO: ✔ Database connected
+[2025-11-28 13:15:05] INFO: ✔ Middlewares loaded
+[2025-11-28 13:15:05] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 13:15:05] INFO: ✔ Server started on port 3001
+[2025-11-28 14:16:50] INFO: ⏳ Bootstrapping application...
+[2025-11-28 14:16:52] INFO: ✔ Database connected
+[2025-11-28 14:16:52] INFO: ✔ Middlewares loaded
+[2025-11-28 14:16:52] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 14:16:52] INFO: ✔ Server started on port 3001
+[2025-11-28 17:54:26] INFO: ⏳ Bootstrapping application...
+[2025-11-28 17:54:27] INFO: ✔ Database connected
+[2025-11-28 17:54:27] INFO: ✔ Middlewares loaded
+[2025-11-28 17:54:27] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 17:54:27] INFO: ✔ Server started on port 3001
+[2025-11-28 17:54:50] INFO: ⏳ Bootstrapping application...
+[2025-11-28 17:54:51] INFO: ✔ Database connected
+[2025-11-28 17:54:51] INFO: ✔ Middlewares loaded
+[2025-11-28 17:54:51] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 17:54:51] INFO: ✔ Server started on port 3001
