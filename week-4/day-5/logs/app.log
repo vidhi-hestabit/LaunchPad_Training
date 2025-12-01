@@ -1,0 +1,338 @@
+[2025-11-28 14:41:46] INFO: ⏳ Bootstrapping application...
+[2025-11-28 14:41:47] INFO: ✔ Middlewares loaded
+[2025-11-28 14:41:47] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 14:41:47] INFO: ✔ Server started on port 3001
+[2025-11-28 14:42:34] INFO: ⏳ Bootstrapping application...
+[2025-11-28 14:42:36] INFO: ✔ Middlewares loaded
+[2025-11-28 14:42:36] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 14:42:36] INFO: ✔ Server started on port 3001
+[2025-11-28 14:44:51] INFO: ⏳ Bootstrapping application...
+[2025-11-28 14:44:52] INFO: ✔ Middlewares loaded
+[2025-11-28 14:44:52] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 14:44:52] INFO: ✔ Server started on port 3001
+[2025-11-28 14:45:11] INFO: Incoming request: POST //send-email
+[2025-11-28 14:45:32] INFO: Incoming request: GET /send-email
+[2025-11-28 14:46:07] INFO: ⏳ Bootstrapping application...
+[2025-11-28 14:46:08] INFO: ✔ Middlewares loaded
+[2025-11-28 14:46:08] INFO: ✔ Routes mounted: 4 endpoints
+[2025-11-28 14:46:08] INFO: ✔ Server started on port 3001
+[2025-11-28 14:46:40] INFO: ⏳ Bootstrapping application...
+[2025-11-28 14:46:40] INFO: ✔ Middlewares loaded
+[2025-11-28 14:46:40] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 14:46:40] INFO: ✔ Server started on port 3001
+[2025-11-28 14:46:51] INFO: Incoming request: POST /email/send-email
+[2025-11-28 14:48:48] INFO: ⏳ Bootstrapping application...
+[2025-11-28 14:48:48] INFO: ✔ Middlewares loaded
+[2025-11-28 14:48:48] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 14:48:48] INFO: ✔ Server started on port 3001
+[2025-11-28 14:58:22] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:02:08] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:02:50] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:03:00] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:04:59] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:05:57] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:07:19] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:08:31] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:10:30] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:10:38] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:10:39] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:10:42] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:11:18] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:11:20] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:12:40] INFO: ⏳ Bootstrapping application...
+[2025-11-28 15:12:46] INFO: ✔ Middlewares loaded
+[2025-11-28 15:12:46] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 15:12:46] INFO: ✔ Server started on port 3001
+[2025-11-28 15:12:47] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:13:48] INFO: ⏳ Bootstrapping application...
+[2025-11-28 15:13:55] INFO: ✔ Middlewares loaded
+[2025-11-28 15:13:55] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 15:13:55] INFO: ✔ Server started on port 3001
+[2025-11-28 15:15:30] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:15:50] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:15:57] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:15:58] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:18:37] INFO: ⏳ Bootstrapping application...
+[2025-11-28 15:18:38] INFO: ✔ Middlewares loaded
+[2025-11-28 15:18:38] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 15:18:38] INFO: ✔ Server started on port 3001
+[2025-11-28 15:18:42] INFO: Incoming request: POST /email/send-email
+[2025-11-28 15:55:25] INFO: ⏳ Bootstrapping application...
+[2025-11-28 15:55:28] INFO: ✔ Middlewares loaded
+[2025-11-28 15:55:28] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 15:55:28] INFO: ✔ Server started on port 3001
+[2025-11-28 15:55:37] INFO: Incoming request: GET /users/
+[2025-11-28 15:57:02] INFO: Incoming request: GET /users/69283ef00339253d40f54e6f
+[2025-11-28 15:57:06] INFO: Incoming request: GET /users/69283ef00339253d40f54e6f
+[2025-11-28 15:57:09] INFO: Incoming request: GET /users/69283ef00339253d40f54e6f
+[2025-11-28 15:57:14] INFO: Incoming request: GET /users
+[2025-11-28 15:57:19] INFO: Incoming request: GET /users/69283ec90339253d40f54e67
+[2025-11-28 15:57:22] INFO: Incoming request: GET /users/69283ec90339253d40f54e67
+[2025-11-28 16:20:54] INFO: Incoming request: GET /products?search=product3%0A
+[2025-11-28 16:22:03] INFO: Incoming request: GET /products?search=product3%0A
+[2025-11-28 16:22:04] INFO: Incoming request: GET /products?search=product3%0A
+[2025-11-28 16:22:27] INFO: Incoming request: GET /products
+[2025-11-28 16:22:41] INFO: Incoming request: GET /products?search=T-shirt%0A
+[2025-11-28 16:24:05] INFO: Incoming request: GET /products?search=phone&minPrice=100&maxPrice=500&sort=price:desc&tags=apple%0A,samsung
+[2025-11-28 16:24:12] INFO: Incoming request: GET /products?search=phone&minPrice=100&maxPrice=500&sort=price:desc
+[2025-11-28 16:24:18] INFO: Incoming request: GET /products
+[2025-11-28 16:24:24] INFO: Incoming request: GET /products?search=phone&minPrice=100
+[2025-11-28 16:24:48] INFO: Incoming request: GET /products?search=phone&minPrice=120000
+[2025-11-28 16:24:55] INFO: Incoming request: GET /products?search=phone
+[2025-11-28 16:36:38] INFO: Incoming request: GET /products?search=phone
+[2025-11-28 16:36:48] INFO: Incoming request: GET /products?price=100000
+[2025-11-28 16:37:17] INFO: Incoming request: GET /products?minprice=100000
+[2025-11-28 16:37:20] INFO: Incoming request: GET /products?minPrice=100000
+[2025-11-28 17:24:27] INFO: ⏳ Bootstrapping application...
+[2025-11-28 17:24:30] INFO: ✔ Middlewares loaded
+[2025-11-28 17:24:30] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 17:24:30] INFO: ✔ Server started on port 3001
+[2025-11-28 17:34:12] INFO: ⏳ Bootstrapping application...
+[2025-11-28 17:34:14] INFO: ✔ Middlewares loaded
+[2025-11-28 17:34:14] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 17:34:14] INFO: ✔ Server started on port 3001
+[2025-11-28 17:35:27] INFO: Incoming request: GET /products?minPrice=100000
+[2025-11-28 17:35:33] INFO: Incoming request: GET /products?minPrice=gd
+[2025-11-28 17:35:37] INFO: Incoming request: GET /products?minPrice=100000
+[2025-11-28 17:37:51] INFO: Incoming request: POST /users/
+[2025-11-28 17:38:06] INFO: Incoming request: POST /users/
+[2025-11-28 17:38:14] INFO: ⏳ Bootstrapping application...
+[2025-11-28 17:38:16] INFO: ✔ Middlewares loaded
+[2025-11-28 17:38:16] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 17:38:16] INFO: ✔ Server started on port 3001
+[2025-11-28 17:38:16] INFO: Incoming request: POST /users/
+[2025-11-28 17:39:12] INFO: Incoming request: POST /users/
+[2025-11-28 17:40:11] INFO: Incoming request: POST /users/
+[2025-11-28 17:40:12] INFO: Incoming request: POST /users/
+[2025-11-28 17:40:15] INFO: ⏳ Bootstrapping application...
+[2025-11-28 17:40:17] INFO: ✔ Middlewares loaded
+[2025-11-28 17:40:17] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 17:40:17] INFO: ✔ Server started on port 3001
+[2025-11-28 17:40:21] INFO: Incoming request: POST /users/
+[2025-11-28 17:40:33] INFO: Incoming request: POST /users/
+[2025-11-28 17:44:20] INFO: ⏳ Bootstrapping application...
+[2025-11-28 17:44:21] INFO: ✔ Middlewares loaded
+[2025-11-28 17:44:21] INFO: ✔ Routes mounted: 5 endpoints
+[2025-11-28 17:44:21] INFO: ✔ Server started on port 3001
+[2025-11-28 17:44:25] INFO: Incoming request: POST /users/
+[2025-11-28 17:44:30] INFO: Incoming request: GET /products
+[2025-11-28 17:54:30] INFO: Incoming request: GET /products
+[2025-11-28 17:54:32] INFO: Incoming request: GET /products
+[2025-11-28 17:54:34] INFO: Incoming request: GET /products
+[2025-11-28 19:22:20] INFO: Bootstrapping application...
+[2025-11-28 19:22:22] INFO: Middlewares loaded
+[2025-11-28 19:22:22] INFO: Routes mounted: 5 endpoints
+[2025-11-28 19:22:22] INFO: ✔ Server started on port 3001
+[2025-11-28 19:22:51] INFO: Bootstrapping application...
+[2025-11-28 19:22:51] INFO: Middlewares loaded
+[2025-11-28 19:22:51] INFO: Routes mounted: 5 endpoints
+[2025-11-28 19:22:51] INFO: ✔ Server started on port 3001
+[2025-11-28 19:34:00] INFO: Incoming request: POST /email/send-email
+[2025-11-28 19:35:07] INFO: Incoming request: GET /products?page=1&limit=10
+[2025-11-28 19:45:29] INFO: Incoming request: POST /email/send-email
+[2025-11-28 19:49:30] INFO: Incoming request: POST /email/send-email
+[2025-11-28 19:50:20] INFO: Incoming request: POST /email/send-email
+[2025-11-28 19:50:46] INFO: Incoming request: POST /email/send-email
+[2025-11-28 19:51:12] INFO: Incoming request: POST /email/send-email
+[2025-12-01 14:06:48] INFO: Bootstrapping application...
+[2025-12-01 14:06:48] INFO: Middlewares loaded
+[2025-12-01 14:06:48] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:06:48] INFO: ✔ Server started on port 3001
+[2025-12-01 14:11:38] INFO: Incoming request: POST /products
+[2025-12-01 14:12:09] INFO: Incoming request: POST /products
+[2025-12-01 14:13:48] INFO: Bootstrapping application...
+[2025-12-01 14:13:48] INFO: Middlewares loaded
+[2025-12-01 14:13:48] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:13:48] INFO: ✔ Server started on port 3001
+[2025-12-01 14:16:28] INFO: Bootstrapping application...
+[2025-12-01 14:16:29] INFO: Middlewares loaded
+[2025-12-01 14:16:29] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:16:29] INFO: ✔ Server started on port 3001
+[2025-12-01 14:21:59] INFO: Bootstrapping application...
+[2025-12-01 14:22:00] INFO: Middlewares loaded
+[2025-12-01 14:22:00] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:22:00] INFO: ✔ Server started on port 3001
+[2025-12-01 14:22:09] INFO: Bootstrapping application...
+[2025-12-01 14:22:09] INFO: Middlewares loaded
+[2025-12-01 14:22:09] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:22:09] INFO: ✔ Server started on port 3001
+[2025-12-01 14:23:47] INFO: Bootstrapping application...
+[2025-12-01 14:23:49] INFO: Middlewares loaded
+[2025-12-01 14:23:49] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:23:49] INFO: ✔ Server started on port 3001
+[2025-12-01 14:25:41] INFO: Bootstrapping application...
+[2025-12-01 14:25:42] INFO: Middlewares loaded
+[2025-12-01 14:25:42] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:25:42] INFO: ✔ Server started on port 3001
+[2025-12-01 14:27:57] INFO: Bootstrapping application...
+[2025-12-01 14:27:59] INFO: Middlewares loaded
+[2025-12-01 14:27:59] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:27:59] INFO: ✔ Server started on port 3001
+[2025-12-01 14:28:52] INFO: Bootstrapping application...
+[2025-12-01 14:28:58] INFO: Middlewares loaded
+[2025-12-01 14:28:58] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:28:58] INFO: ✔ Server started on port 3001
+[2025-12-01 14:29:14] INFO: Bootstrapping application...
+[2025-12-01 14:29:15] INFO: Middlewares loaded
+[2025-12-01 14:29:15] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:29:15] INFO: ✔ Server started on port 3001
+[2025-12-01 14:29:22] INFO: Bootstrapping application...
+[2025-12-01 14:29:23] INFO: Middlewares loaded
+[2025-12-01 14:29:23] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:29:23] INFO: ✔ Server started on port 3001
+[2025-12-01 14:29:37] INFO: Incoming request: POST /products
+[2025-12-01 14:30:07] INFO: Incoming request: POST /products
+[2025-12-01 14:35:10] INFO: Bootstrapping application...
+[2025-12-01 14:35:11] INFO: Middlewares loaded
+[2025-12-01 14:35:11] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:35:11] INFO: ✔ Server started on port 3001
+[2025-12-01 14:38:39] INFO: Bootstrapping application...
+[2025-12-01 14:38:41] INFO: Middlewares loaded
+[2025-12-01 14:38:41] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:38:41] INFO: ✔ Server started on port 3001
+[2025-12-01 14:40:39] INFO: Bootstrapping application...
+[2025-12-01 14:40:41] INFO: Middlewares loaded
+[2025-12-01 14:40:41] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:40:41] INFO: ✔ Server started on port 3001
+[2025-12-01 14:42:19] INFO: Bootstrapping application...
+[2025-12-01 14:42:21] INFO: Middlewares loaded
+[2025-12-01 14:42:21] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:42:21] INFO: ✔ Server started on port 3001
+[2025-12-01 14:44:07] INFO: Bootstrapping application...
+[2025-12-01 14:44:10] INFO: Middlewares loaded
+[2025-12-01 14:44:10] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:44:10] INFO: ✔ Server started on port 3001
+[2025-12-01 14:44:14] INFO: Incoming request: POST /products
+[2025-12-01 14:45:27] INFO: Bootstrapping application...
+[2025-12-01 14:45:28] INFO: Middlewares loaded
+[2025-12-01 14:45:28] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:45:28] INFO: ✔ Server started on port 3001
+[2025-12-01 14:47:08] INFO: Bootstrapping application...
+[2025-12-01 14:47:10] INFO: Middlewares loaded
+[2025-12-01 14:47:10] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:47:10] INFO: ✔ Server started on port 3001
+[2025-12-01 14:48:17] INFO: Bootstrapping application...
+[2025-12-01 14:48:18] INFO: Middlewares loaded
+[2025-12-01 14:48:18] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:48:18] INFO: ✔ Server started on port 3001
+[2025-12-01 14:48:37] INFO: Bootstrapping application...
+[2025-12-01 14:48:38] INFO: Middlewares loaded
+[2025-12-01 14:48:38] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:48:38] INFO: ✔ Server started on port 3001
+[2025-12-01 14:50:00] INFO: Bootstrapping application...
+[2025-12-01 14:50:02] INFO: Middlewares loaded
+[2025-12-01 14:50:02] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:50:02] INFO: ✔ Server started on port 3001
+[2025-12-01 14:51:37] INFO: Bootstrapping application...
+[2025-12-01 14:51:39] INFO: Middlewares loaded
+[2025-12-01 14:51:39] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:51:39] INFO: ✔ Server started on port 3001
+[2025-12-01 14:53:21] INFO: Bootstrapping application...
+[2025-12-01 14:53:23] INFO: Middlewares loaded
+[2025-12-01 14:53:23] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:53:23] INFO: ✔ Server started on port 3001
+[2025-12-01 14:54:50] INFO: Bootstrapping application...
+[2025-12-01 14:54:52] INFO: Middlewares loaded
+[2025-12-01 14:54:52] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:54:52] INFO: ✔ Server started on port 3001
+[2025-12-01 14:54:56] INFO: Incoming request: POST /products
+[2025-12-01 14:55:07] INFO: Bootstrapping application...
+[2025-12-01 14:55:08] INFO: Middlewares loaded
+[2025-12-01 14:55:08] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:55:08] INFO: ✔ Server started on port 3001
+[2025-12-01 14:55:58] INFO: Bootstrapping application...
+[2025-12-01 14:55:58] INFO: Middlewares loaded
+[2025-12-01 14:55:58] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:55:58] INFO: ✔ Server started on port 3001
+[2025-12-01 14:58:02] INFO: Bootstrapping application...
+[2025-12-01 14:58:03] INFO: Middlewares loaded
+[2025-12-01 14:58:03] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:58:03] INFO: ✔ Server started on port 3001
+[2025-12-01 14:58:51] INFO: Bootstrapping application...
+[2025-12-01 14:58:52] INFO: Middlewares loaded
+[2025-12-01 14:58:52] INFO: Routes mounted: 5 endpoints
+[2025-12-01 14:58:52] INFO: ✔ Server started on port 3001
+[2025-12-01 14:59:00] INFO: Incoming request: POST /products
+[2025-12-01 15:00:36] INFO: Incoming request: POST /products
+[2025-12-01 15:00:59] INFO: Incoming request: POST /products
+[2025-12-01 15:01:06] INFO: Incoming request: POST /products
+[2025-12-01 15:06:31] INFO: Incoming request: POST /products
+[2025-12-01 15:08:18] INFO: Bootstrapping application...
+[2025-12-01 15:08:19] INFO: Middlewares loaded
+[2025-12-01 15:08:19] INFO: Routes mounted: 5 endpoints
+[2025-12-01 15:08:19] INFO: ✔ Server started on port 3001
+[2025-12-01 15:08:24] INFO: Incoming request: POST /products
+[2025-12-01 15:08:36] INFO: Incoming request: POST /products
+[2025-12-01 15:09:57] INFO: Incoming request: POST /products
+[2025-12-01 15:10:45] INFO: Bootstrapping application...
+[2025-12-01 15:10:46] INFO: Middlewares loaded
+[2025-12-01 15:10:46] INFO: Routes mounted: 5 endpoints
+[2025-12-01 15:10:46] INFO: ✔ Server started on port 3001
+[2025-12-01 15:10:51] INFO: Incoming request: POST /products
+[2025-12-01 15:17:40] INFO: Bootstrapping application...
+[2025-12-01 15:17:41] INFO: Middlewares loaded
+[2025-12-01 15:17:41] INFO: Routes mounted: 5 endpoints
+[2025-12-01 15:17:41] INFO: ✔ Server started on port 3001
+[2025-12-01 15:17:45] INFO: Incoming request: POST /products
+[2025-12-01 15:17:57] INFO: Incoming request: POST /products
+[2025-12-01 15:18:01] INFO: Incoming request: POST /products
+[2025-12-01 15:18:07] INFO: Incoming request: POST /products
+[2025-12-01 16:52:15] INFO: Bootstrapping application...
+[2025-12-01 16:52:17] INFO: Middlewares loaded
+[2025-12-01 16:52:17] INFO: Routes mounted: 5 endpoints
+[2025-12-01 16:52:17] INFO: ✔ Server started on port 3001
+[2025-12-01 16:52:21] INFO: Incoming request: PATCH /products/6926ddf2472740424a5a7d74asd
+[2025-12-01 16:52:42] INFO: Incoming request: GET /products
+[2025-12-01 16:52:48] INFO: Incoming request: GET /
+[2025-12-01 16:52:53] INFO: Incoming request: GET /
+[2025-12-01 16:54:01] INFO: Bootstrapping application...
+[2025-12-01 16:54:02] INFO: Middlewares loaded
+[2025-12-01 16:54:02] INFO: Routes mounted: 6 endpoints
+[2025-12-01 16:54:02] INFO: ✔ Server started on port 3001
+[2025-12-01 16:54:03] INFO: Incoming request: GET /
+[2025-12-01 16:54:08] INFO: Incoming request: POST /email/send-email
+[2025-12-01 16:54:15] INFO: Incoming request: GET /products?includeDeleted=true
+[2025-12-01 16:54:23] INFO: Incoming request: GET /users/69283ec90339253d40f54e67
+[2025-12-01 16:54:30] INFO: Incoming request: POST /users/
+[2025-12-01 16:54:53] INFO: Incoming request: POST /users/
+[2025-12-01 16:55:01] INFO: Incoming request: DELETE /products/6929452ab3138f3b8d71f922
+[2025-12-01 16:55:19] INFO: Incoming request: POST /products/
+[2025-12-01 16:55:23] INFO: Incoming request: GET /products?minPrice=100000
+[2025-12-01 16:55:30] INFO: Incoming request: DELETE /users/69294339352a76b0968d2196
+[2025-12-01 16:55:45] INFO: Incoming request: DELETE /users/69283ec90339253d40f54e67
+[2025-12-01 17:14:30] INFO: Bootstrapping application...
+[2025-12-01 17:14:31] INFO: Middlewares loaded
+[2025-12-01 17:14:31] INFO: Routes mounted: 6 endpoints
+[2025-12-01 17:14:31] INFO: ✔ Server started on port 3001
+[2025-12-01 17:17:36] INFO: Bootstrapping application...
+[2025-12-01 17:17:36] INFO: Middlewares loaded
+[2025-12-01 17:17:36] INFO: Routes mounted: 6 endpoints
+[2025-12-01 17:17:36] INFO: ✔ Server started on port 3001
+[2025-12-01 17:18:49] INFO: Bootstrapping application...
+[2025-12-01 17:18:50] INFO: Middlewares loaded
+[2025-12-01 17:18:50] INFO: Routes mounted: 6 endpoints
+[2025-12-01 17:18:50] INFO: ✔ Server started on port 3001
+[2025-12-01 17:21:48] INFO: Incoming request: GET /
+[2025-12-01 17:21:48] INFO: Incoming request: GET /favicon.ico
+[2025-12-01 17:21:55] INFO: Incoming request: GET /users
+[2025-12-01 17:48:03] INFO: Incoming request: POST /users/
+[2025-12-01 17:48:10] INFO: Incoming request: POST /users/
+[2025-12-01 17:48:27] INFO: Incoming request: POST /users/
+[2025-12-01 17:51:24] INFO: Bootstrapping application...
+[2025-12-01 17:51:26] INFO: Middlewares loaded
+[2025-12-01 17:51:26] INFO: Routes mounted: 6 endpoints
+[2025-12-01 17:51:26] INFO: ✔ Server started on port 3001
+[2025-12-01 18:20:29] INFO: Bootstrapping application...
+[2025-12-01 18:20:32] INFO: Middlewares loaded
+[2025-12-01 18:20:32] INFO: Routes mounted: 6 endpoints
+[2025-12-01 18:20:32] INFO: ✔ Server started on port 3001
+[2025-12-01 18:26:04] INFO: Bootstrapping application...
+[2025-12-01 18:27:46] INFO: Bootstrapping application...
+[2025-12-01 18:28:09] INFO: Bootstrapping application...
+[2025-12-01 18:28:09] INFO: Middlewares loaded
+[2025-12-01 18:28:09] INFO: Routes mounted: 6 endpoints
+[2025-12-01 18:28:09] INFO: ✔ Server started on port 3001
+[2025-12-01 18:34:18] INFO: Bootstrapping application...
+[2025-12-01 18:34:20] INFO: Middlewares loaded
+[2025-12-01 18:34:20] INFO: Routes mounted: 6 endpoints
+[2025-12-01 18:34:20] INFO: ✔ Server started on port 3001
