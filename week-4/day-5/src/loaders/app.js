@@ -24,11 +24,11 @@ export default async function appLoader() {
   await dbLoader();
 
   app.use(express.json());
-  app.use(morgan("dev"));
   logger.info("Middlewares loaded");
 
   const routeCount = routes(app);
   logger.info(`Routes mounted: ${routeCount} endpoints`);
 
+  app.use(morgan("dev"));
   return app;
 }

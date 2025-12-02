@@ -1,23 +1,25 @@
 import bcrypt from "bcryptjs";
+import User from "../models/User.js"
+import UserRepository from "../repositories/user.repository.js";
+
+
+const repo = new UserRepository(User);
 
 export default class UserService {
-  constructor(userRepository) {
-    this.userRepository = userRepository;
-  }
-
+  
   async createUser(data) {
-    const existing = await this.userRepository.findByEmail(data.email);
+    const existing = await this.repo.findByEmail(data.email);
     if (existing) {
       const err = new Error("Email already registered");
       err.status = 400;
       throw err;
     }
 
-    return this.userRepository.create(data);
+    return repo.create(data);
   }
 
   async getUserById(id) {
-    const user = await this.userRepository.findById(id);
+    const user = await this.repo.findById(id);
     if (!user) {
       const err = new Error("User not found");
       err.status = 404;
@@ -28,21 +30,21 @@ export default class UserService {
 
   async updateUser(id, updates) {
     const exists = await this.getUserById(id);
-    return this.userRepository.update(id, updates);
+    return repo.update(id, updates);
   }
 
   async deleteUser(id) {
     const exists = await this.getUserById(id);
-    await this.userRepository.delete(id);
+    await repo.delete(id);
     return { message: "User deleted successfully" };
   }
 
   async getUsersPaginated({ page, limit }) {
-    return this.userRepository.findPaginated({ page, limit });
+    return repo.findPaginated({ page, limit });
   }
 
   async verifyPassword(email, password) {
-    const user = await this.userRepository.findByEmail(email);
+    const user = await this.repo.findByEmail(email);
     if (!user) {
       const err = new Error("Invalid credentials");
       err.status = 401;

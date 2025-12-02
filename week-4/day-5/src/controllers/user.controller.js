@@ -2,11 +2,9 @@ import UserService from "../services/user.service.js";
 
 const svc = new UserService();
 
-// async wrapper
 const asyncHandler = (fn) => (req, res, next) =>
   Promise.resolve(fn(req, res, next)).catch(next);
 
-// Validate Mongo ID
 const validateId = (id) => {
   if (!/^[0-9a-fA-F]{24}$/.test(id)) {
     const err = new Error("Invalid ID");
@@ -29,10 +27,11 @@ export default class UserController {
   });
 
   static list = asyncHandler(async (req, res) => {
-    const page = parseInt(req.query.page) || 1;
-    const limit = parseInt(req.query.limit) || 10;
-    const users = await svc.getUsersPaginated({ page, limit });
-    res.json({ success: true, data: users.data, meta: users.meta });
+    const page = Number(req.query.page) || 1;
+    const limit = Number(req.query.limit) || 10;
+
+    const result = await svc.getUsersPaginated({ page, limit });
+    res.json({ success: true, data: result.data, meta: result.meta });
   });
 
   static update = asyncHandler(async (req, res) => {
