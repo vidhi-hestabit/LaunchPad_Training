@@ -4,7 +4,7 @@ import logger from "../utils/logger.js";
 
 export default async function dbLoader() {
   try {
-    await mongoose.connect(config.DB_URL);
+mongoose.connect(config.DB_URL, { autoIndex: process.env.NODE_ENV !== 'production' });
   } catch (err) {
     logger.error("DB Connection Error");
     logger.error(err);

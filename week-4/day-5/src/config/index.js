@@ -6,8 +6,14 @@ const env = process.env.NODE_ENV || "local";
 const envFile = `.env.${env}`;
 const envPath = path.resolve(process.cwd(), envFile);
 
+
+console.log("NODE_ENV =", env);
+console.log("process.cwd() =", process.cwd());
+console.log("Looking for env file at =", envPath);
+
+
 if (fs.existsSync(envPath)) {
-  dotenv.config({ path: envPath });
+  dotenv.config({ path: envPath, override: true });
   console.log(`Loaded environment variables from ${envFile}`);
 } else {
   console.warn(`Environment file ${envFile} not found`);

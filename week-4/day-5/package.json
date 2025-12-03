@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "NODE_ENV=local nodemon src/server.js",
+    "dev": "NODE_ENV=production nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "compression": "^1.8.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
+    "dotenv-flow": "^4.1.0",
     "express": "^5.1.0",
     "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^8.2.1",

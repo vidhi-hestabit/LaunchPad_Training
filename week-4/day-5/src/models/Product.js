@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-
 const ProductSchema = new mongoose.Schema(
   {
     name: { type: String, required: true, trim: true, index: true },
@@ -9,8 +8,8 @@ const ProductSchema = new mongoose.Schema(
     ratings: [
       { userId: mongoose.Schema.Types.ObjectId, stars: { type: Number, min: 1, max: 5 } }
     ],
-    status: { type: String, enum: ["active", "archived"], default: "active", index: true },
-    isDeleted: { type: Boolean, default: false, index: true },
+    status: { type: String, enum: ["active", "archived"], default: "active" },
+    isDeleted: { type: Boolean, default: false },
     deletedAt: { type: Date, default: null },
   },
   { timestamps: true }
@@ -23,9 +22,8 @@ ProductSchema.virtual("averageRating").get(function () {
   return +(sum / this.ratings.length).toFixed(2);
 });
 
-// Indexes
+// Compound indexes
 ProductSchema.index({ status: 1, createdAt: -1 });
 ProductSchema.index({ isDeleted: 1, createdAt: -1 });
-ProductSchema.index({ price: 1 });
 
 export default mongoose.model("Product", ProductSchema);
