@@ -2,6 +2,7 @@ import express from "express";
 import userRouter from "./user.routes.js";
 import productRouter from "./product.routes.js";
 import emailRoutes from "./email.routes.js";
+import logger from "../utils/logger.js";
 
 export default function loadRoutes(app) {
   const router = express.Router();
@@ -23,9 +24,23 @@ export default function loadRoutes(app) {
   });
 
   app.use("/", router);
+function countRoutes(router) {
+  let count = 0;
 
-  const stack = router.stack.filter((layer) => layer.route || layer.name === "router");
-  console.log("Routes loaded:", stack.length);
+  router.stack.forEach((layer) => {
+    if (layer.route) {
+      // Direct route (GET, POST, etc.)
+      count += 1;
+    } else if (layer.name === "router" && layer.handle.stack) {
+      // Nested router → recurse
+      count += countRoutes(layer.handle);
+    }
+  });
 
-  return stack.length;
+  return count;
+}
+
+const totalRoutes = countRoutes(router);
+console.log("Routes loaded:", totalRoutes);
+
 }

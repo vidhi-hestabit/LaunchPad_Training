@@ -25,9 +25,7 @@ export default async function appLoader() {
 
   app.use(express.json());
   logger.info("Middlewares loaded");
-
-  const routeCount = routes(app);
-  logger.info(`Routes mounted: ${routeCount} endpoints`);
+  routes(app);
 
   app.use(morgan("dev"));
   return app;
