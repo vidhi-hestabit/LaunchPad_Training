@@ -34,12 +34,8 @@ Multi-stage build
 
 ![alt text](image-2.png)
 
-ngix 
 
 ![alt text](image-8.png)
-
-
-
 
 
 
