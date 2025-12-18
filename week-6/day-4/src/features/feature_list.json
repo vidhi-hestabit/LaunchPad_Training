@@ -1,0 +1,17 @@
+[
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Fare",
+    "AgeGroup",
+    "Fare_log",
+    "Fare_sqrt",
+    "IsChild",
+    "IsSenior",
+    "HighFare",
+    "FamilySize",
+    "IsAlone",
+    "Pclass_sq",
+    "Age_Fare"
+]
