@@ -47,7 +47,7 @@ app.post("/api/predict", async (req, res) => {
     const data = response.data;
 
     // Save prediction to MongoDB
-    await Prediction.create({
+    const savedPrediction = await Prediction.create({
       name,
       age,
       experience_years,
