@@ -14,7 +14,7 @@ services:
       - ml_service
 
   frontend:
-    build: ./frontend
+    build: ./front
     ports:
       - "3000:3000"
     depends_on:
