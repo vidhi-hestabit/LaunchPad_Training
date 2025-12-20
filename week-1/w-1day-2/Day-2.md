@@ -3,15 +3,15 @@
 ---
 
 ````{"id":"52183","variant":"standard","title":"Day 2 – Node CLI App + Concurrency + Large Data Processing"}
-# 🧠 Day 2 — Node CLI App + Concurrency + Large Data Processing
+# Day 2 — Node CLI App + Concurrency + Large Data Processing
 
-## 🔹 Objective
+## Objective
 Build a **Node.js Command Line Interface (CLI) tool** that performs **large-scale text data analysis** on a generated corpus file (200,000+ words).  
 The app demonstrates **asynchronous programming**, **concurrency**, and **performance benchmarking**.
 
 ---
 
-## 🧩 Learning Outcomes
+## Learning Outcomes
 - Understanding **Asynchronous programming** in Node.js  
 - Building an **interactive CLI tool** using `yargs`  
 - Implementing **Concurrency** with `Promise.all`  
@@ -19,7 +19,7 @@ The app demonstrates **asynchronous programming**, **concurrency**, and **perfor
 
 ---
 
-## ⚙️ Tasks Overview
+## Tasks Overview
 
 ### 1. Generate a Large Corpus File
 Generate a text file (`corpus.txt`) containing **200,000+ random words** using the `lorem-ipsum` package.
@@ -87,11 +87,11 @@ node wordstat.js --file corpus.txt --top 10 --minLen 5 --unique --concurrency 4
 ### 3. CLI Output Requirements
 
 The tool must compute and display:
-- ✅ Total words  
-- ✅ Unique words  
-- ✅ Longest word  
-- ✅ Shortest word  
-- ✅ Top N most repeated words  
+- Total words  
+- Unique words  
+- Longest word  
+- Shortest word  
+- Top N most repeated words  
 
 ---
 
@@ -125,7 +125,7 @@ logs/
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ### `output/stats.json`
 ```json
@@ -153,7 +153,7 @@ logs/
 
 ---
 
-## 🧪 Run the App
+## Run the App
 
 ```bash
 node wordstat.js --file corpus.txt --top 10 --minLen 5 --unique --concurrency 4
@@ -161,7 +161,7 @@ node wordstat.js --file corpus.txt --top 10 --minLen 5 --unique --concurrency 4
 
 ---
 
-## 💾 Deliverables
+## Deliverables
 
 | Deliverable | Description |
 |--------------|-------------|
