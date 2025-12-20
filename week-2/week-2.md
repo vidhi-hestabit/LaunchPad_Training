@@ -1,4 +1,3 @@
-````markdown
 # Full Learning Portfolio – HTML5, CSS3, JavaScript (Day 1 to Day 5)
 
 This repository contains **all projects and practice files from Day 1 to Day 5**, covering **Semantic HTML5**, **Responsive CSS (Flexbox & Grid)**, **JavaScript ES6**, **DOM Manipulation**, **Utilities**, and **LocalStorage-based Mini Projects**.
