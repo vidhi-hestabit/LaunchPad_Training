@@ -1,7 +1,7 @@
 docker build -t my-node-app .
 ---
 
-# 🐳 What is Docker?
+# What is Docker?
 
 Docker is a platform that allows you to package an application along with:
 - its runtime,
@@ -15,7 +15,7 @@ Running an image creates a **container**, which is an isolated environment that 
 
 ---
 
-# 📌 Key Docker Concepts
+# Key Docker Concepts
 
 | Term | Description |
 |------|-------------|
@@ -25,7 +25,7 @@ Running an image creates a **container**, which is an isolated environment that 
 | **Volume** | External filesystem for persistence |
 | **Network** | Allows containers to communicate |
 
-## ⚙️ How Linux Behaves Inside a Container
+## How Linux Behaves Inside a Container
 A container has:
 - its own **filesystem**
 - its own **process list (`ps`)**
@@ -35,7 +35,7 @@ A container has:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 
@@ -49,9 +49,9 @@ day1-docker/
 
 ---
 
-# 🛠 Step-by-Step Setup
+# Step-by-Step Setup
 
-## 1️⃣ Create Node.js App
+## 1️Create Node.js App
 
 ### **package.json**
 ```json
@@ -99,7 +99,7 @@ vidhiajmera@hestabit-Latitude-3450:~/launchpad/week-5/day-1$ sudo docker start n
 node-container
 
 
-## 2️⃣ Create Dockerfile
+## 2️Create Dockerfile
 
 ### **Dockerfile**
 
@@ -113,7 +113,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-### 🔍 Explanation
+### Explanation
 
 * **FROM node:18-alpine** → lightweight Node.js environment
 * **WORKDIR /app** → sets working folder
@@ -123,7 +123,7 @@ CMD ["npm", "start"]
 
 ---
 
-## 3️⃣ Build Docker Image
+## 3️Build Docker Image
 
 Run inside the project folder:
 
@@ -133,7 +133,7 @@ docker build -t my-node-app .
 
 ---
 
-## 4️⃣ Run Docker Container
+## 4️Run Docker Container
 
 ```bash
 docker run -p 3000:3000 --name node-container my-node-app
@@ -147,7 +147,7 @@ http://localhost:3000
 
 ---
 
-# 🐧 Explore the Container (Linux Internals)
+# Explore the Container (Linux Internals)
 
 Enter container shell:
 
@@ -157,7 +157,7 @@ docker exec -it node-container sh
 
 Now try:
 
-### 📌 File system
+### File system
 
 ```
 ls
@@ -165,14 +165,14 @@ ls -la
 pwd
 ```
 
-### 📌 Processes
+### Processes
 
 ```
 ps
 ps aux
 ```
 
-### 📌 Logs
+### Logs
 
 Inside container:
 
@@ -186,13 +186,13 @@ Outside:
 docker logs node-container
 ```
 
-### 📌 CPU + RAM usage
+### CPU + RAM usage
 
 ```
 top
 ```
 
-### 📌 Users and permissions
+### Users and permissions
 
 ```
 whoami
@@ -200,7 +200,7 @@ cat /etc/passwd
 ls -l
 ```
 
-### 📌 Disk usage
+### Disk usage
 
 ```
 df -h
@@ -215,7 +215,7 @@ exit
 
 ---
 
-# 🔧 Useful Docker Commands
+# Useful Docker Commands
 
 | Purpose                 | Command                      |
 | ----------------------- | ---------------------------- |
@@ -230,15 +230,15 @@ exit
 
 ---
 
-# 🐛 Troubleshooting
+# Troubleshooting
 
-### ❌ Error: "container name already in use"
+### Error: "container name already in use"
 
 ```
 docker rm -f node-container
 ```
 
-### ❌ Permission denied accessing docker.sock
+### Permission denied accessing docker.sock
 
 Use sudo:
 
@@ -253,7 +253,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 
-### ❌ Port already in use (3000)
+### Port already in use (3000)
 
 Use a different port:
 
