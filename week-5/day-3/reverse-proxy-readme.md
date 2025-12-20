@@ -1,7 +1,7 @@
 # NGINX Reverse Proxy + Load Balancing :
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 Create this folder structure:
 ```
@@ -17,7 +17,7 @@ day3-nginx-proxy/
 
 ---
 
-## 📝 Steps followed :-
+## Steps followed :-
 
 ### Step 1: Create the Project Folder
 
@@ -278,7 +278,7 @@ docker-compose down
 
 ---
 
-## 🎯 Understanding What Happened
+## Understanding What Happened
 
 ### What is a Reverse Proxy?
 - **Normal scenario**: Your browser talks directly to your backend server
