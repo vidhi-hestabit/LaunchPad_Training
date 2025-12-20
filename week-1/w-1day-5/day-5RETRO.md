@@ -6,7 +6,7 @@ This project demonstrates how to automate build validation, enforce code quality
 
 ---
 
-## 🧱 Project Overview
+## Project Overview
 
 The setup ensures that:
 
@@ -17,7 +17,7 @@ The setup ensures that:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Training-Week-1-Day-5/
@@ -35,7 +35,7 @@ Training-Week-1-Day-5/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Initialize the Project
 
@@ -65,9 +65,9 @@ Create `.eslintrc.json` and `.prettierrc` to enforce code consistency.
 ```bash
 #!/bin/bash
 if jq empty config.json 2>/dev/null; then
-  echo "[✅] Validation successful!"
+  echo "Validation successful!"
 else
-  echo "[❌] ERROR: config.json is invalid JSON!"
+  echo "ERROR: config.json is invalid JSON!"
   exit 1
 fi
 ```
@@ -82,7 +82,7 @@ chmod +x validate.sh
 
 ---
 
-## 🔒 Husky Pre-commit Hook
+## Husky Pre-commit Hook
 
 Initialize Husky:
 
@@ -107,13 +107,13 @@ chmod +x .husky/pre-commit
 ```
 ![alt text](<Screenshot from 2025-11-07 16-45-00.png>)
 
-✅ **Now, commits will be blocked** if validation fails.
+ **Now, commits will be blocked** if validation fails.
 
 ![alt text](<Screenshot from 2025-11-07 16-47-33.png>)
 
 ---
 
-## 🏗️ Build Script
+## Build Script
 
 `build.sh` creates a versioned `.tgz` archive and a `.sha256` checksum file inside `/artifacts`:
 
@@ -122,7 +122,7 @@ chmod +x .husky/pre-commit
 timestamp=$(date +%Y%m%d-%H%M%S)
 tar czf artifacts/build-$timestamp.tgz src
 sha256sum artifacts/build-$timestamp.tgz > artifacts/build-$timestamp.sha256
-echo "[✅] Build successful: build-$timestamp.tgz"
+echo " Build successful: build-$timestamp.tgz"
 ```
 
 Make it executable:
@@ -139,7 +139,7 @@ Run manually:
 ![alt text](<Screenshot from 2025-11-07 14-32-54.png>)
 ---
 
-## ⏰ Cron Job Automation
+## Cron Job Automation
 
 Schedule automatic builds:
 
@@ -161,7 +161,7 @@ crontab -l
 
 ---
 
-## 🧩 Validation Flow
+## Validation Flow
 
 1. You modify your code.
 2. On `git commit`, Husky runs `validate.sh`.
@@ -170,7 +170,7 @@ crontab -l
 
 ---
 
-## 📦 Build Artifacts
+## Build Artifacts
 
 Each successful build generates:
 
@@ -181,7 +181,7 @@ Artifacts are stored inside `/artifacts`.
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * Automating validation and build improves consistency.
 * Husky hooks enforce standards before code reaches the repository.

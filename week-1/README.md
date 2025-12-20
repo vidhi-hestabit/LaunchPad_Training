@@ -1,6 +1,6 @@
 ## All days have a separate .md files
 
-# 📘 Full Training Report — Days 1 to 4
+# Full Training Report — Days 1 to 4
 
 A complete consolidated documentation including **system setup, Node.js fundamentals, CLI application with concurrency, Git workflows, and API investigation**.
 
@@ -8,7 +8,7 @@ A complete consolidated documentation including **system setup, Node.js fundamen
 
 # **Day 1 — System Report & Node.js Fundamentals**
 
-## 🖥️ 1. System Information
+## 1. System Information
 
 ### OS Version
 
@@ -42,7 +42,7 @@ Output:
 
 ---
 
-## ⚙️ 2. Install and Use NVM
+## 2. Install and Use NVM
 
 Install:
 
@@ -72,7 +72,7 @@ nvm use v24.11.0
 
 ---
 
-## 🧩 3. `introspect.js`
+## 3. `introspect.js`
 
 ```javascript
 const os = require('os');
@@ -94,7 +94,7 @@ node introspect.js
 
 ---
 
-## 📦 4. STREAM vs BUFFER Benchmark
+## 4. STREAM vs BUFFER Benchmark
 
 Created 50MB file:
 
@@ -119,7 +119,7 @@ logs/day1-perf.json
 
 # **Day 2 — Node CLI App + Concurrency + Large Data Processing**
 
-## 🎯 Objective
+## Objective
 
 Build a **scalable CLI tool** for:
 
@@ -130,7 +130,7 @@ Build a **scalable CLI tool** for:
 
 ---
 
-## 📄 1. Generate Large Corpus File
+## 1. Generate Large Corpus File
 
 `corpus.js`:
 
@@ -163,7 +163,7 @@ node corpus.js
 
 ---
 
-## 🛠️ 2. CLI Tool — `wordstat.js`
+## 2. CLI Tool — `wordstat.js`
 
 Usage:
 
@@ -183,7 +183,7 @@ node wordstat.js --file corpus.txt --top 10 --minLen 5 --unique --concurrency 4
 
 ---
 
-## 📊 3. Output Files
+## 3. Output Files
 
 ### `output/stats.json`
 
@@ -213,13 +213,13 @@ node wordstat.js --file corpus.txt --top 10 --minLen 5 --unique --concurrency 4
 
 # **Day 3 — Git Workflows & Merge Post-Mortem**
 
-## 📝 1. Repository With 8+ Commits
+## 1. Repository With 8+ Commits
 
 One commit intentionally included a bug (commit 4).
 
 ---
 
-## 🔍 2. Locate Bug Using `git bisect`
+## 2. Locate Bug Using `git bisect`
 
 ```bash
 git bisect start
@@ -236,7 +236,7 @@ bisect-session.txt
 
 ---
 
-## 🛠️ 3. Fix Bug & Revert Faulty Commit
+## 3. Fix Bug & Revert Faulty Commit
 
 ```bash
 git revert <faulty_commit_hash>
@@ -245,7 +245,7 @@ git commit -m "Fix bug introduced in commit 4"
 
 ---
 
-## 📦 4. Git Stash Workflow
+## 4. Git Stash Workflow
 
 ```bash
 git stash
@@ -261,7 +261,7 @@ stash-session.txt
 
 ---
 
-## ⚔️ 5. Merge Conflicts (Two Clone Method)
+## 5. Merge Conflicts (Two Clone Method)
 
 ```bash
 git clone repo clone1
@@ -291,7 +291,7 @@ Line from clone2
 
 # **Day 4 — API Investigation & Networking Report**
 
-## 🧰 Installed Tools
+## Installed Tools
 
 ```bash
 sudo apt install curl dnsutils traceroute nodejs npm -y
@@ -299,7 +299,7 @@ sudo apt install curl dnsutils traceroute nodejs npm -y
 
 ---
 
-## 🌐 1. DNS Lookup
+## 1. DNS Lookup
 
 ```bash
 nslookup dummyjson.com
@@ -312,7 +312,7 @@ Findings:
 
 ---
 
-## 🌎 2. Traceroute
+## 2. Traceroute
 
 ```bash
 traceroute dummyjson.com
@@ -322,7 +322,7 @@ Displays all network hops.
 
 ---
 
-## 🛰️ 3. CURL Requests (Pagination + Verbose)
+## 3. CURL Requests (Pagination + Verbose)
 
 ```bash
 curl -v "https://dummyjson.com/products?limit=5&skip=10"
@@ -336,7 +336,7 @@ Observations:
 
 ---
 
-## 🧪 4. Header Manipulation
+## 4. Header Manipulation
 
 ### Remove User-Agent
 
@@ -354,7 +354,7 @@ DummyJSON ignores both for public endpoints.
 
 ---
 
-## 🗂️ 5. ETag & Caching
+## 5. ETag & Caching
 
 ### View headers
 
@@ -376,7 +376,7 @@ Response:
 
 ---
 
-## ⚙️ 6. Node Server for Caching & Delay Simulation
+## 6. Node Server for Caching & Delay Simulation
 
 `server.js`:
 
@@ -416,7 +416,7 @@ server.listen(3000, () => console.log('Server running on 3000'));
 
 ---
 
-# 📦 Deliverables Summary
+# Deliverables Summary
 
 | Day       | Deliverables                                             |
 | --------- | -------------------------------------------------------- |
@@ -426,16 +426,3 @@ server.listen(3000, () => console.log('Server running on 3000'));
 | **Day 4** | `curl-lab.txt`, `api-investigation.md`, `server.js`      |
 
 ---
-
-# ✅ Summary
-
-This README consolidates:
-
-* System setup
-* Node.js tooling
-* Large file processing
-* Concurrency + benchmarking
-* Git debugging & merge workflows
-* Curl, HTTP headers, caching, DNS
-* Node HTTP server implementation
-

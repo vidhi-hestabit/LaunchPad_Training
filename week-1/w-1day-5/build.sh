@@ -13,6 +13,6 @@ tar -czf $TARBALL src config.json logs
 
 # Generate checksum
 sha256sum $TARBALL > $CHECKSUM_FILE
-echo "✅ Build artifact created: $TARBALL"
-echo "🔑 Checksum saved to: $CHECKSUM_FILE"
+echo "Build artifact created: $TARBALL"
+echo "Checksum saved to: $CHECKSUM_FILE"
 
