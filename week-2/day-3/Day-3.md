@@ -1,4 +1,3 @@
-```markdown
 # Day 3 – JavaScript ES6 + DOM Manipulation
 
 ## Learning Outcomes
@@ -56,17 +55,5 @@ Each question should expand on click to reveal the answer, and collapse when ano
 
 
 ```
-
 ![alt text](<Screenshot from 2025-11-13 16-45-44.png>)
-
-
----
-
-## How It Works
-1. Click on any FAQ header → toggles its visibility.
-2. When a header is opened, all other accordions close.
-3. Uses simple **`classList.toggle()`** and **event listeners** to manage UI state.
-
----
-
 ---
