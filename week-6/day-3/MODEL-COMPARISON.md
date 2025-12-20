@@ -7,7 +7,7 @@
 
 ---
 
-## 1️⃣ Objective
+## 1️Objective
 
 The goal of this phase is to build a **robust, reproducible, and comparable model training pipeline** that:
 
@@ -21,7 +21,7 @@ This ensures the selected model generalizes well and avoids overfitting.
 
 ---
 
-## 2️⃣ Input Data Pipeline
+## 2️Input Data Pipeline
 
 The training pipeline consumes **processed and feature-engineered data** generated in earlier stages:
 
@@ -43,7 +43,7 @@ src/data/processed/
 
 ---
 
-## 3️⃣ Models Trained
+## 3️Models Trained
 
 Four models were selected to cover **linear, tree-based, ensemble, and neural approaches**.
 
@@ -56,7 +56,7 @@ Four models were selected to cover **linear, tree-based, ensemble, and neural ap
 
 ---
 
-## 4️⃣ Cross-Validation Strategy
+## 4️Cross-Validation Strategy
 
 ### Method
 
@@ -76,7 +76,7 @@ Each model is trained **5 times**, once per fold, and results are **averaged**.
 
 ---
 
-## 5️⃣ Evaluation Metrics (Why Each Matters)
+## 5️Evaluation Metrics (Why Each Matters)
 
 | Metric    | Why Important                            |
 | --------- | ---------------------------------------- |
@@ -90,7 +90,7 @@ Each model is trained **5 times**, once per fold, and results are **averaged**.
 
 ---
 
-## 6️⃣ Cross-Validation Results
+## 6️Cross-Validation Results
 
 > Metrics shown below are **mean values across 5 folds**
 
@@ -103,7 +103,7 @@ Each model is trained **5 times**, once per fold, and results are **averaged**.
 
 ---
 
-## 7️⃣ Best Model Selection
+## 7️Best Model Selection
 
 ### Selection Criterion
 
@@ -124,7 +124,7 @@ XGBoost Classifier
 
 ---
 
-## 8️⃣ Final Test Set Evaluation
+## 8️Final Test Set Evaluation
 
 After selecting the best model:
 
@@ -147,7 +147,7 @@ This visualizes:
 
 ---
 
-## 9️⃣ Saved Artifacts
+## 9️Saved Artifacts
 
 | Artifact                          | Purpose                |
 | --------------------------------- | ---------------------- |
@@ -158,19 +158,19 @@ This visualizes:
 
 ---
 
-## 🔟 Overfitting Control Techniques Used
+## Overfitting Control Techniques Used
 
 | Technique                   | Applied |
 | --------------------------- | ------- |
-| Cross-Validation            | ✅       |
-| Regularization (L2 / alpha) | ✅       |
-| Tree depth control          | ✅       |
-| Subsampling (XGBoost)       | ✅       |
-| Feature scaling             | ✅       |
+| Cross-Validation            | Yes     |
+| Regularization (L2 / alpha) | Yes     |
+| Tree depth control          | Yes     |
+| Subsampling (XGBoost)       | Yes     |
+| Feature scaling             | Yes     |
 
 ---
 
-## 1️⃣1️⃣ Pipeline Design Principles Followed
+## 1️Pipeline Design Principles Followed
 
 ✔ No data leakage
 ✔ Modular architecture
@@ -180,7 +180,7 @@ This visualizes:
 
 ---
 
-## 1️⃣2️⃣ Business Interpretation
+## 1️Business Interpretation
 
 * Females, children, and high-fare passengers had higher survival probability
 * Feature interactions (Age × Fare) were critical
@@ -188,7 +188,7 @@ This visualizes:
 
 ---
 
-## 1️⃣3️⃣ Key Learnings (Day-3 Outcomes)
+##  Key Learnings (Day-3 Outcomes)
 
 * Why multiple models must be compared
 * Why ROC-AUC > Accuracy for classification
@@ -198,7 +198,7 @@ This visualizes:
 
 ---
 
-## 1️⃣4️⃣ Next Steps
+## 1️Next Steps
 
 * Hyperparameter tuning (GridSearch / Optuna)
 * Feature importance analysis (SHAP)
@@ -207,7 +207,7 @@ This visualizes:
 
 ---
 
-## ✅ Final Status
+## Final Status
 
 **Day-3 objectives successfully completed**
 ✔ Multi-model training
@@ -216,7 +216,7 @@ This visualizes:
 ✔ Best model saved
 ✔ Production-ready pipeline
 
-### 🏗️ ML TRAINING PIPELINE — SINGLE ARCHITECTURE
+### ML TRAINING PIPELINE — SINGLE ARCHITECTURE
 ┌────────────────────────────┐
 │        titanic.csv         │
 │      (Raw Dataset)         │
