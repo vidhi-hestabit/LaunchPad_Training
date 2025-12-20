@@ -1,4 +1,4 @@
-## 📄 `DATA-REPORT.md`
+## `DATA-REPORT.md`
 
 ````md
 # DATA REPORT — Titanic Dataset (Day 1)
@@ -135,18 +135,5 @@ The EDA was performed using Jupyter Notebook.
 * `PassengerId` is an identifier and not useful for prediction
 * `Parch` has zero variance and does not contribute useful information
 * `Fare` is right-skewed and will require scaling in later stages
-
----
-
-## Conclusion
-
-The dataset has been successfully:
-
-* Loaded from raw source
-* Cleaned and preprocessed
-* Saved in a structured format
-* Analyzed using basic EDA techniques
-
-The data is now **ready for feature engineering and model training**, which will be covered in the next stage of the project.
 
 ---
