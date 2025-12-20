@@ -4,7 +4,7 @@
 - **SSL** (Secure Sockets Layer) / **TLS** (Transport Layer Security)
 - Encrypts data between browser and server
 - Prevents eavesdropping and tampering
-- Shows the 🔒 lock icon in browsers
+- Shows the lock icon in browsers
 
 ### HTTP vs HTTPS
 ```
@@ -13,13 +13,13 @@ HTTPS (Port 443) → Encrypted   → Data is secure
 ```
 
 ### Why mkcert?
-- **Self-signed certs** → Browser shows scary warnings ⚠️
-- **mkcert** → Creates locally-trusted certificates → No warnings! ✅
+- **Self-signed certs** → Browser shows scary warnings
+- **mkcert** → Creates locally-trusted certificates → No warnings!
 - Perfect for development environments
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 day4-https-setup/
@@ -38,7 +38,7 @@ day4-https-setup/
 
 ---
 
-## 📝 Step-by-Step Instructions
+## Step-by-Step Instructions
 
 ### Step 1: Install mkcert
 
@@ -188,17 +188,17 @@ curl -v https://myapp.local/ 2>&1 | grep "subject:"
 
 ---
 
-### Step 11: Test in Browser 🌐
+### Step 11: Test in Browser
 
 **Open your browser and visit:**
 
 1. **http://myapp.local** → Should redirect to https://myapp.local
-2. **https://myapp.local** → Should show secure lock 🔒
+2. **https://myapp.local** → Should show secure lock
 
 
-- ✅ Green lock icon in address bar
-- ✅ "Connection is secure"
-- ✅ No certificate warnings
+- Green lock icon in address bar
+- "Connection is secure"
+- No certificate warnings
 
 **Click the lock icon to view certificate details!**
 
