@@ -3,7 +3,7 @@
 
 ---
 
-## 🔹 Learning Outcomes
+## Learning Outcomes
 - Understand HTTP headers and manipulation
 - Implement pagination with API requests
 - Observe and work with ETag caching
@@ -12,7 +12,7 @@
 
 ---
 
-## 🔹 Setup
+## Setup
 
 ```bash
 sudo apt update
@@ -29,7 +29,7 @@ npm -v
 ![alt text](<Screenshot from 2025-11-06 13-00-45.png>)
 ---
 
-## 🔹 DNS and Network Forensics
+## DNS and Network Forensics
 
 ### DNS Lookup
 
@@ -124,7 +124,7 @@ curl -v -H "Authorization: Bearer faketoken123" "https://dummyjson.com/products?
 
 ---
 
-## 🔹 Caching & ETag
+## Caching & ETag
 
 ### Fetch headers only
 
@@ -152,7 +152,7 @@ curl -v -H 'If-None-Match: W/"5e6-bX+IgjHKZz+TflDmEXfyyaBO9Hk"' https://dummyjso
 
 ---
 
-## 🔹 Node.js HTTP Server
+## Node.js HTTP Server
 
 **server.js**
 
@@ -223,7 +223,7 @@ curl -v http://localhost:3000/cache
 
 ---
 
-## 🔹 Deliverables
+## Deliverables
 
 1. **curl-lab.txt** – Saved CURL requests and responses
 2. **api-investigation.md** – This report
@@ -232,7 +232,7 @@ curl -v http://localhost:3000/cache
 
 ---
 
-## 🔹 Key Learnings
+## Key Learnings
 
 * Headers can be manipulated without affecting public endpoints
 * ETag and caching headers improve efficiency
