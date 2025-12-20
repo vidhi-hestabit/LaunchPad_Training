@@ -2,7 +2,7 @@
 
 # Day 1 --- TailwindCSS + UI System Basics
 
-## 🔹 Topics Covered
+## Topics Covered
 
 -   Install Tailwind in Next.js\
 -   Utility classes (spacing, colors, fonts)\
@@ -10,7 +10,7 @@
 
 ------------------------------------------------------------------------
 
-## 🔹 Exercise
+## Exercise
 
 Build a **Dashboard Layout Skeleton** (Header + Sidebar)\
 Reference Image:
@@ -21,7 +21,7 @@ Reference Image:
 
 ------------------------------------------------------------------------
 
-## 🔹 Output Structure
+## Output Structure
 
     /app/layout.jsx  
     /components/ui/Navbar.jsx  
@@ -30,7 +30,7 @@ Reference Image:
 
 ------------------------------------------------------------------------
 
-# 📌 Code Implemented
+# Code Implemented
 
 ------------------------------------------------------------------------
 
@@ -50,7 +50,7 @@ Reference Image:
 
 ------------------------------------------------------------------------
 
-# ✅ Work Completed Successfully
+# Work Completed Successfully
 
 -   Tailwind installed & configured\
 -   Navbar implemented\
