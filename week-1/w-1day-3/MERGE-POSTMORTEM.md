@@ -3,13 +3,13 @@
 
 ---
 
-## 🔹 Learning Outcomes
+## Learning Outcomes
 - Ability to recover from mistakes
 - Proper commit discipline
 
 ---
 
-## 🔹 Tasks
+## Tasks
 
 ### 1. Create Repository with 8+ Commits
 - Intentionally introduce a bug in **commit 4**
@@ -128,7 +128,7 @@ git commit -m "Merge conflict resolved: kept both changes"
 
 ---
 
-## 🔹 Git Commands Reference
+## Git Commands Reference
 
 | Command              | Description                                                   |
 | -------------------- | ------------------------------------------------------------- |
@@ -154,7 +154,7 @@ git commit -m "Merge conflict resolved: kept both changes"
 
 ---
 
-## 🔹 Version Control Notes
+## Version Control Notes
 
 * Version control is used for **tracking and managing changes to software code**.
 * Git setup on Ubuntu:
@@ -167,7 +167,7 @@ git config --global user.email "youremail@example.com"
 
 ---
 
-## 🔹 Deliverables
+## Deliverables
 
 1. **bisect-session.txt** – Terminal log of `git bisect` session
 2. **stash-session.txt** – Terminal log of stash workflow
@@ -175,7 +175,7 @@ git config --global user.email "youremail@example.com"
 
 ---
 
-### 🔹 Merge Conflict Example
+### Merge Conflict Example
 
 ```diff
 <<<<<<< HEAD
@@ -194,7 +194,7 @@ Line from clone2
 
 ---
 
-## 🔹 Notes / Best Practices
+## Notes / Best Practices
 
 * Commit frequently with meaningful messages
 * Always test before pushing
