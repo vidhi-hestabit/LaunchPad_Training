@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("salary_data.csv")
 
-# ❌ REMOVE AGE COMPLETELY
+# REMOVE AGE COMPLETELY
 X = df.drop(["expected_package_lpa", "age"], axis=1)
 y = df["expected_package_lpa"]
 
@@ -66,4 +66,4 @@ plt.show()
 
 os.makedirs("ml_service/models", exist_ok=True)
 joblib.dump(pipeline, "ml_service/models/model.joblib")
-print("✅ Model saved successfully")
+print("Model saved successfully")

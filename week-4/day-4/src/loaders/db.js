@@ -6,7 +6,7 @@ export default async function dbLoader() {
   try {
     await mongoose.connect(config.DB_URL);
   } catch (err) {
-    logger.error("❌ DB Connection Error");
+    logger.error("DB Connection Error");
     logger.error(err);
     process.exit(1);
   }

@@ -336,3 +336,20 @@
 [2025-12-01 18:34:20] INFO: Middlewares loaded
 [2025-12-01 18:34:20] INFO: Routes mounted: 6 endpoints
 [2025-12-01 18:34:20] INFO: ✔ Server started on port 3001
+[2025-12-19 10:59:35] INFO: Bootstrapping application...
+[2025-12-19 10:59:36] INFO: Middlewares loaded
+[2025-12-19 10:59:36] INFO: ✔ Server started on port 3001
+[2025-12-19 19:19:36] INFO: Bootstrapping application...
+[2025-12-19 19:19:37] INFO: Middlewares loaded
+[2025-12-19 19:19:37] INFO: ✔ Server started on port 3001
+[2025-12-19 21:41:25] INFO: Bootstrapping application...
+[2025-12-19 21:41:26] INFO: Middlewares loaded
+[2025-12-19 21:41:26] INFO: ✔ Server started on port 3001
+[2025-12-20 00:13:00] INFO: Incoming request: GET /
+[2025-12-20 00:13:00] INFO: Incoming request: GET /favicon.ico
+[2025-12-20 09:12:17] INFO: Bootstrapping application...
+[2025-12-20 09:12:18] INFO: Middlewares loaded
+[2025-12-20 09:12:18] INFO: ✔ Server started on port 3001
+[2025-12-20 11:40:26] INFO: Bootstrapping application...
+[2025-12-20 11:40:27] INFO: Middlewares loaded
+[2025-12-20 11:40:27] INFO: ✔ Server started on port 3001

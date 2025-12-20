@@ -185,7 +185,7 @@ node wordstat.js --file corpus.txt --top 10 --minLen 5 --unique --concurrency 4
 
 ---
 
-## ✅ Summary
+## Summary
 This project demonstrates how to build a **scalable Node.js CLI** for processing **large datasets** with **asynchronous programming** and **concurrent execution**, complete with **performance benchmarking** and structured **JSON output**.
 
 ---
