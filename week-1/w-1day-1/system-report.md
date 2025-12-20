@@ -287,7 +287,7 @@ readFileUsingBuffer(filePath, (bufferResult) => {
 ![alt text](<Screenshot from 2025-11-04 11-59-57.png>)
 
 
-> ⚠️ For larger tests, the file size was increased to **500MB** using lorem-ipsum content, and `rss` memory usage was used instead of `heap`.
+> For larger tests, the file size was increased to **500MB** using lorem-ipsum content, and `rss` memory usage was used instead of `heap`.
 
 ![alt text](<Screenshot from 2025-11-05 19-48-25.png>)
 
