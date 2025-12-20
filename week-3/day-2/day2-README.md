@@ -1,12 +1,9 @@
+# Day 2 — Tailwind Advanced + UI Component Library
 
 
+## **Topics Covered**
 
-# 📘 Day 2 — Tailwind Advanced + UI Component Library
-
-
-## ✅ **Topics Covered**
-
-### 🔹 1. Tailwind Advanced
+### 1. Tailwind Advanced
 
 * Flexbox
 * Grid layout
@@ -14,14 +11,14 @@
 * Spacing, typography, and responsive utilities
 * Transitions & hover states
 
-### 🔹 2. Component Mindset
+### 2. Component Mindset
 
 * Understanding atomic design
 * Component breakdown
 * Passing and handling props
 * Reusability and styling consistency
 
-### 🔹 3. UI Component Library
+### 3. UI Component Library
 
 Created inside:
 
@@ -44,7 +41,7 @@ UI of day-2 tasks
 
 ![alt text](image.png)
 
-## 📁 **Project Structure**
+## **Project Structure**
 
 ```
 /components
@@ -64,9 +61,9 @@ README.md
 
 ---
 
-## 🧩 **Components & Their Purpose**
+## **Components & Their Purpose**
 
-### 1️⃣ **Button Component**
+### 1️**Button Component**
 
 A fully reusable button with support for variants:
 
@@ -80,13 +77,13 @@ Uses Tailwind for dynamic styling.
 
 ---
 
-### 2️⃣ **Card Component**
+### 2️**Card Component**
 
 Reusable card with optional **title** and **children slot**.
 
 ---
 
-### 3️⃣ **Input Component**
+### 3️**Input Component**
 
 Reusable input field with:
 
@@ -96,7 +93,7 @@ Reusable input field with:
 
 ---
 
-### 4️⃣ **Navbar Component**
+### 4️**Navbar Component**
 
 Features:
 
@@ -106,7 +103,7 @@ Features:
 
 ---
 
-### 5️⃣ **Sidebar Component**
+### 5️**Sidebar Component**
 
 Collapsible sidebar with:
 
@@ -117,7 +114,7 @@ Collapsible sidebar with:
 
 ---
 
-### 6️⃣ **Modal.jsx (Layout Wrapper)**
+### 6️**Modal.jsx (Layout Wrapper)**
 
 Not a modal — acts as the **main layout wrapper**:
 
