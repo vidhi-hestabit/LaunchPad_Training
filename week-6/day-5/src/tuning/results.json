@@ -1,0 +1,9 @@
+{
+    "best_params": {
+        "max_depth": 8,
+        "min_samples_leaf": 2,
+        "min_samples_split": 5,
+        "n_estimators": 300
+    },
+    "best_score": 0.8130030525030524
+}
