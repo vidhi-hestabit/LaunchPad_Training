@@ -32,7 +32,7 @@ class DriftChecker:
         else:
             print("No data drift detected")
 
-        with open("monitoring/drift_log.txt", "a") as f:
+        with open("src/monitoring/drift_log.txt", "a") as f:
             f.write(str(report) + "\n")
 
 
