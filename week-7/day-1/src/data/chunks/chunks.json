@@ -1,0 +1,1129 @@
+[
+  {
+    "text": "These materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_2",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "These materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nGenerative AI \nand LLMs\nSnowflake Special Edition\nby David Baum",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_3",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "These materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nGenerative AI and LLMs For Dummies\u00ae, Snowflake Special Edition\nPublished by\nJohn Wiley & Sons, Inc.\n111 River St.\nHoboken, NJ 07030-5774\nwww.wiley.com\nCopyright \u00a9 2024 by John Wiley & Sons, Inc., Hoboken, New Jersey\nNo part of this publication may be reproduced, stored in a retrieval system or transmitted in any \nform or by any means, electronic, mechanical, photocopying, recording, scanning or otherwise, \nexcept as permitted under Sections 107 or 108 of the 1976 United States Copyright Act, without  \nthe prior written permission of the Publisher. Requests to the Publisher for permission should be",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_4",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "the prior written permission of the Publisher. Requests to the Publisher for permission should be \naddressed to the Permissions Department, John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ \n07030, (201) 748-6011, fax (201) 748-6008, or online at http://www.wiley.com/go/permissions.\nTrademarks: Wiley, For Dummies, the Dummies Man logo, The Dummies Way, Dummies.com, \nMaking Everything Easier, and related trade dress are trademarks or registered trademarks of John \nWiley & Sons, Inc. and/or its affiliates in the United States and other countries, and may not be \nused without written permission. Snowflake and the Snowflake logo are trademarks or registered \ntrademarks of Snowflake Inc. All other trademarks are the property of their respective owners.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_4",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "trademarks of Snowflake Inc. All other trademarks are the property of their respective owners. \nJohn Wiley & Sons, Inc., is not associated with any product or vendor mentioned in this book.\nLIMIT OF LIABILITY/DISCLAIMER OF WARRANTY: WHILE THE PUBLISHER AND AUTHORS HAVE \nUSED THEIR BEST EFFORTS IN PREPARING THIS WORK, THEY MAKE NO REPRESENTATIONS \nOR WARRANTIES WITH RESPECT TO THE ACCURACY OR COMPLETENESS OF THE CONTENTS OF \nTHIS WORK AND SPECIFICALLY DISCLAIM ALL WARRANTIES, INCLUDING WITHOUT LIMITATION \nANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. \nNO WARRANTY MAY BE CREATED OR EXTENDED BY SALES REPRESENTATIVES, WRITTEN \nSALES MATERIALS OR PROMOTIONAL STATEMENTS FOR THIS WORK. THE FACT THAT AN",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_4",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "SALES MATERIALS OR PROMOTIONAL STATEMENTS FOR THIS WORK. THE FACT THAT AN \nORGANIZATION, WEBSITE, OR PRODUCT IS REFERRED TO IN THIS WORK AS A CITATION AND/\nOR POTENTIAL SOURCE OF FURTHER INFORMATION DOES NOT MEAN THAT THE PUBLISHER \nAND AUTHORS ENDORSE THE INFORMATION OR SERVICES THE ORGANIZATION, WEBSITE, OR \nPRODUCT MAY PROVIDE OR RECOMMENDATIONS IT MAY MAKE. THIS WORK IS SOLD WITH \nTHE UNDERSTANDING THAT THE PUBLISHER IS NOT ENGAGED IN RENDERING PROFESSIONAL \nSERVICES. THE ADVICE AND STRATEGIES CONTAINED HEREIN MAY NOT BE SUITABLE FOR \nYOUR SITUATION. YOU SHOULD CONSULT WITH A SPECIALIST WHERE APPROPRIATE. FURTHER, \nREADERS SHOULD BE AWARE THAT WEBSITES LISTED IN THIS WORK MAY HAVE CHANGED \nOR DISAPPEARED BETWEEN WHEN THIS WORK WAS WRITTEN AND WHEN IT IS READ.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_4",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "OR DISAPPEARED BETWEEN WHEN THIS WORK WAS WRITTEN AND WHEN IT IS READ. \nNEITHER THE PUBLISHER NOR AUTHORS SHALL BE LIABLE FOR ANY LOSS OF PROFIT OR ANY \nOTHER COMMERCIAL DAMAGES, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, \nCONSEQUENTIAL, OR OTHER DAMAGES.\nFor general information on our other products and services, or how to create a custom For Dummies \nbook for your business or organization, please contact our Business Development Department in \nthe U.S. at 877-409-4177, contact info@dummies.biz, or visit www.wiley.com/go/custompub.  \nFor information about licensing the For Dummies brand for products or services, contact \nBrandedRights&Licenses@Wiley.com.\nISBN 978-1-394-23842-2 (pbk); ISBN 978-1-394-23843-9 (ebk)\nPublisher\u2019s Acknowledgments",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_4",
+      "chunk_index": 4
+    }
+  },
+  {
+    "text": "ISBN 978-1-394-23842-2 (pbk); ISBN 978-1-394-23843-9 (ebk)\nPublisher\u2019s Acknowledgments\nSome of the people who helped bring this book to market include the following:\nDevelopment Editor: Nicole Sholly\nProject Manager: Jennifer Bingham\nAcquisitions Editor: Traci Martin\nEditorial Manager: Rev Mengle\nSales Manager: Molly Daugherty\nContent Refinement Specialist: \nSaikarthick Kumarasamy",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_4",
+      "chunk_index": 5
+    }
+  },
+  {
+    "text": "Table of Contents      iii\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nTable of Contents\nINTRODUCTION ...............................................................................................1\nAbout This Book ................................................................................... 1\nIcons Used in This Book .......................................................................2\nBeyond the Book ..................................................................................2\nCHAPTER 1:  Introducing Gen AI and the Role of Data .................3\nThe Historical Context of Gen AI ........................................................ 3",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_5",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "The Historical Context of Gen AI ........................................................ 3\nIntroducing LLMs and foundation models .................................. 4\nTransforming the AI landscape .....................................................5\nAccelerating AI functions ............................................................... 5\nThe Role of Data in AI Projects ........................................................... 6\nExplaining the Importance of Generative AI to the Enterprise ....... 7\nPretrained models .......................................................................... 8\nSecurity versus ease of use ........................................................... 9\nManaging Gen AI Projects with a Cloud Data Platform .................10",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_5",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Managing Gen AI Projects with a Cloud Data Platform .................10\nCHAPTER 2:  Understanding Large Language Models .................11\nCategorizing LLMs ..............................................................................11\nDefining general-purpose LLMs ..................................................12\nUsing task-specific and domain-specific LLMs ..........................14\nReviewing the Technology Behind LLMs .........................................14\nIntroducing key terms and concepts ..........................................15\nExplaining the importance of vector embeddings ....................16\nIdentifying developer tools and frameworks ............................ 17\nEnforcing data governance and security ...................................17",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_5",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Enforcing data governance and security ...................................17\nExtending governance for all data types.................................... 18\nCHAPTER 3:  LLM App Project Lifecycle ...................................................19\nDefining the Use Case and Scope .................................................... 19\nSelecting the right LLM .................................................................20\nComparing small and large language models ...........................21\nAdapting LLMs to Your Use Case...................................................... 22\nEngineering prompts ....................................................................22\nLearning from context .................................................................. 23",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_5",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "Learning from context .................................................................. 23\nAugmenting text retrieval ............................................................ 23\nFine-tuning language models ...................................................... 24\nReinforcement learning ...............................................................25\nUsing a vector database ...............................................................25",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_5",
+      "chunk_index": 4
+    }
+  },
+  {
+    "text": "iv      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nImplementing LLM Applications .......................................................26\nDeploying apps into containers ..................................................26\nAllocating specialized hardware ..................................................27\nIntegrating apps and data............................................................ 27\nCHAPTER 4:  Bringing LLM Apps into\u00a0Production ............................29\nAdapting Data Pipelines ....................................................................29",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_6",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Adapting Data Pipelines ....................................................................29\nSemantic caching ..........................................................................30\nFeature injection ........................................................................... 30\nContext retrieval ...........................................................................31\nProcessing for Inference.................................................................... 31\nReducing latency ...........................................................................32\nCalculating costs ........................................................................... 33\nCreating User Interfaces .................................................................... 33",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_6",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Creating User Interfaces .................................................................... 33\nSimplifying Development and Deployment .................................... 34\nOrchestrating AI Agents ..................................................................... 34\nCHAPTER 5:  Reviewing Security and Ethical  \nConsiderations .............................................................................37\nReiterating the Importance of Security and Governance ..............38\nCentralizing Data Governance ..........................................................39\nAlleviating Biases ................................................................................ 40\nAcknowledging Open-Source Risks ..................................................40",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_6",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Acknowledging Open-Source Risks ..................................................40\nContending with Hallucinations ....................................................... 41\nObserving Copyright Laws ................................................................42\nCHAPTER 6:  Five Steps to Generative\u00a0AI ................................................43\nIdentify Business Problems ...............................................................43\nSelect a Data Platform .......................................................................43\nBuild a Data Foundation ....................................................................44\nCreate a Culture of Collaboration ....................................................44",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_6",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "Create a Culture of Collaboration ....................................................44\nMeasure, Learn, Celebrate ................................................................ 44",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_6",
+      "chunk_index": 4
+    }
+  },
+  {
+    "text": "Introduction      1\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nIntroduction\nG\nenerative AI (gen AI) and large language models (LLMs) \nare revolutionizing our personal and professional lives. \nFrom supercharged digital assistants that manage our \nemail to seemingly omniscient chatbots that can communicate \nwith enterprise data across industries, languages, and specialties, \nthese technologies are driving a new era of convenience, produc-\ntivity, and connectivity.\nIn the business world, gen AI automates a huge variety of menial \ntasks, saving time and improving efficiency. It generates code, \naids in data analysis, and automates content creation, freeing",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_7",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "aids in data analysis, and automates content creation, freeing \nknowledge workers to focus on critical and creative tasks. It also \nenhances personal experiences by tailoring content to your pref-\nerences, delivering personalized recommendations for playlists, \nmovies, and news feeds that enrich our daily lives.\nTraditional AI uses predictive models to classify data, recognize \npatterns, and predict outcomes within a specific context or domain, \nsuch as analyzing medical images to detect irregularities. Gen AI \nmodels generate entirely new outputs rather than simply making \npredictions based on prior experience. This shift from prediction \nto creation opens up new realms of innovation. For example, while \na traditional predictive model can spot a suspicious lesion in an",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_7",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "a traditional predictive model can spot a suspicious lesion in an \nMRI of lung tissue, a gen AI app can also determine the likelihood \nthat a patient will develop pneumonia or some other type of lung \ndisease and offer treatment recommendations based on best prac-\ntices gleaned from thousands of similar cases.\nBoth in the public sphere of the Internet and within the realm \nof private enterprise, the transformative potential of this rapidly \nevolving field is reshaping the way people live, work, and interact.\nAbout This Book\nThis book provides an introductory overview to LLMs and gen \nAI applications, along with techniques for training, tuning, and \ndeploying machine learning (ML) models. The objective is to pro-\nvide a technical foundation without \u201cgetting into the weeds,\u201d and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_7",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "vide a technical foundation without \u201cgetting into the weeds,\u201d and \nto help bridge the gap between AI experts and their counterparts \nin marketing, sales, finance, product, and more.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_7",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "2      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nIn the pages that follow, you learn about the importance of gen AI \napplications that are secure, resilient, easy to manage, and that \ncan integrate with your existing technology ecosystem. You also \ndiscover the importance of standardizing on a modern data plat-\nform to unlock the full potential of your data. Prepare to embark \non a transformative journey that will shape the way your business \noperates.\nIcons Used in This Book\nThroughout this book, the following icons highlight tips, impor-\ntant points to remember, and more:\nTips guide you to easier ways to perform a task or better ways to",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_8",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Tips guide you to easier ways to perform a task or better ways to \nuse gen AI in your organization.\nThis icon highlights concepts worth remembering as you immerse \nyourself in the understanding and application of gen AI and LLM \nprinciples.\nThe jargon beneath the jargon, explained.\nBeyond the Book\nIf you like what you read in this book and want to know more, \nvisit www.snowflake.com, where you can learn about the company \nand what it offers, try Snowflake for free, obtain details about  \ndifferent plans and pricing, view webinars, access news releases, \nget the scoop on upcoming events, access documentation, and get \nin touch with them\u00a0\u2014 they would love to hear from you!\nDisclaimer: Snowflake\u2019s AI features and capabilities that are refer-",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_8",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Disclaimer: Snowflake\u2019s AI features and capabilities that are refer-\nenced or described\u00a0in this book may not be generally available,\u00a0be \ndifferent than described, or no longer exist at the time of reading.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_8",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 1  Introducing Gen AI and the Role of Data      3\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nChapter\u00a01\nIN THIS CHAPTER\n \u00bb Reviewing the history of AI\n \u00bb Emphasizing the role of data in gen AI \nprojects\n \u00bb Discussing the importance of gen AI to \nthe enterprise\n \u00bb Using a cloud data platform to manage \ngen AI initiatives\nIntroducing Gen AI and \nthe Role of Data\nT\nraditional AI, often referred to as machine learning (ML), \nhas primarily focused on analytic tasks like classification \nand prediction. Generative AI (gen AI) goes a step further \nwith its ability to create new, original content. This creative \nbreakthrough has the potential to transform nearly every indus -",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_9",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "breakthrough has the potential to transform nearly every indus -\ntry, enhancing human creativity and pushing the boundaries of \nwhat machines can accomplish. This chapter puts gen AI in a his-\ntorical context, defines key terms, and introduces the data foun -\ndation that organizations need to succeed with gen AI initiatives.\nThe Historical Context of Gen AI\nGen AI is a type of artificial intelligence that uses neural networks \nand deep learning algorithms to identify patterns within exist -\ning data as a basis for generating original content. By learning \npatterns from large volumes of data, gen AI algorithms synthe -\nsize knowledge to create original text, images, audio, video, and \nother forms of output. To understand the transformative nature",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_9",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "4      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nof these unique technologies, it is helpful to place them in their \nhistorical context.\nAI has a rich history marked by decades of steady progress,  \noccasional setbacks, and periodic breakthroughs. Although  \ncertain foundational ideas in AI can be traced back to the early  \n20th century, classical (or traditional) AI, which focused on rule-\nbased systems, had its inception in the 1950s and came into \nprominence in the ensuing decades. ML, which involves train -\ning computer algorithms to learn patterns and make predictions \nbased on data, emerged in the 1980s. At about this same time,",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_10",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "based on data, emerged in the 1980s. At about this same time, \nneural networks gained popularity, inspired by the structure and \nfunctioning of the human brain. These software systems use \ninterconnected nodes (neurons) to process information.\nDuring the first two decades of the 21st century, deep learning \nrevolutionized the AI landscape with its capability to handle large \namounts of data and execute complex tasks. As a type of neural \nnetwork, deep learning employs multiple layers of interconnected \nneurons, allowing for more sophisticated learning and represen -\ntation of data. This breakthrough led to significant advancements \nin computer vision, speech recognition, and natural language \nprocessing (NLP), launching the era of general-purpose AI bots",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_10",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "processing (NLP), launching the era of general-purpose AI bots \nsuch as Siri and Alexa. Convolutional neural networks (CNNs) proved \nthemselves to be particularly successful at computer vision tasks, \nwhile recurrent neural networks (RNNs) excelled in sequential data \nprocessing, such as language modeling. These technologies laid \nthe foundation for gen AI.\nIntroducing LLMs and foundation \nmodels\nLarge language models  (LLMs) are advanced AI systems designed \nto understand the intricacies of human language and to generate \nintelligent, creative responses when queried. Successful LLMs are \ntrained on enormous data sets typically measured in petabytes \n(a million gigabytes). Training data has often been sourced from \nbooks, articles, websites, and other text-based sources, mostly in",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_10",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "books, articles, websites, and other text-based sources, mostly in \nthe public domain.\u00a0Using deep learning techniques, these models \nexcel at understanding and generating text similar to human-\nproduced content. Today\u2019s LLMs power many modern applica -\ntions, including content creation tools, language translation apps, \ncustomer service chatbots, financial analysis sites, scientific \nresearch repositories, and advanced Internet search tools.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_10",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "CHAPTER 1  Introducing Gen AI and the Role of Data      5\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nIn the field of AI, language models are powerful software systems \ndesigned to understand, generate, and manipulate human lan-\nguage. Some models handle images and other media along with \ntext. These are often referred to as multimodal language models.\nTransforming the AI landscape\nAI systems with humanlike reasoning capabilities have been \naround since the 1950s, but only with the advent of LLMs have \nthey gained widespread adoption. According to a recent Forbes \narticle called \u201cTransformers Revolutionized AI.\u00a0What Will Replace \nThem?\u201d a key breakthrough came in 2017 when the Google Brain",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_11",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Them?\u201d a key breakthrough came in 2017 when the Google Brain \nteam introduced the transformer architecture, a deep learning model \nthat replaced traditional recurrent and convolutional structures \nwith a new type of architecture that\u2019s particularly effective at \nunderstanding and contextualizing language, as well as generat-\ning text, images, audio, and computer code.\nLLMs based on the transformer architecture have enabled new \nrealms of AI capabilities. Perhaps the best-known example is  \nOpenAI\u2019s ChatGPT, which stands for chatbot generative pre-\ntrained transformer. A CNN article, \u201cMicrosoft confirms it\u2019s \ninvesting billions in the creator of ChatGPT,\u201d shows support for \nthe development of progressively larger LLMs, some of which",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_11",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "the development of progressively larger LLMs, some of which \nmay incorporate hundreds of billions of parameters to generate \ncoherent and contextually relevant responses.\nAccelerating AI functions\nAnother important factor in the evolution of AI is the advent of \naccelerated hardware systems known as graphics processing units \n(GPUs). Although central processing units (CPUs) are designed for \ngeneral-purpose computing tasks, GPUs, initially developed for \ngraphics rendering, are specialized processors that have proven to \nbe adept at ML tasks due to their unique architecture.\nGPUs have a large number of cores that can process multiple \ntasks simultaneously. Transformers use GPUs to process multiple \nthreads of information, leading to faster training of AI models",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_11",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "threads of information, leading to faster training of AI models \nthat effectively handle not just text but also images, audio, and \nvideo content. This parallel processing capability is crucial for the \ncomputationally intensive calculations involved in ML, such as",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_11",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "6      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nmatrix operations. GPUs can perform these computations much \nfaster than CPUs, accelerating training and inference times and \nenhancing the overall performance of ML algorithms. Refer to  \nCloud Data Science For Dummies  (Wiley) by David Baum for addi -\ntional information on these concepts. Figure\u00a0 1-1 summarizes  \nAI progress.\nThe Role of Data in AI Projects\nAs impressive as they are at language generation, reasoning, and \ntranslation, gen AI applications that have been built on public data \ncan\u2019t realize their full potential in the enterprise until they\u2019re cou-",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_12",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "can\u2019t realize their full potential in the enterprise until they\u2019re cou-\npled with enterprise data stores. Most organizations store massive \namounts of data, both on-premises and in the cloud. Many of these \nbusinesses have data science practices that leverage structured \ndata for traditional analytics, such as forecasting. To maximize \nthe value of gen AI, these companies need to open up to the vast \nworld of unstructured and semistructured data as well. According \nto a February 2021 report from MIT titled \u201cTapping the Power of \nUnstructured Data,\u201d 80 to 90 percent of data is unstructured\u00a0\u2014  \nlocked away in text, audio, social media, and other sources. For \nenterprises that figure out how to use this data, it can provide a \ncompetitive advantage, especially in the era of gen AI.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_12",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "competitive advantage, especially in the era of gen AI.\nTo amass a complete data set, consider not only your internal \nfirst-party data, but also second-party data from partners and \nsuppliers, and third-party data from a service provider or data \nmarketplace. See the nearby sidebar for more information.\nFIGURE\u00a01-1: Gen AI builds on traditional AI concepts while vastly expanding \napplicability, scaling potential\u00a0\u2014 and with web-scale processing demands.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_12",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 1  Introducing Gen AI and the Role of Data      7\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nExplaining the Importance of Generative \nAI to the Enterprise\nToday\u2019s LLMs have paved the way for an immense array of \nadvanced applications centered around content generation, logi-\ncal reasoning, language translation, text retrieval, code genera-\ntion, content summarization, and search:\n \u00bb LLMs for content generation: Gen AI can streamline \ncontent creation by generating various types of media, \nincluding text, sound, and images. For instance, a marketing \ndepartment can utilize gen AI to generate the first drafts  \nof blogs, press releases, posts on X (formerly Twitter), and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_13",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "of blogs, press releases, posts on X (formerly Twitter), and \nproduct descriptions, including producing custom images  \nfor promotional campaigns.\nOne popular use of this technology in the enterprise is to \ndevelop chatbots that engage in conversational interactions \nwith business users, helping them obtain accurate answers \nto their questions. By harnessing private data such as \ncustomer transaction histories and customer service \nrecords, these systems can even deliver personalized \ncontent to target audiences while maintaining data security. \nLLMs are also adept at analyzing documents, summarizing \nunstructured text, and converting unstructured text into \nstructured table formats.\nCAST A WIDE DATA NET\nTo maximize the potential of your gen AI endeavors, cast a wide net to",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_13",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "CAST A WIDE DATA NET\nTo maximize the potential of your gen AI endeavors, cast a wide net to \nutilize the three basic types of data sources:\n\u2022 First-party data is internal data produced via everyday business \ninteractions with customers and prospects.\n\u2022 Second-party data is produced by or in collaboration with trusted \npartners, such as product inventory data shared with an e-commerce \nor retail sales channel.\n\u2022 Third-party data can be acquired from external sources to enrich \ninternal data sets. Common examples include manufacturing sup-\nply chain data and financial market data.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_13",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "8      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\n \u00bb LLMs as logical reasoning engines: Within the field of AI, \nnatural language understanding (NLU) focuses on compre-\nhending the intricate meaning in human communication. \nLLMs can unravel the underlying meaning in textual data, \nsuch as product reviews, social media posts, and customer \nsurveys. This makes them valuable for sentiment analysis \nand other complex reasoning tasks that involve extracting \nmeaningful insights from text and providing a deeper \nunderstanding of human language.\n \u00bb LLMs as translation engines: LLMs have transformed text",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_14",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "understanding of human language.\n \u00bb LLMs as translation engines: LLMs have transformed text \ntranslation between languages, making it easier for people \nto communicate across linguistic barriers. By leveraging this \nunderstanding, LLMs can accurately convert text from one \nlanguage to another, ensuring effective and reliable transla-\ntion. This breakthrough in language processing has greatly \nenhanced accessibility and global communication, allowing \nindividuals and businesses to connect, collaborate, and \nunderstand each other more easily, regardless of language \ndifferences.\n \u00bb LLMs for text retrieval, summarization, and search: LLMs \nare pretrained on vast amounts of text data, allowing them \nto grasp the nuances of language and comprehend the",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_14",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "to grasp the nuances of language and comprehend the \nmeaning of text. They can search through large databases  \nor the Internet in general to locate relevant information \nbased on user-defined queries. LLMs can also generate \nconcise summaries while maintaining the essence of the \noriginal information. For example, a tech company might use \nan LLM to optimize content for search engines by suggesting \nrelevant keywords, giving visibility into common search \nqueries associated with the topic, and ensuring crawlability.\nGen AI models, and hence the decisions made from those models, \nare only as good as the data that supports them. The more data \nthese models ingest and the more situations they encounter, the \nsmarter and more comprehensive they become.\nPretrained models",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_14",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "smarter and more comprehensive they become.\nPretrained models\nThere\u2019s a rapidly growing market for creating and customiz -\ning gen AI foundation models in many different industries and \ndomains. This has given rise to a surge of LLMs that have been \npretrained on data sets with millions or even billions of records,",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_14",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "CHAPTER 1  Introducing Gen AI and the Role of Data      9\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nallowing them to accomplish specific tasks. For example, as \nexplained by SiliconAngle\u2019s \u201cNvidia debuts new AI tools for bio-\nmolecular research and text processing,\u201d MegaMolBART (part of \nthe NVIDIA BioNeMo service and framework) can understand the \nlanguage of chemistry and learn the relationships between atoms \nin real-world molecules, giving researchers a powerful tool for \nfaster drug discovery. Pharmaceutical companies can fine-tune \nthese foundation models using their own proprietary data. Train-\ning these commercial foundation models is an immense effort",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_15",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "ing these commercial foundation models is an immense effort \nthat costs tens of millions of dollars. Fortunately, businesses that \nuse them don\u2019t have to repeat that massive process to adapt an \nLLM to their needs; they can adapt an existing foundation model \nfor a fraction of that amount.\nLarge technology companies are constantly inventing new model \narchitectures, even as they expand the capabilities of their exist -\ning LLMs (for more on this, see Chapter\u00a02). Thousands of open-\nsource models are available on public sites such as GitHub and \nHugging Face. Developers can use the pretrained AI models as a \nfoundation for creating custom AI apps.\nSecurity versus ease of use\nAll logical reasoning engines need data to function. Although many",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_15",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Security versus ease of use\nAll logical reasoning engines need data to function. Although many \nof today\u2019s LLMs have been trained on vast amounts of Internet \ndata, they become even more powerful and relevant when they\u2019re \ntrained with enterprise data. Because much of this data is pro-\ntected in private databases and resides behind network firewalls, \nthe challenge facing today\u2019s enterprises involves augmenting \nLLMs with this corporate data in a secure and governed manner.\nGen AI systems learn from data; the more data they can access, \nthe more capable they become. But how do you ensure that your \nbusiness users, software developers, and data scientists can easily \naccess a secure, consistent, governed data set\u00a0\u2014 without adding",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_15",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "access a secure, consistent, governed data set\u00a0\u2014 without adding \nonerous constraints that inhibit innovation? Enterprises need to \nbe able to leverage gen AI technology in an easy, straightforward \nmanner. They also need to uphold essential data security, gov -\nernance, and regulatory issues\u00a0\u2014 not only for their data but also \nfor the models that learn from the data and extract information \nfrom it.\nHow can you achieve this without squelching innovation? You \nstart by unifying data in a comprehensive repository that multiple",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_15",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "10      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nworkgroups can access easily and securely. This allows you to \ncentralize data governance and democratize access to gen AI ini -\ntiatives across your organization while minimizing complexity \nand optimizing costs.\nManaging Gen AI Projects with  \na Cloud Data Platform\nA cloud data platform is a specialized cloud service optimized for \nstoring, analyzing, and sharing large and diverse volumes of data. \nIt unifies data security and data governance activities by ensuring \nthat all users leverage a single copy of data. It fosters  collaboration",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_16",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "that all users leverage a single copy of data. It fosters  collaboration \nand ensures that the organization has a scalable data environ -\nment for new foundation models and related analytic endeavors. \nA cloud data platform extends your AI horizons by allowing you \nto store your first-party data and leverage a network of data from \n second- and third-party data providers as well. It provides a pro-\ntected ecosystem where you can easily and securely share models \nand data sets, internally and with partners and customers.\nBy utilizing a cloud data platform, you can seamlessly leverage \nexisting infrastructure to support gen AI initiatives with mini -\nmal hassle. As a fully managed service, the platform eliminates \nthe need to deal with the complexities and technical overhead",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_16",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "the need to deal with the complexities and technical overhead \nof building and managing infrastructure. You can easily provi-\nsion and effortlessly scale compute resources for each type of \ndata, such as GPUs for model training, fine-tuning, and infer -\nence activities. Finally, by using the same core data foundation \nfor all your data-driven initiatives, you can ensure consistency \nand reliability in managing your gen AI, data science, and ana -\nlytics projects.\nData is your core differentiator in the age of gen AI.\u00a0The best way \nto harness and protect enterprise data for gen AI initiatives is \nto consolidate disparate sources into a cloud data platform that \nprovides strong security and governance for data and the models \ncustomized with that data. Data can be structured tabular data;",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_16",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "customized with that data. Data can be structured tabular data; \nsemistructured data from IoT devices, weblogs, and other sources; \nor unstructured data, such as image files and PDF documents.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_16",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "CHAPTER 2  Understanding Large Language Models      11\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nChapter\u00a02\nIN THIS CHAPTER\n \u00bb Categorizing and classifying LLMs\n \u00bb Reviewing the technologies that \npower\u00a0LLMs\n \u00bb Understanding the role of vector \ndatabases\n \u00bb Identifying LLM terms, concepts, and \nframeworks\n \u00bb Reiterating the importance of data \ngovernance\nUnderstanding Large \nLanguage Models\nL\narge language models (LLMs) are widely known for their \nability to generate written text, computer code, and other \ncontent, as well as for their astonishing ability to respond to \nqueries in humanlike ways. However, the utility of these AI sys -\ntems extends beyond explaining concepts and summarizing text.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_17",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "tems extends beyond explaining concepts and summarizing text. \nToday\u2019s LLMs have the potential to revolutionize how enterprises \nacquire, handle, and analyze information, opening up new ave -\nnues for exploration and inquiry. This chapter defines the various \ntypes of LLMs and discusses their applicability to the enterprise.\nCategorizing LLMs\nGeneral-purpose LLMs handle a wide range of tasks and under -\nstand a broad spectrum of languages\u00a0\u2014 both natural languages \nand computer languages. They are trained by scraping massive \namounts of data from the Internet, as well as by ingesting data",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_17",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "12      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nfrom private data sources that are relevant to the purpose of the \nmodel. This allows LLMs to generate contextually related feed-\nback on just about any topic.\nFoundation models are a class of generative AI (gen AI) models \nthat are well suited for a wide range of use cases. To increase their \nusefulness at a specific task, these models can be specialized, \ntrained, or modified for specific applications. Common founda-\ntion models include the following:\n \u00bb Task-specific LLMs such as Meta\u2019s Code Llama specialize in \nunique, highly targeted tasks like generating software code.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_18",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "unique, highly targeted tasks like generating software code.\n \u00bb Domain-specific LLMs apply gen AI technology to specific \nsubjects and industries. For example, NVIDIA\u2019s BioBERT, \nwhich has been trained on biomedical text, helps research-\ners understand scientific literature and extract information \nfrom medical documents.\nDomain-specific and task-specific models are fine-tuned using \ndata specific to the domain they\u2019re built for, such as law, medi-\ncine, cybersecurity, art, and countless other fields. They aren\u2019t \nlimited to language. Some of them can also generate music, pic-\ntures, video, and other types of multimodal content.\nAn LLM is a general-purpose model primarily useful for tasks \nrelated to unstructured text data. A foundation model serves as the",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_18",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "related to unstructured text data. A foundation model serves as the \nbasis for developing specialized applications adapted to specific \nindustries, business problems, and use cases. A foundation model \ncan often be multimodal,  meaning it handles both text and other \nmedia such as images.\nDefining general-purpose LLMs\nGPT-3, a general-purpose LLM, was developed by OpenAI based \non the Generative Pre-trained Transformer (GPT) series of \nmachine learning (ML) models. ChatGPT isn\u2019t a language model \nper se, but rather a user interface tailored around a particular lan-\nguage model such as GPT-3, GPT-3.5, or GPT-4, all of which have \nbeen optimized for conversational interactions within the Chat-\nGPT LLM platform. Other popular LLM options are described in \nthe nearby sidebar.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_18",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 2  Understanding Large Language Models      13\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nThose listed in the sidebar and other language models are becom-\ning progressively more relevant to the business world. According \nto a June 1, 2023, press release from Bloomberg Intelligence, the \ngen AI market is poised to explode, growing to $1.3 trillion over \nthe next 10 years from a market size of just $40 billion in 2022\u00a0\u2014 \na compound annual growth of 42 percent.\nSIZING UP THE CONTENDERS\nAs the software industry steps up research and development into \nLLMs, several prominent offerings have emerged in this highly  \ncompetitive sector: \n\u2022 OpenAI\u2019s GPT family is based on the GPT series of models. These",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_19",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "competitive sector: \n\u2022 OpenAI\u2019s GPT family is based on the GPT series of models. These \nLLMs are renowned for their impressive language-generation \ncapabilities and capability to perform well across various language \ntasks, including search, text generation, reasoning, and multime-\ndia content delivery.\n\u2022 Bidirectional Encoder Representations from Transformers \n(BERT), developed by Google, employs a masked language model \nto learn contextual representations, enabling it to better compre-\nhend the meaning of sentences. This model powers Google Bard\u2019s \nconversational AI chat service.\n\u2022 Llama (Large Language Model Meta AI) is a family of LLMs intro-\nduced by Meta that excels at language translation, text generation, \nand question-answering. Llama 2 is an open-source model that is",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_19",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "and question-answering. Llama 2 is an open-source model that is \navailable for research and development purposes.\n\u2022 Code Llama, also developed by Meta AI, is a language model  \ntailored to understand and generate code snippets and program-\nming instructions. It has been trained to assist in coding tasks, code \ncompletion, and suggesting efficient coding techniques.\n\u2022 Snowflake Copilot, an LLM fine-tuned by Snowflake, generates \nSQL from natural language and refines queries through conversa-\ntion, improving user productivity.\n\u2022 XLNet, developed by Carnegie Mellon University and Google, \nfocuses on generating high-quality text in multiple languages, \nmaking it useful for language translation and content creation.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_19",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "14      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nUsing task-specific and  \ndomain-specific LLMs\nBing and Bard are examples of applications developed utiliz-\ning their respective foundation LLMs. These applications have a \nuser interface and have undergone additional specialized training, \nenhancing their capabilities for specific tasks. For example, Bard \noffers chatbot access to Google\u2019s full suite of products\u00a0\u2014 includ-\ning YouTube, Google Drive, Google Flights, and others\u00a0\u2014 to assist \nusers in a wide variety of tasks. Google users can link their personal \nGmail, Google Docs, and other account data to allow Bard to analyze",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_20",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Gmail, Google Docs, and other account data to allow Bard to analyze \nand manage their personal information. For example, you can ask \nBard to plan an upcoming trip based on suggestions from a recent \nemail string, complete with flight options. You can also ask Bard to \nsummarize meeting notes you have logged in the files and folders \nof your Google Drive hierarchy.\nDomain-specific LLMs focus on a specific subject area or indus -\ntry. For example, BioBERT is trained on biomedical text, mak-\ning it an excellent resource for understanding scientific literature \nand extracting information from medical documents. CodeBERT \nis a cybersecurity solution that has been trained to assist with \nIT security concerns such as vulnerability detection, code review,",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_20",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "IT security concerns such as vulnerability detection, code review, \nand software security analysis. These specialized LLMs can be \nfurther trained and fine-tuned using data specific to targeted \nareas of interest, and can incorporate additional sources of data \nto build proficiency on designated subjects. To gain adoption and \ndrive value from models, AI teams must build user interfaces that \nallow users to interact with these LLMs in designated ways.\nReviewing the Technology Behind LLMs\nNeural networks are a key component of AI systems. As discussed \nin the previous chapter, most neural networks use a combination \nof complex recurrent or CNN structures to do their jobs. However, \ntoday\u2019s gen AI models also have an attention mechanism that",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_20",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "today\u2019s gen AI models also have an attention mechanism that \nhelps the encoder  (the part that understands the input) and the \ndecoder (the part that generates the output) work together more \neffectively (see Figure\u00a02-1).",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_20",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "CHAPTER 2  Understanding Large Language Models      15\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nIt all springs from the advent of the transformer architecture \n(introduced in Chapter\u00a01), which presented a new and simpler way \nto understand language using attention mechanisms. Unlike the \nprevious models, transformer models eliminate dependencies on \nother processing steps, giving them the added benefit of being \nmore parallelizable, which accelerates training.\nThe power of the transformer architecture lies in its capability to \nlearn the relevance of each word to all the other words in a state-\nment or document through self-attention mechanisms, in con-\njunction with training on large data sets.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_21",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "junction with training on large data sets.\nIntroducing key terms and concepts\nToday\u2019s LLMs are easy to use. Rather than requiring formal code \nto communicate with software libraries and application program-\nming interfaces (APIs), they can understand natural language \nor human instructions and perform tasks similar to a human. \nThe text you provide to a language model is called a prompt. The \nprompt is given to the model, which then generates an answer. \nThe result produced by the model is known as a completion, and \nthe process of using the model to generate text is called inference.\nAs you will see in Chapters 3 and 4, users can influence the \nlearning process by providing well-crafted prompts or by \nusing techniques such as reinforcement learning with human",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_21",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "using techniques such as reinforcement learning with human  \nfeedback (RLHF)  to guide the model\u2019s output. You\u2019ll also learn \nabout prompt engineering  and in-context learning (ICL),  which \nallow you to guide the model at inference time, as well as how to \nFIGURE\u00a02-1: A gen AI\u2019s encoder and decoder work together to produce \naccurate outputs.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_21",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "16      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nfine-tune input parameters as you instruct the LLM to generate \nrelevant outputs specific to your private data.\nExplaining the importance  \nof vector embeddings\nLLMs deal with large and complex data sets. By representing these \ndata sets in vector form, where words are represented by num-\nbers in a multidimensional space, it becomes easier for the mod-\nels to compare and analyze information. Vector databases store \ndata as mathematical representations that can be easily parsed \nby ML models. These vector \u201cembeddings\u201d are the most efficient",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_22",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "by ML models. These vector \u201cembeddings\u201d are the most efficient \nway to process and store quantitative representations of natural \nlanguage. Data can be identified based on similarity metrics, such \nas distance between two vectors, instead of exact matches, which \nsaves a tremendous amount of processing time (see Figure\u00a02-2).\nVector databases enable gen AI systems to quickly retrieve rel-\nevant data during the generation and inference processes. They \nare particularly useful for ML models because of their capability \nto power key language applications such as search, recommenda-\ntions, and text generation.\nMake sure that your data platform includes vector search func -\ntionality that can handle essential gen AI tasks that help you",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_22",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "tionality that can handle essential gen AI tasks that help you \ncontextualize LLMs with your data, such as retrieval-augmented \ngeneration (RAG), in-context learning (ICL), and vector similar -\nity search (VSS). For more information on these concepts, see \nChapter\u00a03.\nFIGURE\u00a02-2: A word can be identified by the group of words that are used \nwith it frequently. This is the basis for creating vector embeddings.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_22",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 2  Understanding Large Language Models      17\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nIdentifying developer tools  \nand frameworks\nThe capability of LLMs to process and interpret vast amounts of \ntext, audio, video, and other forms of content have made them \nan indispensable part of many data science workflows. Although \nnontechnical users can interact with LLMs with little or no train-\ning, data science teams use established software frameworks to \ninteract with LLMs and create gen AI applications. Popular frame-\nworks that assist with text classification, sentiment analysis, text \ngeneration, and other gen AI tasks include the following:\n \u00bb OpenAI GPT Playground: OpenAI provides pretrained",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_23",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "\u00bb OpenAI GPT Playground: OpenAI provides pretrained \nlanguage models, such as GPT-3, which can be accessed via \nAPIs for various language understanding and text-generation \ntasks. The GPT Playground allows users to experiment with \nthese models and fine-tune prompts interactively.\n \u00bb Snowflake Cortex: An intelligent, fully managed service that \noffers access to industry-leading AI models, LLMs, and vector \nsearch functionality on secure and governed enterprise data.\n \u00bb Hugging Face Transformer Library: An open-source library \nthat offers a high-level API for working with pretrained \nlanguage models like BERT and GPT.\u00a0The library includes a \nuser-friendly interface and prebuilt functionality for fine-\ntuning LLMs, with straightforward APIs and command-line \ntools to simplify the process.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_23",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "tuning LLMs, with straightforward APIs and command-line \ntools to simplify the process.\nEnforcing data governance and security\nModels need abundant data relating to the problems they\u2019re \nattempting to solve. But how do you put the right data in the \nhands of LLM users without exposing sensitive information, \ncompromising data privacy, or putting your brand at risk?\nA comprehensive cloud data platform allows you to work with \nLLMs within a protected environment. Rather than \u201ctaking your \ndata to the processing engine,\u201d it allows you to \u201cbring your pro-\ncessing to the data,\u201d where you can control user access to corpo-\nrate data sources and enforce security and governance policies. If \nyou can run that model as a service within your cloud data plat-",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_23",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "you can run that model as a service within your cloud data plat-\nform, you can ensure that data, prompts, and completions are not \nshared with unauthorized users.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_23",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "18      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nAll gen AI project stakeholders should take care to protect sensi -\ntive data as it is accessed, shared, and exchanged with LLMs and \ngen AI applications. When you conduct these projects within a \ncloud data platform, you can uphold data security, data privacy, \nand data governance without imposing intrusive restrictions on \nthe workforce.\nExtending governance for all data types\nA modern cloud data platform extends governance to all types of \ndata\u00a0 \u2014 structured, semistructured, and unstructured. This is a \nunique capability not necessarily offered by cloud service object",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_24",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "unique capability not necessarily offered by cloud service object \nstores such as Amazon S3, Microsoft Azure Blob Storage, and \nGoogle Cloud Storage. These cloud services make it relatively easy \nto store unstructured data, such as PDF files, audio, and video, \nas binary large objects (blobs). However, granular access controls \nsuch as row-level permissions aren\u2019t always available at the blob \nlevel. These services may broaden your access to complex data \ntypes but not without increasing risk. Even if you choose to store \nyour data in a cloud object store, be sure that your cloud data  \nplatform can provide governance on top of that data.\nLoading all data into a centralized repository with a cohesive \nlayer of data governance services allows you to enforce universal",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_24",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "layer of data governance services allows you to enforce universal  \npolicies that broaden access while reducing risk. Applying these \ncontrols in a modern cloud data platform that supports structured \ndata, semistructured data, and unstructured data is easier and \nless risky.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_24",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 3  LLM App Project Lifecycle      19\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nChapter\u00a03\nIN THIS CHAPTER\n \u00bb Defining the scope of the project\n \u00bb Selecting an appropriate LLM\n \u00bb Adapting LLMs to particular tasks\n \u00bb Exploring prompt engineering, fine-\ntuning LLM models, and more\n \u00bb Exposing data and LLMs as applications\nLLM App Project \nLifecycle\nT\nhe generative AI (gen AI) project lifecycle guides you \nthrough the process of selecting, adapting, and implement-\ning large language models (LLMs) as you create AI applica-\ntions. This chapter describes the major steps including defining \nthe use case, selecting an LLM, and guiding the use and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_25",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "the use case, selecting an LLM, and guiding the use and \n customization of the model for the project. It also covers the key \nconsiderations in model customization steps.\nDefining the Use Case and Scope\nThe first step in the gen AI project lifecycle (see Figure\u00a03-1) is to \nidentify the business problem or use case. For example, you might \nwant to use gen AI to create personalized product descriptions, \nsummarize transcripts, extract answers from documents, create \ncompelling characters for a video game, or to train a computer \nvision system to recognize particular objects.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_25",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "20      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nNext, determine what proprietary data you will use to custom -\nize or contextualize the model effectively. Many foundation LLMs \ncontain massive amounts of information learned from the Inter -\nnet, which gives the models their knowledge of language as well \nas many aspects of the world around us. More than likely, you \nhave a project in mind that requires specific domain knowledge \nor access to internal information. For example, to create product \ndescriptions for an e-commerce system, you might begin with \npublic data that describes the general types of products, supple-",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_26",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "public data that describes the general types of products, supple-\nmented by internal data that identifies the unique aspects of your \nproducts.\nDefining the use case sets the foundation for clarifying the \n business problem and or the goal to be achieved. It will help define \ndata and user experience requirements.\nSelecting the right LLM\nMany different language models are available for public use \n(for more on this, see Chapter\u00a0 2). Hosted LLMs such as Chat-\nGPT and Bard are provided as a service that anybody can access, \nvia a user interface or via APIs. This makes interacting with the \nLLMs very easy because there\u2019s no overhead to host and scale \nthe  infrastructure where it runs. Open-source LLMs like Llama \nare freely available for download and modification, and you can",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_26",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "are freely available for download and modification, and you can \ndeploy them in your own environment. Although this gives you \nmore control, it also requires you to set up and maintain the \nunderlying infrastructure. Not sending data to an external envi -\nronment and having more control over the model may be of high \nimportance for sensitive data, but the additional control puts the \ncompute infrastructure management in your hands.\nFIGURE\u00a03-1: The gen AI project lifecycle and its players at a glance.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_26",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 3  LLM App Project Lifecycle      21\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nComparing small and large  \nlanguage models\nThe parameters in a language model refer to the trainable vari-\nables. More parameters mean more knowledge is part of the \nmodel out of the box, but bigger isn\u2019t always better. Smaller LLMs \nhave fewer parameters and thus consume less compute resources \nand are faster to fine-tune and deploy. They\u2019re well suited for \nrunning very specific tasks in a more cost-effective way. LLMs \nhave a higher number of parameters (typically 10 billion or more) \nand can learn more nuanced language patterns, and provide more \naccurate and contextually relevant outputs for a wider range of",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_27",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "accurate and contextually relevant outputs for a wider range of \nscenarios. However, they require more resources to train and \nadapt to your needs.\nFor example, with only 117 million parameters, GPT-2 is a good \nchoice for a narrow set of  tasks such as language completion and \nsummarization. With 175 billion parameters, GPT-3 is better for \ncomplex tasks, such as translating text and generating dialogue.\nThe choice between small and large language models is a cost-\nperformance tradeoff, it all depends on the set of use cases that \nneed to be supported by a single model.\nSELECTION CRITERIA FOR LLMS\nWhen selecting the right LLM for a gen AI project, consider:\n\u2022 Task alignment: Choose an LLM that aligns to the task, such as GPT",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_27",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "\u2022 Task alignment: Choose an LLM that aligns to the task, such as GPT \nfor conversational applications or BioBERT for biomedical research.\n\u2022 Training data: Evaluate whether the LLM has been trained on \ndata that matches the domain or context of the project.\n\u2022 Model size and complexity: Models with tens of billions of \nparameters provide higher-quality outputs but require more  \ncomputational resources.\n\u2022 Adapting and tuning: Determine if the chosen LLM can be  \neffectively contextualized with prompts or fine-tuning.\n\u2022 Ecosystem and support: Investigate the availability of resources, \ntools, and community support surrounding the LLM.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_27",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "22      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nAdapting LLMs to Your Use Case\nThis list highlights various techniques that you can use to tailor \nthe LLM to meet your specific needs:\n \u00bb Prompt engineering is the process of optimizing text \nprompts to guide the LLM to generate pertinent responses.\n \u00bb In-context learning (ICL) allows the model to dynamically \nupdate its understanding during a conversation, resulting in \nmore contextually relevant responses.\n \u00bb Retrieval-augmented generation (RAG) combines retrieval \nand generation models to surface new relevant data as part \nof a prompt.\n \u00bb Fine-tuning entails customizing a pretrained LLM to",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_28",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "of a prompt.\n \u00bb Fine-tuning entails customizing a pretrained LLM to \nenhance its performance for specific domains or tasks.\n \u00bb Reinforcement learning from human feedback (RLHF) is \nthe ongoing approach to fine-tuning in near real time by \nproviding the model with feedback from human evaluators \nwho guide and improve its responses.\nEach of these techniques is described in further detail in the  \nfollowing sections.\nEngineering prompts\nLLMs are sophisticated predictive models that anticipate the next \nword in a sequence based on the context provided to them as part \nof a process referred to as a completion . Carefully constructed \nprompts help these models deliver tailored content, yielding \nbetter completions. LLM performance is influenced not only by",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_28",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "better completions. LLM performance is influenced not only by \nthe training data but also by the context provided by these user \ninputs\u00a0\u2014 the prompts.\nPrompt engineering is the practice of crafting inputs to shape the \noutput of a language model and achieve a desired result. For \ninstance, if you\u2019re using the LLM to generate a summary of a \n20-page research paper, you can engineer the prompt by speci -\nfying which sections of the document are most important, and \nwhat should be the word count of the output. By carefully crafting \nthe prompt, you can obtain more targeted and relevant responses. \nZero-shot, one-shot, and few-shot prompting are all techniques \nused in prompt engineering.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_28",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 3  LLM App Project Lifecycle      23\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\n \u00bb Zero-shot prompting is the default; you simply issue a question \nand rely on the LLM\u2019s pretrained information to answer it.\n \u00bb With one-shot prompting, you include an example of the \ndesired output to help the model understand the desired \noutput. For instance, assume you\u2019re writing a travel brochure \nand you want the AI model to describe a vibrant public \nmarket in an exotic city. Even with limited exposure to this \nparticular scenario, a model can generate a creative descrip-\ntion that matches the tone of\u00a0voice, vibrant use of adjectives, \nand structure that has already proven successful in your \nmarketing content.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_29",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "and structure that has already proven successful in your \nmarketing content.\n \u00bb Few-shot prompting takes it a step further by providing multiple \nexamples to more clearly teach the LLM the desired output \nstructure and language.\nPrompt engineering involves carefully crafting prompts to coax \nthe language model toward a desired outcome based on explicit \ninstructions and context. A carefully constructed prompt will help \nensure clarity, provide insight to influence model performance.\nLearning from context\nAlthough prompt engineering involves carefully designing and \nrefining instructions to help the LLM formulate a useful and  \naccurate completion, in-context learning (ICL) involves training a \nlanguage model with a data set that aligns with the desired context",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_29",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "language model with a data set that aligns with the desired context \nor domain. By exposing the model to contextual information, such \nas relevant documents or proprietary content, it becomes better \nequipped to generate accurate and coherent responses within \nthat context. For example, you could use ICL to train a customer  \nsupport chatbot on your company-specific documents, emails, and \ntechnical support tickets, helping it to respond more effectively to \nquestions about your organization\u2019s products and services.\nICL allows users to give context to the model using private data, \nenhancing its performance in specific domains. This is a simple \nway to help language models understand and generate text that\u2019s \ncontextually relevant to specific tasks, scenarios, and domains.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_29",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "contextually relevant to specific tasks, scenarios, and domains.\nAugmenting text retrieval\nRAG leverages a pretrained language model in conjunction with  \na large-scale vector search system to enhance the content-  \ngeneration process. It addresses some of the common problems",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_29",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "24      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nassociated with gen AI systems, such as limited knowledge of \narcane subjects, a failure to recognize facts and events that took \nplace after the model was trained, and lack of insight into any \nproprietary data.\nRAG accesses up-to-date information by retrieving relevant \ndata stored as vectors  (numerical representation of the data for \nfast retrieval), such as current news, to bring the model up to \ndate with recent events or domain-specific content from a par-\nticular industry or market. You can augment LLMs by allowing \nthem to access your data and documents, including private wikis",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_30",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "them to access your data and documents, including private wikis \nand knowledge bases. By retrieving this additional information, \nmodels can produce more accurate and contextually appropriate \nresponses. For example, you might use RAG to generate purchase \nrecommendations in a chat by allowing it to retrieve informa -\ntion on a customer\u2019s stated preferences and purchase history, \nenabling more personalized interactions.\nFine-tuning language models\nFine-tuning enables you to adapt an LLM to particular tasks by \nupdating the parameters of a pretrained model. These techniques \nempower users to shape LLMs according to their preferences and \nachieve better results in various applications.\nADJUSTING MODEL PARAMETERS\nFine-tuning allows you to adjust a model\u2019s parameters to achieve",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_30",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "ADJUSTING MODEL PARAMETERS\nFine-tuning allows you to adjust a model\u2019s parameters to achieve  \nbetter results. There are three basic steps to the process:\n1. Select the pretrained LLM that is most germane to the use case.\n2. Identify data sets related to the use case to refine the LLM.\nTeach the model how to respond based on a training data set  \nthat includes examples of prompts as well as the data the model \nneeds to answer or complete the prompt. In this process, the \nmodel weights are adjusted to get better at generating responses \nto the new set of prompts.\n3. Evaluate the fine-tuned LLM to verify results meet requirements.\nYou can adjust the learning rate, batch size, and other factors to \nimprove outcomes.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_30",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 3  LLM App Project Lifecycle      25\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nBy applying fine-tuning techniques, you can adapt a model to \nspecific needs and use cases. You can also rapidly build custom-\nized solutions by building on top of an existing foundation model \nrather than training a new model from scratch.\nReinforcement learning\nReinforcement learning from human feedback  (RLHF) is a form of \nfine-tuning that you can use to guide the learning process and \nfurther enhance the performance and behavior of your model, \nwith the goal of improving its responses over time. Many creators \nof large language systems use this technique to teach their chat-",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_31",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "of large language systems use this technique to teach their chat-\nbots to carry on realistic conversations\u00a0\u2014 such as to engage in \ndialogue rather than just provide one-off responses.\nYou can use RLHF to train your models to better understand \nhuman prompts and generate more humanlike responses, as well \nas to ensure that the model aligns with your preferences. RLHF \ncan also help you minimize the risk of harmful content by train -\ning the model to avoid toxic language or to avoid sensitive topics.\nTuning models to learn individual preferences opens the door to \nexciting new applications of gen AI technology. For example, in \nthe business world, you can create personalized assistants. In the \nfield of education, you can develop tailored learning plans that",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_31",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "field of education, you can develop tailored learning plans that \nmeet the unique needs of each student. In healthcare, you can \nleverage patient data and clinical expertise to create personalized \ntreatment plans, resulting in more effective and precise medical \ninterventions. In the entertainment industry, you can use RLHF \nto generate personalized recommendations for users, enhancing \ntheir viewing or listening experiences.\nRLHF can improve a model\u2019s performance over the original, pre-\ntrained version. It can also help you to avoid potentially harmful \nor inaccurate language that results when models are trained on \ndata from the Internet, where such language is common.\nUsing a vector database\nLLMs use vector embeddings to represent textual elements, with",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_31",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Using a vector database\nLLMs use vector embeddings to represent textual elements, with \neach word mapped to a token ID and transformed into a vector \n(for more on this, see Chapter\u00a02). These mathematical represen -\ntations enable efficient storage and searching of data, as well as \nidentification of semantically related text.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_31",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "26      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nA vector database is important because it enables efficient storage, \nretrieval, and manipulation of vector embeddings. By assigning a \nunique key to each vector, the database allows for quick and direct \naccess to the content at a discrete level. This capability is par-\nticularly valuable in applications like RAG, where rapid retrieval \nand matching of vectors allow the model to discover semantically \nrelated text, such as a product that\u2019s similar to one that a cus -\ntomer searched for previously.\nImplementing LLM Applications\nSelecting and adapting an LLM is an iterative process. Once you",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_32",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Implementing LLM Applications\nSelecting and adapting an LLM is an iterative process. Once you \nhave a model that\u2019s well aligned with your needs, you can deploy \nit to continuously run inference as a stand-alone service or as \npart of an application user interface.\nDeploying apps into containers\nMany DevOps teams use containerization software, such as Docker, \nto package their LLM applications. Containers can be consistently \ndeployed across many types of computing environments. This \nis useful for sophisticated AI models, which may have special  \nprocessing needs and require access to massive amounts of pro-\nprietary data.\nUnfortunately, the complexity of creating, developing, and run -\nning AI workloads at scale forces developers and data scientists",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_32",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "ning AI workloads at scale forces developers and data scientists \nto spend their time managing containers rather than developing \nnew applications.\nOne solution is to standardize on a cloud data platform that \nenables you to deploy, manage, and scale LLMs and other con-\ntainerized workloads via an infrastructure that is fully managed \nby the data platform itself. This allows you to run LLM jobs within \na governed environment, and to take advantage of configurable \nhardware options, such as graphics processing units (GPUs).\nA comprehensive cloud data platform includes a scalable pool of \ncompute resources, which insulates your team from the complex-\nities of managing and maintaining infrastructure. Moving gov -\nerned data outside of the data platform (thereby exposing it to",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_32",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "erned data outside of the data platform (thereby exposing it to \nadditional security risks) isn\u2019t necessary to use it within your AI \nmodels and applications.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_32",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "CHAPTER 3  LLM App Project Lifecycle      27\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nSome data platforms also allow you to use data, applications, and \nmodels from third-party providers, instantly available as native \napps within an associated marketplace.\nDevelopers and data scientists in large enterprises and other  \norganizations must deal with massive amounts of proprietary \ndata to run, tune, and deploy their models. Unfortunately, many \nof these scarce technology professionals must spend their time \nmanaging compute and storage resources for these  applications \nrather than focusing on the business problems they\u2019re  trying to \nsolve. Select a cloud data platform that offers serverless access to",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_33",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "solve. Select a cloud data platform that offers serverless access to \nLLMs as well as container services for running gen AI apps in a fully \ngoverned, easy-to-provision, managed services environment.\nAllocating specialized hardware\nHaving the right hardware is essential for training, tuning, and \nrunning LLM models. GPUs can accelerate training and inference \nprocesses. Ideally, your cloud data platform should automatically \nprovision these hardware resources in the background.\nTo maximize deployment flexibility, select a cloud data platform \nthat is cloud agnostic,  which means it can work with the major \ncloud service providers (CSP). That way, you can abstract where \nthe model runs and easily move it to the cloud that makes the",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_33",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "the model runs and easily move it to the cloud that makes the \nmost sense, whether it\u2019s because of where the data is or where the \nend-user application is hosted.\nIntegrating apps and data\nAs discussed throughout this chapter, LLMs and other AI  models \noften leverage unique, individualized data sets to improve the \n relevance and accuracy of their outputs. Capturing, process -\ning, storing, and synchronizing data among projects can be very \n complex, sometimes exposing your organization to data privacy \nviolations and compliance risks.\nBy leveraging a centralized cloud data platform that pro-\nvides  near-unlimited data storage and compute power, gen AI \n stakeholders can acquire the data they need to use, customize, and \ncontextualize new applications quickly, either using open-source",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_33",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "contextualize new applications quickly, either using open-source \nmodels as-is or models fine-tuned to specific data sets. The plat-\nform should empower any user to incorporate LLMs into analyti-\ncal processes quickly, and developers can create AI-powered apps \nin minutes, whether it uses an LLM or a more traditional machine",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_33",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "28      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nlearning (ML) model. And in the same platform, teams can col-\nlaborate in executing all related tasks such as data preparation, \ndata engineering, analytics, and other important workloads (see \nFigure\u00a03-2).\nLeading cloud data platform vendors offer tools to build gen AI \napplications such as chatbots and search engines using the neces-\nsary building blocks for LLM app development that come natively \nintegrated. They may also offer tools for ingesting and querying \ndocuments, such as loading legal contracts, invoices, rental agree-\nments, and many other types of content, then use the reasoning",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_34",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "ments, and many other types of content, then use the reasoning \nengine within the LLM to instantly extract meaning from them.\nIf the data platform includes a marketplace, you can avail yourself \nof gen AI apps from other data platform users, as well as package \nyour own AI models and distribute them as applications to other \nmarketplace participants.\nFIGURE\u00a03-2: A cloud data platform that supports many data types and spans \npublic clouds can unite the work of data analysts, data scientists, and data \nengineers.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_34",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "CHAPTER 4  Bringing LLM Apps into Production      29\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nChapter\u00a04\nIN THIS CHAPTER\n \u00bb Understanding semantic caching, feature \ninjection, and context retrieval\n \u00bb Exploring processing for inference\n \u00bb Developing interactive applications with \nuser-friendly interfaces\n \u00bb Orchestrating AI agents\n \u00bb Splitting and chaining prompts\nBringing LLM Apps \ninto\u00a0Production\nA\ns you progress beyond using a model out of the box with -\nout any customization and begin incorporating custom \ndata into your language models, you will most likely need \nto assess your data processing needs. This chapter discusses the \nchallenges of bringing large language model (LLM) apps into pro-",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_35",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "challenges of bringing large language model (LLM) apps into pro-\nduction, including building data pipelines, improving model \naccuracy, calculating costs, orchestrating external data sources, \ndeveloping user interfaces, and calling external functions.\nAdapting Data Pipelines\nData pipelines play a critical role in gen AI initiatives by facilitat-\ning the smooth flow of data, including efficient data ingestion, \npreprocessing, training, and inference. By establishing robust  \ndata pipelines, data engineers can ensure a continuous and  \nreliable supply of high-quality data, which is vital for training \naccurate and effective models.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_35",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "30      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nBy integrating your gen AI initiatives into your existing data \ninfrastructure, you can often avoid building data pipelines and \nother foundational services (for more on this, see Chapter\u00a0 1).  \nA cloud data platform provides scalable GPU-infrastructure and \nvector search functionality as well as flexibility to reuse and  \nadapt existing data pipelines developed for other downstream \nprocesses\u00a0\u2014 such as business intelligence, analytics, and machine \nlearning (ML)\u00a0\u2014 without causing bottlenecks.\nIn addition to the traditional data pipelines where data is cleaned,",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_36",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "In addition to the traditional data pipelines where data is cleaned, \ncurated, and governed, you need to pay attention to semantic  \ncaching, feature injection, and context retrieval. These are  \nintegral components of data pipelines that feed the LLMs because \nthey enhance the performance, personalization, and accuracy of  \nAI models.\nSemantic caching\nSemantic caching involves temporarily storing semantic represen-\ntations or embeddings of data. By employing semantic caching \ntechniques, AI systems can provide more precise, meaningful, \nand efficient responses. For example, let\u2019s say that you have a \nchatbot that needs to generate responses to user queries. Before \nthe bot goes live, it can precompute the semantic representations",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_36",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "the bot goes live, it can precompute the semantic representations \nof a large set of possible user queries and store them in a cache. \nThese representations capture the underlying meaning or intent \nof the queries. When a user interacts with the chatbot, instead of \nprocessing the query from scratch, the system can retrieve the \nprecomputed semantic representation from the cache. This sig -\nnificantly reduces the computational overhead and speeds up the \nresponse generation process.\nSemantic caching allows AI systems to generate responses more \nquickly and efficiently by having relevant data easily accessible \nfor computations. It can be particularly useful in scenarios where \nreal-time or near real-time responses are required, such as in",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_36",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "real-time or near real-time responses are required, such as in \nchatbots, virtual assistants, or recommendation systems.\nFeature injection\nFeature injection refers to the process of incorporating additional \ninformation or features into the AI model. Although feature engi -\nneering is a general practice in data science, feature injection is \na specialized technique used to enhance the performance and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_36",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "CHAPTER 4  Bringing LLM Apps into Production      31\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nreasoning capabilities of AI models. Features can improve the \nmodel\u2019s ability to handle specific tasks. By injecting relevant fea-\ntures, the model can capture and leverage important patterns in \nthe data, leading to improved performance.\nBy introducing features that are relevant to a specific prompt, \nLLMs can gain a deeper understanding of the data and can better \ncapture complex patterns and relationships.\nContext retrieval\nContext retrieval involves retrieving relevant contextual informa -\ntion to enhance the understanding of AI models. By considering",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_37",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "tion to enhance the understanding of AI models. By considering \nthe surrounding context, such as previous interactions or user \nhistory, AI systems can generate more accurate and personal-\nized completions. For example, a customer support system might \nuse context retrieval to provide personal assistance. If a customer \nhas previously interacted with the support system and mentioned \na specific issue or order number, the system can retrieve that  \ncontext to better understand the customer\u2019s current inquiry or \nconcern. Retrieval-augmented generation (RAG), a type of in- \ncontext learning (ICL), is also important in this context. See \nChapter\u00a03 for additional information.\nProcessing for Inference\nProcessing for inference  involves running the necessary computa-",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_37",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "Processing for Inference\nProcessing for inference  involves running the necessary computa-\ntions to apply a trained model to new data and generate predic -\ntions or outcomes. For example, if you\u2019re creating a generative AI \n(gen AI) app to quickly analyze hundreds of contracts to identify \nareas of business risk, you need to help the model learn what types \nof language or clauses to spend more time on. The app that sits \non top of the model becomes the interface for the legal and risk \nteams to either adjust the contracts or find ways to mitigate risks \non existing agreements. There are three primary considerations:\n \u00bb Infrastructure: This involves selecting suitable hardware \ninfrastructure. GPUs are specifically designed to handle",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_37",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "infrastructure. GPUs are specifically designed to handle \nparallel computations, making them well suited for running \nLLMs efficiently. The choice of GPU depends on factors such \nas the model\u2019s size, memory requirements, and latency \nconstraints.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_37",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "32      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\n \u00bb Access: The model can be hosted either on private servers \nor cloud platforms. Hosting in the cloud offers benefits such \nas scalability, easy deployment, and maintenance. However, \nthis choice raises data security and governance concerns, \nemphasizing the need for proper measures to protect \nsensitive data and ensure compliance with relevant regula-\ntions. A cloud data platform can alleviate these concerns.\n \u00bb Consumption: LLMs can be accessed via APIs and software \nfunctions, enabling programmatic integration. They can also \nbe accessed through application-specific interfaces, making",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_38",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "be accessed through application-specific interfaces, making \nthem accessible to a broader range of users. The choice of \naccess method depends on the specific use case, target \naudience, and the level of flexibility desired.\nReducing latency\nLatency refers to the time it takes the LLM to make predictions \nonce it receives input data. This is an important consideration \nfor gen AI projects that require real-time responses. For exam -\nple, if you\u2019re creating a customer support chatbot, low latency \nis crucial to provide quick and efficient responses to customer  \ninquiries, enabling real-time interactions. As described through-\nout this book, keeping the processing close to the data is a key strat-\negy for reducing the latency of gen AI applications in a production",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_38",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "egy for reducing the latency of gen AI applications in a production \nenvironment. It also allows you to reduce the amount of data that \nneeds to be transferred between the compute resources and the \nstorage layer, improving performance while reducing costs and \ndata security risks.\nVarious factors can impact AI performance, including the com-\nplexity or size of your model, the amount of input data, and the \nnetwork latency between the processing and data storage lay-\ners. To reduce latency and improve overall performance, consider \nusing smaller models, optimizing models for inference, using \nefficient hardware and software, and keeping the processing close \nto the data. This strategy can also improve the scalability of gen \nAI applications. By distributing the processing across multiple",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_38",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "AI applications. By distributing the processing across multiple \ncompute resources, you can scale these systems to handle larger \nvolumes of data and more complex workloads, all while reducing \nthe latency of predictions.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_38",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "CHAPTER 4  Bringing LLM Apps into Production      33\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nCalculating costs\nThe cost of using a cloud data platform is typically based on three \ninterrelated metrics: data transfer volume, data storage con-\nsumption, and compute resources. The best data platforms sepa-\nrate these three services to give administrators complete control \nover usage. Your data platform should make it easy to track the \nconsumption of all cloud services. This includes built-in resource \nmonitoring and management features that provide transparency \ninto usage and billing, ideally with granular chargeback capabili-\nties to tie usage to individual budgets, departments, and work -",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_39",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "ties to tie usage to individual budgets, departments, and work -\ngroups. Data administrators can set guardrails to make sure no \nindividual or workgroup spends more than expected. For exam -\nple, they can set time-out periods for each type of workload, along \nwith auto suspend and auto resume features to automatically start \nand stop resource accounting when the platform isn\u2019t processing \ndata. They may also set limits at a granular level, such as deter -\nmining how long a training model can run before it is terminated.\nMake sure that the pricing model for your cloud data plat-\nform matches the value you obtain from it. Paying for a set \namount of storage and computing power, commonly known as \n subscription-based pricing, can cause you to incur significant costs",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_39",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "subscription-based pricing, can cause you to incur significant costs \nand requires regular management. To ensure that you don\u2019t pay \nfor more capacity than you need, your cloud data platform should \noffer usage-based pricing with billing in per-second increments.\nCreating User Interfaces\nThe front-end user interface (UI) of a gen AI application provides \nusers with a way to input data, receive output from the processing \nengine, and control the application\u2019s behavior. Most UIs are based \non some form of the following:\n \u00bb Web apps are the most common type of front end for gen AI \napps because they\u2019re relatively easy to develop and can be \naccessed from any device with a web browser.\n \u00bb Mobile apps tailored to specific devices, such as tablets and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_39",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "\u00bb Mobile apps tailored to specific devices, such as tablets and \nsmartphones, offer a more immersive and engaging \nexperience for users. They can take advantage of the unique \naspects of each platform and can cache data for offline use.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_39",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "34      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\n \u00bb Chat interfaces are used in gen AI apps when the app \nneeds to converse with the user, such as to answer  \nquestions or assist with certain tasks.\n \u00bb Desktop apps are useful for gen AI apps that require a lot of \nprocessing power, or that need to access local resources.\n \u00bb Command-line interfaces (CLIs) are sometimes used for gen \nAI apps that are accessed by developers and data scientists, \nsuch as to empower software engineers to generate code.\nSimplifying Development  \nand Deployment\nA complete data platform includes the necessary primitives for",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_40",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "and Deployment\nA complete data platform includes the necessary primitives for \nbuilding and deploying gen AI applications without requiring \ndevelopers to move data or application code to an external system. \nThis accelerates the process of building web apps, chatbots, and \nother front-end user interfaces. Look for a platform that offers \na user-friendly environment for working with Python and other \npopular coding languages, characterized by the following essen -\ntial capabilities:\n \u00bb A high-performance environment for interacting with LLMs \nand processing large volumes of data\n \u00bb Innate scalability to handle an escalating number of users \nand manage lots of concurrent requests\n \u00bb Comprehensive security so that gen AI apps can safely",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_40",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "and manage lots of concurrent requests\n \u00bb Comprehensive security so that gen AI apps can safely \nprocess sensitive data according to enterprise policies\n \u00bb Ease of use, making gen AI projects accessible to users with \nlimited programming experience by providing pre-built UIs \nand ways to interact using natural language\nOrchestrating AI Agents\nLLMs have brought a wide variety of tools, techniques, and \nframeworks to the task of building AI-powered applications. New \ndeveloper tools are emerging under the umbrella of LLMOps, \nshort for LLM operations.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_40",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 4  Bringing LLM Apps into Production      35\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nAmong LLMOps tools, orchestration frameworks can be used to \ncoordinate AI agents and other components to accomplish specific \ngoals. AI agents are simply individual instances of language mod-\nels that are responsible for performing specific tasks, such as text \nsummarization, language translation, and sentiment analysis. \nThey\u2019re coordinated and managed within an orchestration sys-\ntem to complete complex language processing tasks. This process, \nknown as orchestration, involves organizing agents, coordinating \nthe input/output of various models, and managing the flow of data",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_41",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "the input/output of various models, and managing the flow of data \nand information among agents. For example, in an e-commerce  \nscenario, a chatbot interacting with a customer might use  \nAI agents to retrieve order details from a database, generate a \nrequest for a return label using a shipping partner\u2019s API, confirm \nthe customer\u2019s information, and initiate the return process by \nsending a shipping label.\nConnecting LLMs to external applications enables them to \nengage with the wider world, expanding their usefulness beyond \n language-related tasks. As demonstrated by the e-commerce \nexample, LLMs can initiate actions by interacting with APIs. \nLLMs can also establish connections with other programming \nresources, such as a Python interpreter, which allows them to",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_41",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "resources, such as a Python interpreter, which allows them to \nincorporate precise calculations into their outputs. These integra-\ntions broaden the capabilities of LLMs and enable them to interact \nwith various external applications, enhancing their overall func -\ntionality and versatility (see Figure\u00a04-1).\nFIGURE\u00a04-1: An orchestration library is used to ensure a seamless flow of data \nbetween the user application and the external assets.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_41",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "36      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nAll gen AI applications must perform the basic function of pass-\ning input to the LLM and returning the results or completions. \nThis is often done through an orchestration library that simplifies \naccess to external data sources and connects to APIs within other \napplications.\nUsing retrieval-augmented generation (RAG) to connect LLMs \nto external data sources is an important tactic when you need \nto update the model with current information, such as break-\ning news or new research (see Chapter\u00a03 for more on this topic). \n However, many text sources are too long to fit into the limited",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_42",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "However, many text sources are too long to fit into the limited \ncontext window of the model, which typically holds only a few \nthousand tokens. Instead, the external data sources are divided \ninto chunks (split), each of which will fit in the context window \n(and chained together). Packages such as LangChain can handle \nthis work for you.\nORCHESTRATING AI PROJECTS\nOrchestration libraries simplify access to external data sources and \nconnect to APIs within other applications in a number of ways, \nincluding:\n\u2022 Chaining together different prompts: Allows developers to com-\nbine prompts to create more complex applications. This is useful \nfor tasks such as generating creative text formats, answering ques-\ntions in a comprehensive way, and providing assistance with tasks.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_42",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "tions in a comprehensive way, and providing assistance with tasks.\n\u2022 Connecting to data sources: Connect to external data sources, \nsuch as databases, APIs, and files. This allows developers to build \napplications that can access and process information from myriad \nenterprise sources.\n\u2022 Scaling to multiple LLMs: Use to scale AI applications that have \ninteraction among multiple LLMs. This can become harder to \nmaintain but can also allow developers to use specialized LLMs  \nfor different tasks.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_42",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 5  Reviewing Security and Ethical Considerations      37\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nChapter\u00a05\nIN THIS CHAPTER\n \u00bb Mitigating data privacy concerns\n \u00bb Alleviating biases and prejudices\n \u00bb Fostering ethical training and \ndeployment practices\n \u00bb Taking responsibility for data privacy and \nsecurity\n \u00bb Respecting copyright laws\nReviewing Security and \nEthical Considerations\nA\nlthough large language models (LLMs) can process text \nand create content on just about any subject, it is crucial \nfor businesses to consider issues of intellectual property, \ndata privacy, and potential content misuse. Generative AI (gen AI) \napplications are trained on massive data sets of text and code,",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_43",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "applications are trained on massive data sets of text and code, \nwhich may include sensitive or legally protected information. If \nthis data isn\u2019t properly protected, it could be leaked to third par-\nties or accessed by unauthorized individuals.\nThis chapter discusses the ethical implications of using LLMs and \nalso addresses a few practical concerns.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_43",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "38      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nReiterating the Importance  \nof Security and Governance\nGen AI is a powerful technology with the potential to revolution-\nize many enterprise business functions. Enterprises must pay \nattention to the data privacy risks associated with this technology \nand take steps to mitigate these risks: \n1. Choose software vendors that have a proven record \nalong with third-party certifications of data privacy  \nand security.\nCarefully review the vendor\u2019s terms of service and privacy \npolicy to understand how your data will be used.\n2. Appoint a data steward\u00a0\u2014 ideally a business owner who",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_44",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "2. Appoint a data steward\u00a0\u2014 ideally a business owner who \nunderstands the data\u00a0\u2014 to take charge of each data set.\nEstablish consistent procedures for data security, data \nprivacy, and data governance to satisfy industry regulations \nand avoid compliance violations.\n3. During development and production, continually \nmonitor and audit gen AI apps to identify and mitigate \nany potential risks.\nThis may include monitoring the outputs of these applica-\ntions for sensitive information and regularly reviewing the \ntraining data to ensure that it is relevant and up to date.\nTake advantage of a cloud data platform that allows you to break \ndown silos and extend consistent governance and security to dis-\nparate sources\u00a0\u2014 internally from your enterprise applications and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_44",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "parate sources\u00a0\u2014 internally from your enterprise applications and \nexternally from business partners and third-party data providers. \nThe platform should support popular programming languages, \nscalable GPU infrastructure, and provide flexibility to use open-\nsource tools to maximize options for your team.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_44",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 5  Reviewing Security and Ethical Considerations      39\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nCentralizing Data Governance\nOne of the primary reasons to use a cloud data platform for your \ngen AI initiatives is because it allows you to centralize data privacy \nand protect sensitive customer information. Enterprises should \nimplement appropriate data privacy and security measures, which \nmay include measures such as data encryption, access control, \nintrusion detection, and comprehensive data governance.\nData governance entails knowing precisely what data you have, \nwhere it resides, who is authorized to access it, and how each type",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_45",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "where it resides, who is authorized to access it, and how each type \nof user is permitted to use it. Instituting comprehensive controls \nreduces the risk of compliance violations. All data governance \nstrategies should seek to protect sensitive data as it is accessed, \nshared, and exchanged across the organization and beyond. All \nof this should apply not only when data is stored but also when \nprocessed by a model or surfaced in an application.\nMITIGATING DATA PRIVACY \nCONCERNS\nPay attention to these data privacy concerns when developing, \ndeploying, and using gen AI applications:\n\u2022 Unintentional disclosure of sensitive information: Gen AI apps \ncan sometimes generate outputs that contain sensitive customer \ninformation, even if the prompts or inputs don\u2019t explicitly mention",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_45",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "information, even if the prompts or inputs don\u2019t explicitly mention \nthis information. For example, a gen AI application used to gener-\nate marketing copy could generate text that contains customer \nnames and addresses, even if the prompt only specifies the  \nproduct or service being advertised.\n\u2022 Misuse of generated data: Gen AI applications can be used to \ngenerate synthetic data that\u2019s indistinguishable from real data. \nThis synthetic data could then be used for malicious purposes, \nsuch as identity theft or fraud. It could also be used to create  \ndeep fakes or other forms of disinformation.\n\u2022 Compliance violations: Data privacy regulations such as the Global \nData Protection Act (GDPR) and California Consumer Protection Act",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_45",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Data Protection Act (GDPR) and California Consumer Protection Act \n(CCPA) impose strict requirements on how businesses can collect, \nuse, and store personal data. These same regulations apply to data \nused in the training of gen AI models.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_45",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "40      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nAlleviating Biases\nOne important ethical consideration involves being alert to the \ninherent model biases that may be present in the training data, \nwhich may cause LLMs to generate outputs that are discrimina -\ntory or unfair. For example, if a historical data set contains biases \nagainst certain demographics, such as race or gender, an LLM \ntrained on this data may inadvertently perpetuate those biases. If \na marketing team asks an LLM to generate content for a customer \nof a specific gender, it\u2019s important to keep in mind what kind of",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_46",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "of a specific gender, it\u2019s important to keep in mind what kind of \nbias the model may have as it creates that content, even if there is \nno explicit intent to discriminate.\nAI enthusiasts commonly cite the three Hs when discussing \nthe responsible deployment of AI: helpfulness, honesty, and \nharmlessness.\nAcknowledging Open-Source Risks\nOpen source LLMs such as Llama 2, BERT, and Falcon offer tre -\nmendous capabilities at little or no cost to users, but they can \ncome with risks that are part of the model\u2019s training data set, \nwhich is often not publicly accessible.\nOther open-source tools that can be used to build LLM apps, \nsuch as an orchestration framework, a vector database, and \nso on, may be vulnerable to risks if not regularly updated and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_46",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "so on, may be vulnerable to risks if not regularly updated and \npatched. Without proper security measures and consistent main-\ntenance practices, malicious entities can sometimes exploit these \nvulnerabilities.\nIn addition to these security concerns, open-source offerings \nmay exhibit inconsistent quality due to the basic nature of their \ndevelopment: They\u2019re the byproduct of many community contri-\nbutions. Consider the cost, performance, and compliance risks of \nusing any LLM.\u00a0The choice between open source and proprietary \nLLMs depends on your organization\u2019s specific needs, technical \nresources, and risk tolerance (see Chapter\u00a02 for more).",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_46",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 5  Reviewing Security and Ethical Considerations      41\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nContending with Hallucinations\nAs demonstrated throughout this book, LLMs have an uncanny \ncapability to engage in dialogue, answer questions, provide expla-\nnations, generate creative text, and assist with various language-\nrelated tasks. However, it\u2019s important to note that while LLMs \noften exhibit impressive capabilities, they may occasionally pro-\nduce incorrect or nonsensical responses. They are also known \nto hallucinate, meaning that they may generate content that is  \nfictional or erroneous.\nMitigating hallucinations involves implementing the strategies",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_47",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "fictional or erroneous.\nMitigating hallucinations involves implementing the strategies \ndiscussed in Chapters\u00a03 and\u00a04: fine-tuning the model using relia-\nble and accurate data, incorporating human review and oversight, \nand continuously monitoring and refining gen AI systems to min-\nimize the occurrence of false or misleading information.\nENFORCING ETHICAL PRACTICES\nWhen developing and training gen AI models, follow these three \nprinciples:\n\u2022 Bias mitigation: LLMs can reflect and reinforce societal biases \npresent in the data on which they\u2019re trained. Ethical considerations \ninvolve identifying and mitigating biases to ensure fair and  \nequitable outcomes. Developers and users should actively work  \nto minimize biased results and ensure models that are inclusive \nand representative.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_47",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "to minimize biased results and ensure models that are inclusive \nand representative.\n\u2022 Responsible use: Establish guidelines and guardrails to prevent \nmisuse or harmful applications of LLMs. This includes setting \nboundaries and restrictions on the use of LLMs to avoid the \nspread of misinformation, hate speech, or other forms of harmful \ncontent.\n\u2022 Societal impact: LLMs have the potential to influence public \n discourse and shape attitudes. Ethical considerations involve \nunderstanding the broader societal impact of using LLMs and \n considering the potential consequences for various stakeholders.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_47",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "42      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nObserving Copyright Laws\nIn September 2023, John Grisham, Jodi Picoult, Jonathan Franzen, \nGeorge R.R.\u00a0Martin, and 13 other authors joined the Authors Guild \nin filing a class action suit against OpenAI, alleging that the com-\npany\u2019s GPT technology is illegally using the writers\u2019 copyrighted \nworks. The complaint called the usage of these works by LLMs a \n\u201cflagrant and harmful\u201d copyright infringement, claiming that their \nbooks were misused in the training of its artificial intelligences.\nThis suit may have far-reaching consequences for OpenAI and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_48",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "This suit may have far-reaching consequences for OpenAI and \nother LLM vendors, depending on how the litigation progresses. \nComedians, writers, musicians, movie studios, and many other \ncontent creators have filed similar lawsuits alleging that their \noriginal works are copyright-protected and may not be freely \nused to train LLMs without permission. \u201cAuthors should have \nthe right to decide when their works are used to train AI,\u201d stated  \nJonathan Franzen in a September 20, 2023, press release issued by \nthe Authors Guild. \u201cIf they choose to opt in, they should be appro-\npriately compensated.\u201d\nThese types of cases highlight the importance of respecting copy-\nrighted content that may have been used to train foundation \nmodels. Legal and regulatory frameworks, including litigation",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_48",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "models. Legal and regulatory frameworks, including litigation \noutcomes, will help the AI industry establish clear guidelines and \nreinforce important ethical norms to avoid further legal actions \nin the future. In the meantime, enterprises should be aware of the \nimplications of the applications they create and the content they \nuse in all gen AI endeavors.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_48",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "CHAPTER 6  Five Steps to Generative AI      43\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\nChapter\u00a06\nFive Steps to \nGenerative\u00a0AI\nF\n \nollowing the steps in this chapter will help ensure you reap \npositive new levels of productivity.\nIdentify Business Problems\nRank potential projects based on expected business impact, data \nreadiness, and level of executive sponsorship. Research and  \nevaluate pretrained language models, minimize complexity of \ninfrastructure maintenance, and consider solutions that empower \nlarge numbers of users to derive value from data.\nSelect a Data Platform\nHow do you make sure your data is secured and governed from \nthe time it\u2019s used to fine-tune until it is presented through the",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_49",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "the time it\u2019s used to fine-tune until it is presented through the \napp UI? How easy is it to allocate and scale GPUs? Standardize on \na cloud data platform that offers these benefits: \n \u00bb Scalable, pay-as-you-go infrastructure to handle the storage \nand computational requirements\n \u00bb Near-zero maintenance, there\u2019s no need to perform platform \nupdates or other administrative tasks",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_49",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "44      Generative AI and LLMs For Dummies, Snowflake Special Edition\nThese materials are \u00a9 2024 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited.\n \u00bb Access large language model (LLM) app stack primitives that \nhelp teams build custom solutions without integrations of \nmultiple platforms\n \u00bb Capability for those without AI expertise to bring gen AI to \ntheir daily workflows with UI-driven experiences\n \u00bb Access to structured/semistructured/unstructured data, both \ninternal and from third parties, via a marketplace\n \u00bb Native support for popular AI frameworks, tools, and \nprogramming languages\nBuild a Data Foundation\nConsolidate your data to remove silos, create data pipelines, and",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_50",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "Build a Data Foundation\nConsolidate your data to remove silos, create data pipelines, and \nmake sure that all data is consistently cleansed. Establish consis-\ntent procedures for data privacy and data governance to satisfy \nindustry regulations. Extend those procedures to data and apps \nfrom third-party providers. Lastly, minimize data exfiltration into \ncompute environments that don\u2019t apply consistent security and \ngovernance policies of the data.\nCreate a Culture of Collaboration\nHow do you enable data scientists, analysts, developers, and busi-\nness users to access the same data sets simultaneously, without \nhaving to copy or move the data? Make sure your data platform \nempowers all pertinent stakeholders to easily collaborate as they",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_50",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "empowers all pertinent stakeholders to easily collaborate as they \nshare data, models, and applications. Educate business users on \nprompt engineering; and other ways to leverage models without \ncustomizations that require deeper AI expertise.\nMeasure, Learn, Celebrate\nHow do you gauge the success of your gen AI initiatives? Start \nsmall, experiment, identify metrics to demonstrate busi -\nness results, and validate progress with executive sponsors and \nstakeholders. Share best practices and encourage reusability. \nStrive to democratize gen AI capabilities throughout your entire \norganization.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_50",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "WILEY END USER LICENSE AGREEMENT\nGo to www.wiley.com/go/eula to access Wiley\u2019s ebook EULA.",
+    "metadata": {
+      "source": "src/data/raw/Generative-AI-and-LLMs-for-Dummies.pdf_page_52",
+      "chunk_index": 0
+    }
+  }
+]
