@@ -1,11 +1,14 @@
 import os
 import openai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def get_openai_client():
     """
-    Initialize and return a OpenAI client using the API_KEY environment variable.
+    Initialize and return a OpenAI client using API_KEY from .env
     """
-    api_key = "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"
+    api_key = os.getenv("API_KEY")
     if not api_key:
         raise ValueError("API_KEY environment variable not set")
 
