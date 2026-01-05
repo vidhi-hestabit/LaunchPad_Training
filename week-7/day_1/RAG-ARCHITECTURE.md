@@ -12,20 +12,22 @@ RAG (Retrieval Augumented Generator) :
 
 
 User query -> Query Encoder -> Retriever (Vectordb) -> Relevant context -> Prompt builder -> LLM Generator -> Result
-
+---
+```
 Have created folders 
 - day_1
     -- src
-            -- data/chunks -- chunks.json generated
-            -- data/raw/__raw_data(pdf)
-            -- utils/document_loader.py
-            -- pipelines/ingest.py
-            -- embeddings/embedder.py
-            -- vectorstore/index_faiss.py -- index.faiss and metadata.json generated
-            -- retriever/query_engine.py
+            --- data/chunks -- chunks.json generated
+            --- data/raw/__raw_data(pdf)
+            --- utils/document_loader.py
+            --- pipelines/ingest.py
+            --- embeddings/embedder.py
+            --- vectorstore/index_faiss.py -- index.faiss and metadata.json generated
+            --- retriever/query_engine.py
     -- requirements.txt
     -- .gitignore
-
+---
+```
 -> Model used to generate Embeddings :
 sentence-transformers/sentence-t5-base
 
