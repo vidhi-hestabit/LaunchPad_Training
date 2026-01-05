@@ -1,0 +1,12 @@
+torch
+torchvision
+transformers
+pillow
+opencv-python
+pytesseract
+pdf2image
+numpy
+tqdm
+openai
+dotenv
+faiss-cpu
