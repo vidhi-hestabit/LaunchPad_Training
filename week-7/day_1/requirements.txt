@@ -1,0 +1,11 @@
+sentence-transformers 
+faiss-cpu 
+langchain 
+pypdf 
+python-docx 
+pandas 
+tqdm
+langchain-text-splitters
+langchain_community
+dotenv
+openai
