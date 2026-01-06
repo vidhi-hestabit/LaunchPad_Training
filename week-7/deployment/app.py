@@ -1,0 +1,133 @@
+from fastapi import FastAPI, UploadFile, File, Query, HTTPException
+from PIL import Image
+import io
+import os
+import sys
+
+sys.path.append(os.path.abspath("."))
+
+from day_5.src.memory.memory_store import MemoryStore
+from day_5.src.evaluation.rag_eval import faithfulness_score
+from day_2.src.retriever.query_engine import QueryEngine
+from day_3.src.retriever.image_search import image_query_llm
+from day_4.src.pipelines.sql_pipeline import run_sql_pipeline
+from day_5.src.generator.llm_client import get_openai_client
+
+app = FastAPI(title="GenAI System")
+
+memory = MemoryStore()
+llm = get_openai_client()
+text_engine = QueryEngine()
+
+# TEXT RAG
+@app.post("/ask")
+def ask_text(question: str = Query(...)):
+    memory_context = memory.get_context()
+
+    answer, retrieved_context = text_engine.ask(question)
+
+    refined = refine_answer(
+        llm,
+        question,
+        answer,
+        memory_context,
+        retrieved_context
+    )
+
+    eval_metrics = faithfulness_score(refined, retrieved_context)
+
+    memory.add("user", question)
+    memory.add("assistant", refined)
+
+    return {
+        "answer": refined,
+        "evaluation": eval_metrics
+    }
+
+# SQL QA
+@app.post("/ask-sql")
+def ask_sql(question: str = Query(...)):
+    result = run_sql_pipeline(
+        question,
+        "day_4/src/data/employee.db"
+    )
+
+    # Store clean text only in memory
+    memory.add("user", question)
+    memory.add("assistant", result["answer"])
+
+    return {
+        "answer": result["answer"],
+        "sql": result["sql"],
+        "columns": result["columns"],
+        "rows": result["rows"]
+    }
+
+
+# IMAGE RAG
+@app.post("/ask-image")
+def ask_image(
+    question: str = Query(...),
+    file: UploadFile = File(...)
+):
+    if not file.content_type.startswith("image/"):
+        raise HTTPException(status_code=400, detail="Uploaded file is not an image")
+
+    try:
+        image_bytes = file.file.read()
+        image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid image file")
+
+    answer = image_query_llm(image, question)
+
+    memory.add("user", question)
+    memory.add("assistant", answer)
+
+    return {"answer": answer}
+
+# RAG REFINEMENT
+def refine_answer(llm, question, answer, memory_context, retrieved_context):
+    prompt = f"""
+You are an expert **RAG Refinement Agent**.
+If there is hallucination in the initial answer, you must correct it using only the retrieved evidence.
+You have access to the following:
+Personal Conversation Memory, User Question, Initial Draft Answer, Retrieved Evidence.
+Your task is to produce a final answer that is accurate, concise, and directly addresses the user's question.
+Your response must adhere to these rules:
+If there is no answer found in your evidence, respond with "I'm sorry, I don't have enough information to answer that question."
+Here is the information you have:
+Use all the context provided to you.
+Use the memory to understand user preferences and past interactions.
+Perform In-context learning based on the conversation history.
+If the retrieved evidence does not contain the answer, do not attempt to fabricate an answer.
+Here is the information you have:
+
+Conversation Memory:
+{memory_context}
+
+User Question:
+{question}
+
+Initial Draft Answer:
+{answer}
+
+Retrieved Evidence:
+{retrieved_context}
+
+Rules:
+- Only use provided evidence
+- No hallucinations
+- If info is missing, say so clearly
+"""
+
+    response = llm.chat.completions.create(
+        model="llama-3.3-70b-versatile",
+        messages=[
+            {"role": "system", "content": "You refine RAG answers."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.2
+    )
+
+    return response.choices[0].message.content.strip()
