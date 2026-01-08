@@ -1,4 +1,6 @@
+from multiprocessing import context
 import sys, os
+from urllib import response
 sys.path.append(os.path.abspath("../../.."))
 
 from day_2.src.pipelines.ingest import ingest
@@ -50,20 +52,24 @@ Page: {page}
         return "\n\n".join(blocks)
 
     def ask(self, query: str, top_k: int = 5):
-        candidates = self.retriever.retrieve(query, top_k=top_k*2)
+        candidates = self.retriever.retrieve(query, top_k=top_k * 2)
         docs = self.reranker.rerank(query, candidates, top_k=top_k)
         context = self._build_context(docs)
-        response = self.client.chat.completions.create(
-            model=self.model,
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": build_prompt(query, context)},
-            ],
-            temperature=0.1,
-            max_tokens=300,
-        )
 
-        return response.choices[0].message.content.strip()
+        response = self.client.chat.completions.create(
+        model=self.model,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": build_prompt(query, context)},
+        ],
+        temperature=0.1,
+        max_tokens=300,
+    )
+
+        return (
+        response.choices[0].message.content.strip(),
+        context
+    )
 
 if __name__ == "__main__":
     engine = QueryEngine()

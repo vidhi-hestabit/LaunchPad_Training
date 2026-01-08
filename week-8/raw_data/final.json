@@ -1,0 +1,1172 @@
+[
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What does an HR manager do?",
+    "output": "An HR manager oversees recruitment, employee relations, compliance, and organizational policies."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee onboarding?",
+    "output": "Employee onboarding is the structured process of integrating a new employee into the organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is leave policy?",
+    "output": "leave policy defines the rules and guidelines related to leave policy in an organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is remote work policy?",
+    "output": "remote work policy defines the rules and guidelines related to remote work policy in an organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is attendance policy?",
+    "output": "attendance policy defines the rules and guidelines related to attendance policy in an organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is code of conduct?",
+    "output": "code of conduct defines the rules and guidelines related to code of conduct in an organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is performance policy?",
+    "output": "performance policy defines the rules and guidelines related to performance policy in an organization."
+  },
+  {
+    "instruction": "Explain the HR concept step by step.",
+    "input": "Why should performance appraisals be conducted regularly?",
+    "output": "Regular performance appraisals help identify strengths, address weaknesses, and align employees with company goals."
+  },
+  {
+    "instruction": "Explain the HR concept step by step.",
+    "input": "Why is code of conduct important in a company?",
+    "output": "code of conduct is important because it ensures consistency, compliance, and fairness across the organization."
+  },
+  {
+    "instruction": "Explain the HR concept step by step.",
+    "input": "Why is remote work policy important in a company?",
+    "output": "remote work policy is important because it ensures consistency, compliance, and fairness across the organization."
+  },
+  {
+    "instruction": "Explain the HR concept step by step.",
+    "input": "Why is leave policy important in a company?",
+    "output": "leave policy is important because it ensures consistency, compliance, and fairness across the organization."
+  },
+  {
+    "instruction": "Explain the HR concept step by step.",
+    "input": "Why is attendance policy important in a company?",
+    "output": "attendance policy is important because it ensures consistency, compliance, and fairness across the organization."
+  },
+  {
+    "instruction": "Explain the HR concept step by step.",
+    "input": "Why is performance policy important in a company?",
+    "output": "performance policy is important because it ensures consistency, compliance, and fairness across the organization."
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 6 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: HR Executive, Experience: 2 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"HR Executive\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Marketing Specialist, Experience: 7 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Product Manager, Experience: 11 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Product Manager\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Data Analyst, Experience: 3 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Data Analyst\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: HR Executive, Experience: 12 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Product Manager, Experience: 3 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Product Manager\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Software Engineer, Experience: 3 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Software Engineer\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Marketing Specialist, Experience: 10 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Marketing Specialist\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Data Analyst, Experience: 4 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Data Analyst\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Software Engineer, Experience: 5 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Software Engineer\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Marketing Specialist, Experience: 6 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Marketing Specialist\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Product Manager, Experience: 12 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Product Manager\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: HR Executive, Experience: 6 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 4 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: HR Executive, Experience: 10 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"HR Executive\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Product Manager, Experience: 3 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Product Manager\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Software Engineer, Experience: 9 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Software Engineer\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 10 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: HR Executive, Experience: 8 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"HR Executive\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 4 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 14 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Product Manager, Experience: 9 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Product Manager\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Marketing Specialist, Experience: 6 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Marketing Specialist\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 5 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Data Analyst, Experience: 5 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Data Analyst\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Marketing Specialist, Experience: 11 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Data Analyst, Experience: 3 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Data Analyst\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Sales Associate, Experience: 1 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Sales Associate\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 5 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Sales Associate, Experience: 1 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Sales Associate\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Sales Associate, Experience: 4 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Sales Associate\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 4 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Software Engineer, Experience: 2 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Software Engineer\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: HR Executive, Experience: 5 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"HR Executive\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: HR Executive, Experience: 4 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"HR Executive\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Product Manager, Experience: 3 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Product Manager\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: HR Executive, Experience: 4 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"HR Executive\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: HR Executive, Experience: 14 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"HR Executive\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 11 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Product Manager, Experience: 2 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Product Manager\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 11 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 3 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Product Manager, Experience: 1 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Marketing Specialist, Experience: 10 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Marketing Specialist\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: HR Executive, Experience: 14 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"HR Executive\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: HR Executive, Experience: 5 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"HR Executive\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Software Engineer, Experience: 5 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Software Engineer\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 11 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Software Engineer, Experience: 4 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Software Engineer\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Sales Associate, Experience: 7 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Sales Associate\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Sales Associate, Experience: 9 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Marketing Specialist, Experience: 8 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Marketing Specialist\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Marketing Specialist, Experience: 7 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Data Analyst, Experience: 2 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Data Analyst\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Product Manager, Experience: 3 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Product Manager\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 8 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Marketing Specialist, Experience: 9 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Marketing Specialist\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Product Manager, Experience: 6 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Product Manager\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 5 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Product Manager, Experience: 14 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Product Manager, Experience: 6 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Product Manager\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Product Manager, Experience: 5 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Product Manager\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Marketing Specialist, Experience: 5 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Marketing Specialist\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Product Manager, Experience: 11 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Product Manager\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Data Analyst, Experience: 12 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Data Analyst\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Data Analyst, Experience: 7 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Data Analyst\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Sales Associate, Experience: 2 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Sales Associate\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 7 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: HR Executive, Experience: 6 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"HR Executive\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Sales Associate, Experience: 3 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Sales Associate\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Sales Associate, Experience: 8 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Sales Associate\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Marketing Specialist, Experience: 11 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Product Manager, Experience: 7 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Product Manager\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Software Engineer, Experience: 1 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Software Engineer\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 7 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: HR Executive, Experience: 12 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"HR Executive\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Data Analyst, Experience: 8 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Data Analyst\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: HR Executive, Experience: 3 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"HR Executive\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 1 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Marketing Specialist, Experience: 3 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Marketing Specialist\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: HR Executive, Experience: 8 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"HR Executive\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Data Analyst, Experience: 6 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Product Manager, Experience: 11 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Product Manager\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Software Engineer, Experience: 12 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Software Engineer\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 14 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: HR Executive, Experience: 5 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: HR Executive, Experience: 2 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"HR Executive\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Marketing Specialist, Experience: 1 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Marketing Specialist\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Marketing Specialist, Experience: 6 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Marketing Specialist\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Software Engineer, Experience: 8 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Software Engineer\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: HR Executive, Experience: 6 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"HR Executive\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 9 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Software Engineer, Experience: 7 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Software Engineer\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Data Analyst, Experience: 6 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 4 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Marketing Specialist, Experience: 10 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Marketing Specialist\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 8 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Product Manager, Experience: 11 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Product Manager\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Software Engineer, Experience: 4 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Software Engineer\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Product Manager, Experience: 7 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Product Manager\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Data Analyst, Experience: 11 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Data Analyst\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 13 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 6 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Product Manager, Experience: 5 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Product Manager\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Data Analyst, Experience: 13 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Data Analyst\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Product Manager, Experience: 4 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Data Analyst, Experience: 6 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Product Manager, Experience: 3 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Product Manager\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Sales Associate, Experience: 9 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: HR Executive, Experience: 7 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"HR Executive\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Software Engineer, Experience: 6 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Software Engineer\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Data Analyst, Experience: 1 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Data Analyst\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 13 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Product Manager, Experience: 13 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Product Manager\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Data Analyst, Experience: 2 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Data Analyst\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 12 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 11 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 14 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 7 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Software Engineer, Experience: 12 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Software Engineer\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 8 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Product Manager, Experience: 8 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Product Manager\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: HR Executive, Experience: 2 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"HR Executive\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 3 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Product Manager, Experience: 14 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Product Manager\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Software Engineer, Experience: 2 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Software Engineer\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: HR Executive, Experience: 14 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"HR Executive\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Sales Associate, Experience: 10 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Sales Associate\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 9 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: HR Executive, Experience: 4 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"HR Executive\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: HR Executive, Experience: 5 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"HR Executive\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Product Manager, Experience: 8 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Product Manager\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 7 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 9 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 14 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Sales Associate, Experience: 9 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 13 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Marketing Specialist, Experience: 12 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Marketing Specialist\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Sales Associate, Experience: 11 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Sales Associate\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 6 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: HR Executive, Experience: 1 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Sales Associate, Experience: 14 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Sales Associate\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 5 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 8 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Software Engineer, Experience: 9 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Software Engineer\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Software Engineer, Experience: 2 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Software Engineer\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: HR Executive, Experience: 7 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Software Engineer, Experience: 10 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Software Engineer\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 4 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Data Analyst, Experience: 6 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Data Analyst, Experience: 3 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Data Analyst\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 13 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Data Analyst, Experience: 7 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Data Analyst\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Product Manager, Experience: 10 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Product Manager\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: HR Executive, Experience: 1 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"HR Executive\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Sales Associate, Experience: 6 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Sales Associate\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Product Manager, Experience: 8 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Product Manager, Experience: 14 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Product Manager\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Data Analyst, Experience: 1 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Data Analyst\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 12 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: HR Executive, Experience: 11 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"HR Executive\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Pooja, Role: Data Analyst, Experience: 1 years",
+    "output": "{\"name\": \"Pooja\", \"role\": \"Data Analyst\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Data Analyst, Experience: 10 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Data Analyst\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Software Engineer, Experience: 11 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Software Engineer\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 1 years",
+    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Data Analyst, Experience: 5 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Data Analyst\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Software Engineer, Experience: 11 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Software Engineer\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 2 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Sales Associate, Experience: 14 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Sales Associate\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 9 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Data Analyst, Experience: 13 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Data Analyst\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Sales Associate, Experience: 8 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Sales Associate\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Sales Associate, Experience: 7 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Sales Associate\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Sales Associate, Experience: 12 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Sales Associate\", \"experience_years\": 12}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: HR Executive, Experience: 6 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"HR Executive\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Sales Associate, Experience: 14 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Sales Associate\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: HR Executive, Experience: 8 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"HR Executive\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 10 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Sales Associate, Experience: 2 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Sales Associate\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: HR Executive, Experience: 6 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"HR Executive\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 5 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 9 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Software Engineer, Experience: 7 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Software Engineer\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: HR Executive, Experience: 3 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"HR Executive\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 7 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Product Manager, Experience: 13 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Product Manager\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: HR Executive, Experience: 11 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"HR Executive\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Product Manager, Experience: 1 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Product Manager\", \"experience_years\": 1}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Marketing Specialist, Experience: 14 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Marketing Specialist\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rahul, Role: Sales Associate, Experience: 3 years",
+    "output": "{\"name\": \"Rahul\", \"role\": \"Sales Associate\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 13 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Sales Associate, Experience: 10 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Sales Associate\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 7 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Software Engineer, Experience: 4 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Software Engineer\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Data Analyst, Experience: 13 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Data Analyst\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Marketing Specialist, Experience: 5 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Marketing Specialist\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Data Analyst, Experience: 14 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Data Analyst\", \"experience_years\": 14}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Data Analyst, Experience: 5 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Data Analyst\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Sales Associate, Experience: 6 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Sales Associate\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Marketing Specialist, Experience: 3 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Marketing Specialist\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 4 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 4}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 11 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Sales Associate, Experience: 8 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Sales Associate\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Sales Associate, Experience: 10 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Sales Associate\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 6 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 13 years",
+    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 10 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Anita, Role: HR Executive, Experience: 13 years",
+    "output": "{\"name\": \"Anita\", \"role\": \"HR Executive\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Product Manager, Experience: 8 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Product Manager\", \"experience_years\": 8}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Product Manager, Experience: 10 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 10}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: HR Executive, Experience: 6 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"HR Executive\", \"experience_years\": 6}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Karan, Role: Software Engineer, Experience: 5 years",
+    "output": "{\"name\": \"Karan\", \"role\": \"Software Engineer\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Rohit, Role: Software Engineer, Experience: 3 years",
+    "output": "{\"name\": \"Rohit\", \"role\": \"Software Engineer\", \"experience_years\": 3}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 7 years",
+    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Product Manager, Experience: 2 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Product Manager\", \"experience_years\": 2}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Neha, Role: Product Manager, Experience: 5 years",
+    "output": "{\"name\": \"Neha\", \"role\": \"Product Manager\", \"experience_years\": 5}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Sales Associate, Experience: 9 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Priya, Role: Marketing Specialist, Experience: 11 years",
+    "output": "{\"name\": \"Priya\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 13 years",
+    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 13}"
+  },
+  {
+    "instruction": "Extract structured HR information.",
+    "input": "Employee Name: Meera, Role: Software Engineer, Experience: 13 years",
+    "output": "{\"name\": \"Meera\", \"role\": \"Software Engineer\", \"experience_years\": 13}"
+  }
+]
