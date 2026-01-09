@@ -6,8 +6,1268 @@
   },
   {
     "instruction": "Answer the HR-related question clearly.",
-    "input": "What is employee onboarding?",
-    "output": "Employee onboarding is the structured process of integrating a new employee into the organization."
+    "input": "What is the difference between HR and People Operations?",
+    "output": "HR focuses on traditional administrative functions, while People Operations emphasizes employee experience, culture, and strategic workforce planning."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "How long should a typical job interview last?",
+    "output": "A typical job interview lasts between 30 to 60 minutes, depending on the position level and interview format."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is onboarding?",
+    "output": "Onboarding is the process of integrating new employees into an organization, including orientation, training, and acclimation to company culture."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is offboarding?",
+    "output": "Offboarding is the process of managing an employee's departure, including exit interviews, knowledge transfer, and returning company property."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an employee handbook?",
+    "output": "An employee handbook is a document outlining company policies, procedures, expectations, and benefits for all employees."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is at-will employment?",
+    "output": "At-will employment means either the employer or employee can terminate the employment relationship at any time, with or without cause or notice, subject to legal restrictions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a probationary period?",
+    "output": "A probationary period is an initial employment phase, typically 30-90 days, during which the employer evaluates the new employee's performance and fit."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is FMLA?",
+    "output": "FMLA (Family and Medical Leave Act) is a federal law providing eligible employees up to 12 weeks of unpaid, job-protected leave for specific family and medical reasons."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is workers' compensation?",
+    "output": "Workers' compensation is insurance providing wage replacement and medical benefits to employees injured during employment."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a performance review?",
+    "output": "A performance review is a formal assessment of an employee's job performance, typically conducted annually or semi-annually."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a 360-degree review?",
+    "output": "A 360-degree review is a performance evaluation that gathers feedback from an employee's supervisor, peers, subordinates, and sometimes clients."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is constructive dismissal?",
+    "output": "Constructive dismissal occurs when an employer makes working conditions so intolerable that an employee feels forced to resign."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a PIP?",
+    "output": "A PIP (Performance Improvement Plan) is a formal document outlining performance deficiencies and specific goals for improvement within a set timeframe."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee turnover?",
+    "output": "Employee turnover is the rate at which employees leave an organization and are replaced by new hires, calculated as a percentage over a specific period."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is voluntary turnover?",
+    "output": "Voluntary turnover occurs when employees choose to leave the organization on their own accord, such as for retirement or a new job."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is involuntary turnover?",
+    "output": "Involuntary turnover occurs when the employer terminates the employment relationship due to performance issues, misconduct, or layoffs."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a job description?",
+    "output": "A job description is a written document outlining the duties, responsibilities, qualifications, and reporting structure for a specific position."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a job specification?",
+    "output": "A job specification details the minimum qualifications, skills, education, and experience required for a particular job role."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is internal recruitment?",
+    "output": "Internal recruitment is the process of filling job vacancies by promoting or transferring existing employees within the organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is external recruitment?",
+    "output": "External recruitment involves seeking candidates from outside the organization through job postings, agencies, or networking."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is talent acquisition?",
+    "output": "Talent acquisition is a strategic approach to identifying, attracting, and hiring skilled candidates to meet organizational needs."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an applicant tracking system (ATS)?",
+    "output": "An ATS is software that automates the recruitment process by managing job postings, applications, resume screening, and candidate communication."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a behavioral interview?",
+    "output": "A behavioral interview uses past-behavior questions to assess how candidates handled specific situations, predicting future performance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is competency-based interviewing?",
+    "output": "Competency-based interviewing evaluates candidates against specific skills and behaviors required for successful job performance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a structured interview?",
+    "output": "A structured interview uses standardized questions asked in the same order to all candidates, ensuring consistency and reducing bias."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an unstructured interview?",
+    "output": "An unstructured interview is a conversational approach without predetermined questions, allowing for more flexibility and exploration."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a panel interview?",
+    "output": "A panel interview involves multiple interviewers questioning a candidate simultaneously, providing diverse perspectives on the candidate's suitability."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a phone screening?",
+    "output": "A phone screening is a brief initial interview conducted by phone to assess basic qualifications before inviting candidates for in-person interviews."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a video interview?",
+    "output": "A video interview is conducted via video conferencing platforms, allowing remote assessment of candidates while reducing travel costs and time."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee engagement?",
+    "output": "Employee engagement is the emotional commitment and enthusiasm employees have toward their work and organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee satisfaction?",
+    "output": "Employee satisfaction measures how content employees are with their job, work environment, compensation, and benefits."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is organizational culture?",
+    "output": "Organizational culture encompasses the shared values, beliefs, attitudes, and practices that characterize an organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is workplace diversity?",
+    "output": "Workplace diversity refers to employing individuals with varied characteristics including race, gender, age, religion, disability, and cultural background."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is inclusion in the workplace?",
+    "output": "Workplace inclusion ensures all employees feel valued, respected, and have equal access to opportunities and resources regardless of their differences."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is unconscious bias?",
+    "output": "Unconscious bias refers to automatic, unintentional stereotypes or prejudices that affect decisions and interactions without conscious awareness."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is affirmative action?",
+    "output": "Affirmative action involves policies and practices designed to increase opportunities for historically underrepresented groups in employment and education."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is equal employment opportunity (EEO)?",
+    "output": "EEO is the principle that all individuals should have equal access to employment without discrimination based on protected characteristics."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is the EEOC?",
+    "output": "The EEOC (Equal Employment Opportunity Commission) is a federal agency that enforces laws prohibiting employment discrimination."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is Title VII?",
+    "output": "Title VII of the Civil Rights Act of 1964 prohibits employment discrimination based on race, color, religion, sex, or national origin."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is the ADA?",
+    "output": "The ADA (Americans with Disabilities Act) prohibits discrimination against individuals with disabilities and requires reasonable accommodations."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a reasonable accommodation?",
+    "output": "A reasonable accommodation is a modification or adjustment that enables a qualified individual with a disability to perform essential job functions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is workplace harassment?",
+    "output": "Workplace harassment is unwelcome conduct based on protected characteristics that creates an intimidating, hostile, or offensive work environment."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is sexual harassment?",
+    "output": "Sexual harassment includes unwelcome sexual advances, requests for sexual favors, or other verbal or physical conduct of a sexual nature."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is quid pro quo harassment?",
+    "output": "Quid pro quo harassment occurs when employment decisions are based on submission to or rejection of unwelcome sexual conduct."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a hostile work environment?",
+    "output": "A hostile work environment exists when unwelcome conduct based on protected characteristics is severe or pervasive enough to create an abusive atmosphere."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is workplace bullying?",
+    "output": "Workplace bullying is repeated, intentional mistreatment including verbal abuse, offensive conduct, or behaviors that intimidate or humiliate employees."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is retaliation in employment?",
+    "output": "Retaliation occurs when an employer punishes an employee for engaging in legally protected activity, such as filing a complaint or participating in an investigation."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is wrongful termination?",
+    "output": "Wrongful termination is the illegal dismissal of an employee in violation of employment laws, contracts, or public policy."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is progressive discipline?",
+    "output": "Progressive discipline is a structured approach to correcting employee behavior through escalating consequences, from verbal warnings to termination."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is gross misconduct?",
+    "output": "Gross misconduct is serious employee behavior, such as theft, violence, or severe insubordination, that may warrant immediate termination."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is insubordination?",
+    "output": "Insubordination is the willful refusal to obey a supervisor's reasonable and lawful directive related to work duties."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is absenteeism?",
+    "output": "Absenteeism refers to habitual or chronic absence from work, often without valid reasons, affecting productivity and operations."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is presenteeism?",
+    "output": "Presenteeism occurs when employees are physically present at work but are not fully productive due to illness, stress, or other issues."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is time theft?",
+    "output": "Time theft occurs when employees receive pay for time not actually worked, such as buddy punching, extended breaks, or personal activities during work hours."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a non-compete agreement?",
+    "output": "A non-compete agreement restricts employees from working for competitors or starting competing businesses for a specified period after leaving the company."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a non-disclosure agreement (NDA)?",
+    "output": "An NDA is a legal contract requiring employees to keep confidential business information secret and not disclose it to unauthorized parties."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a confidentiality agreement?",
+    "output": "A confidentiality agreement legally binds employees to protect sensitive company information from unauthorized disclosure during and after employment."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is intellectual property in employment?",
+    "output": "Intellectual property in employment refers to creations, inventions, or work products developed by employees, often owned by the employer under work-for-hire doctrine."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an employment contract?",
+    "output": "An employment contract is a legal agreement between employer and employee outlining terms including duties, compensation, duration, and termination conditions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an offer letter?",
+    "output": "An offer letter is a document formally extending a job offer, including position details, salary, start date, and contingencies like background checks."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is salary negotiation?",
+    "output": "Salary negotiation is the process where candidates and employers discuss and agree upon compensation terms before finalizing employment."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is total compensation?",
+    "output": "Total compensation includes all forms of pay and benefits an employee receives, including salary, bonuses, insurance, retirement contributions, and perks."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is base salary?",
+    "output": "Base salary is the fixed amount of money paid to an employee, excluding bonuses, benefits, or other additional compensation."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a bonus?",
+    "output": "A bonus is additional compensation paid to employees beyond regular salary, often based on performance, profits, or achievement of specific goals."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is commission-based pay?",
+    "output": "Commission-based pay compensates employees with a percentage of sales they generate, common in sales and business development roles."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is overtime pay?",
+    "output": "Overtime pay is compensation at a higher rate, typically 1.5 times regular pay, for hours worked beyond the standard 40-hour workweek."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is the Fair Labor Standards Act (FLSA)?",
+    "output": "The FLSA is a federal law establishing minimum wage, overtime pay, recordkeeping, and child labor standards for private and public sector employees."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an exempt employee?",
+    "output": "An exempt employee is not entitled to overtime pay and typically holds executive, professional, or administrative positions meeting specific salary and duty criteria."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a non-exempt employee?",
+    "output": "A non-exempt employee is entitled to overtime pay for hours worked over 40 per week and must be paid at least minimum wage."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is minimum wage?",
+    "output": "Minimum wage is the lowest hourly rate employers can legally pay employees, established by federal, state, or local laws."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a living wage?",
+    "output": "A living wage is the income level needed to maintain a minimum standard of living, considering local cost of living, typically higher than minimum wage."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is pay equity?",
+    "output": "Pay equity ensures employees receive equal compensation for equal or comparable work, regardless of gender, race, or other protected characteristics."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is the gender pay gap?",
+    "output": "The gender pay gap is the difference in average earnings between men and women, often measured as women's earnings as a percentage of men's."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a salary range?",
+    "output": "A salary range defines the minimum and maximum pay levels for a position, based on factors like experience, skills, and market rates."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a compensation philosophy?",
+    "output": "A compensation philosophy is an organization's strategic approach to how it pays employees, reflecting market positioning and business objectives."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is pay transparency?",
+    "output": "Pay transparency involves openly communicating salary ranges, pay structures, or individual compensation to promote fairness and reduce pay disparities."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a salary survey?",
+    "output": "A salary survey collects compensation data from multiple organizations to benchmark pay rates and ensure competitive compensation practices."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is job evaluation?",
+    "output": "Job evaluation is a systematic process of determining the relative worth of jobs within an organization to establish fair pay structures."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a pay grade?",
+    "output": "A pay grade is a step within a compensation structure grouping jobs of similar value with defined salary ranges."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is merit pay?",
+    "output": "Merit pay is salary increases or bonuses based on individual performance, rewarding employees who exceed expectations or achieve specific goals."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is cost-of-living adjustment (COLA)?",
+    "output": "A COLA is a pay increase designed to offset inflation and maintain employees' purchasing power as living costs rise."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What are employee benefits?",
+    "output": "Employee benefits are non-wage compensation including health insurance, retirement plans, paid time off, and other perks provided by employers."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is health insurance?",
+    "output": "Health insurance is employer-sponsored coverage helping employees pay for medical expenses, including doctor visits, prescriptions, and hospital care."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a 401(k) plan?",
+    "output": "A 401(k) is a retirement savings plan allowing employees to contribute pre-tax income, often with employer matching contributions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employer matching?",
+    "output": "Employer matching is when companies contribute to employee retirement accounts, matching a percentage of the employee's own contributions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a pension plan?",
+    "output": "A pension plan is a retirement benefit where employers contribute to a fund providing employees regular payments after retirement, based on tenure and salary."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is paid time off (PTO)?",
+    "output": "PTO is a bank of hours employees can use for vacation, illness, or personal matters without losing pay or having to specify the reason."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is sick leave?",
+    "output": "Sick leave is paid time off specifically designated for employees to recover from illness or attend medical appointments without income loss."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is vacation time?",
+    "output": "Vacation time is paid leave allowing employees to take time off work for rest, travel, or personal activities while maintaining their salary."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is unlimited PTO?",
+    "output": "Unlimited PTO is a policy allowing employees to take as much time off as needed, provided their work is completed and approved by management."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is parental leave?",
+    "output": "Parental leave is time off granted to employees for childbirth, adoption, or foster care placement, which may be paid or unpaid."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is maternity leave?",
+    "output": "Maternity leave is time off specifically for mothers before and after childbirth, allowing recovery and bonding with the newborn."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is paternity leave?",
+    "output": "Paternity leave is time off for fathers following the birth or adoption of a child to bond with and care for the new family member."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is bereavement leave?",
+    "output": "Bereavement leave is time off granted to employees following the death of a family member or close relation to grieve and attend funeral services."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is jury duty leave?",
+    "output": "Jury duty leave allows employees to fulfill their civic obligation to serve on a jury without fear of job loss or retaliation."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is sabbatical leave?",
+    "output": "A sabbatical is an extended period of paid or unpaid leave, typically for personal development, research, or rest after years of service."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is flexible work arrangement?",
+    "output": "Flexible work arrangements allow employees to adjust their work schedule, location, or hours to better balance work and personal responsibilities."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is remote work?",
+    "output": "Remote work allows employees to perform their job duties from locations outside the traditional office, often from home or co-working spaces."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is telecommuting?",
+    "output": "Telecommuting is working from a location other than the office, using technology to communicate and complete job tasks remotely."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a hybrid work model?",
+    "output": "A hybrid work model combines remote and in-office work, allowing employees to split time between working from home and the workplace."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is flextime?",
+    "output": "Flextime allows employees to choose their start and end times within certain parameters while maintaining required total work hours."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is compressed workweek?",
+    "output": "A compressed workweek allows employees to work full-time hours in fewer days, such as four 10-hour days instead of five 8-hour days."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is job sharing?",
+    "output": "Job sharing is an arrangement where two part-time employees share the responsibilities and hours of one full-time position."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee wellness program?",
+    "output": "Employee wellness programs promote health and wellbeing through initiatives like fitness classes, mental health resources, and health screenings."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an employee assistance program (EAP)?",
+    "output": "An EAP provides confidential counseling and support services to employees dealing with personal or work-related issues affecting their wellbeing or performance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is workplace safety?",
+    "output": "Workplace safety involves policies, procedures, and practices designed to protect employees from hazards and prevent workplace injuries and illnesses."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is OSHA?",
+    "output": "OSHA (Occupational Safety and Health Administration) is a federal agency that sets and enforces workplace safety and health standards."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a safety audit?",
+    "output": "A safety audit is a systematic examination of workplace conditions, procedures, and practices to identify hazards and ensure compliance with safety regulations."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is ergonomics?",
+    "output": "Ergonomics is the science of designing workspaces and equipment to fit employees' physical needs, reducing strain and preventing injuries."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is workplace violence?",
+    "output": "Workplace violence includes any act or threat of physical violence, harassment, intimidation, or disruptive behavior occurring at the work site."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an exit interview?",
+    "output": "An exit interview is a meeting with departing employees to gather feedback about their experience, reasons for leaving, and suggestions for improvement."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee retention?",
+    "output": "Employee retention refers to an organization's ability to keep employees and reduce turnover through satisfaction, engagement, and development opportunities."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is succession planning?",
+    "output": "Succession planning identifies and develops internal candidates to fill key leadership positions when they become vacant due to retirement or departure."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is talent management?",
+    "output": "Talent management encompasses strategies for recruiting, developing, retaining, and optimizing employee skills to meet organizational goals."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is workforce planning?",
+    "output": "Workforce planning is a strategic process ensuring the organization has the right people with the right skills in the right positions at the right time."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is human capital?",
+    "output": "Human capital refers to the economic value of employees' skills, knowledge, experience, and abilities that contribute to organizational productivity."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is training and development?",
+    "output": "Training and development are programs designed to improve employees' skills, knowledge, and competencies to enhance performance and career growth."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is onboarding training?",
+    "output": "Onboarding training introduces new hires to company culture, policies, systems, and job-specific skills needed to succeed in their role."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is compliance training?",
+    "output": "Compliance training educates employees on laws, regulations, and company policies they must follow, such as harassment prevention and data security."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is leadership development?",
+    "output": "Leadership development programs build skills and competencies in current and future leaders to drive organizational success and manage teams effectively."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is mentorship?",
+    "output": "Mentorship is a relationship where an experienced employee guides and supports a less experienced colleague's professional development and career growth."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is coaching in the workplace?",
+    "output": "Workplace coaching is a developmental process where a manager or coach helps employees improve performance, develop skills, and achieve career goals."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is cross-training?",
+    "output": "Cross-training teaches employees skills outside their primary role, increasing workforce flexibility and providing career development opportunities."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is upskilling?",
+    "output": "Upskilling is teaching employees new, advanced skills to help them progress in their current role or prepare for future positions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is reskilling?",
+    "output": "Reskilling trains employees in completely different skills to transition them into new roles within the organization as business needs change."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a learning management system (LMS)?",
+    "output": "An LMS is software that delivers, tracks, and manages training programs and educational content for employees."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is e-learning?",
+    "output": "E-learning is electronic learning delivered through digital platforms, allowing employees to complete training online at their own pace."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is microlearning?",
+    "output": "Microlearning delivers training content in short, focused segments that employees can quickly consume and apply to their work."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a career path?",
+    "output": "A career path outlines potential progression routes and advancement opportunities available to employees within an organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is career development?",
+    "output": "Career development involves ongoing professional growth through training, experiences, and opportunities that advance an employee's career trajectory."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a promotion?",
+    "output": "A promotion is an advancement to a higher position with increased responsibilities, authority, and typically higher compensation."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is lateral movement?",
+    "output": "Lateral movement is transitioning to a different role at the same organizational level, providing new experiences without vertical advancement."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is internal mobility?",
+    "output": "Internal mobility refers to employees moving between roles, departments, or locations within the same organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is job rotation?",
+    "output": "Job rotation systematically moves employees through different positions to broaden their skills, knowledge, and organizational understanding."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a stretch assignment?",
+    "output": "A stretch assignment challenges employees with tasks beyond their current skill level to promote growth and development."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a high-potential employee?",
+    "output": "A high-potential employee demonstrates exceptional ability, engagement, and aspiration, showing promise for future leadership roles."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is talent review?",
+    "output": "Talent review is a systematic assessment of employee performance, potential, and readiness for advancement to inform development and succession decisions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a nine-box grid?",
+    "output": "A nine-box grid is a talent assessment tool that plots employees based on performance and potential to guide development strategies."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is performance management?",
+    "output": "Performance management is the continuous process of setting expectations, monitoring progress, providing feedback, and evaluating employee performance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What are SMART goals?",
+    "output": "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound objectives that provide clear direction for performance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What are KPIs?",
+    "output": "KPIs (Key Performance Indicators) are measurable values demonstrating how effectively employees or organizations achieve business objectives."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What are OKRs?",
+    "output": "OKRs (Objectives and Key Results) are a goal-setting framework defining ambitious objectives and measurable results to track progress."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is continuous feedback?",
+    "output": "Continuous feedback is ongoing, real-time communication about performance rather than waiting for formal annual reviews."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is constructive feedback?",
+    "output": "Constructive feedback provides specific, actionable guidance focused on improvement rather than criticism, delivered in a supportive manner."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a performance appraisal?",
+    "output": "A performance appraisal is a formal evaluation documenting employee achievements, areas for improvement, and goal-setting for the future."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a self-assessment?",
+    "output": "A self-assessment is when employees evaluate their own performance, accomplishments, and development needs as part of the review process."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is peer review?",
+    "output": "Peer review involves colleagues evaluating each other's performance, providing insights from those who work closely together."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is upward feedback?",
+    "output": "Upward feedback allows employees to evaluate their managers' performance, providing insights on leadership effectiveness and areas for improvement."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a performance rating scale?",
+    "output": "A performance rating scale is a system for evaluating employee performance using standardized categories or numerical values."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is forced ranking?",
+    "output": "Forced ranking requires managers to rate employees against each other and distribute ratings according to predetermined percentages."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is calibration in performance reviews?",
+    "output": "Calibration is a meeting where managers review and adjust performance ratings to ensure consistency and fairness across the organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is recency bias?",
+    "output": "Recency bias occurs when evaluators disproportionately focus on recent performance rather than considering the entire review period."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is halo effect?",
+    "output": "Halo effect is when one positive trait influences the evaluator to rate all other attributes favorably, skewing objective assessment."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is horns effect?",
+    "output": "Horns effect occurs when one negative trait causes the evaluator to rate all other attributes unfavorably, despite actual performance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is central tendency bias?",
+    "output": "Central tendency bias is the tendency to rate all employees as average, avoiding extreme ratings even when performance clearly differs."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is leniency bias?",
+    "output": "Leniency bias occurs when evaluators consistently rate employees higher than their actual performance warrants."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is strictness bias?",
+    "output": "Strictness bias happens when evaluators consistently rate employees lower than their actual performance deserves."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee recognition?",
+    "output": "Employee recognition acknowledges and appreciates employees' contributions, achievements, and behaviors aligned with organizational values."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an employee of the month program?",
+    "output": "An employee of the month program formally recognizes outstanding individual performance and contributions with awards or public acknowledgment."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is peer-to-peer recognition?",
+    "output": "Peer-to-peer recognition allows employees to acknowledge and appreciate each other's efforts and contributions directly."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is spot recognition?",
+    "output": "Spot recognition provides immediate acknowledgment of exceptional work or behavior, often with small rewards or public praise."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a service award?",
+    "output": "A service award recognizes employee loyalty and tenure, celebrating years of service with gifts, certificates, or celebrations."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is intrinsic motivation?",
+    "output": "Intrinsic motivation comes from internal satisfaction and personal fulfillment derived from the work itself rather than external rewards."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is extrinsic motivation?",
+    "output": "Extrinsic motivation comes from external factors like compensation, recognition, promotions, or other tangible rewards."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee morale?",
+    "output": "Employee morale reflects the overall attitude, satisfaction, and outlook of employees toward their work and the organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is burnout?",
+    "output": "Burnout is physical, emotional, and mental exhaustion caused by prolonged stress, excessive workload, or lack of work-life balance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is work-life balance?",
+    "output": "Work-life balance is the equilibrium between professional responsibilities and personal life, allowing time for work, family, and self-care."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is work-life integration?",
+    "output": "Work-life integration blends professional and personal activities throughout the day rather than strictly separating them into distinct segments."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is psychological safety?",
+    "output": "Psychological safety is a team environment where members feel comfortable taking risks, expressing ideas, and making mistakes without fear of punishment."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is emotional intelligence?",
+    "output": "Emotional intelligence is the ability to recognize, understand, and manage one's own emotions and effectively navigate interpersonal relationships."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is conflict resolution?",
+    "output": "Conflict resolution is the process of addressing and resolving disagreements between employees through communication, negotiation, and problem-solving."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is mediation?",
+    "output": "Mediation uses a neutral third party to facilitate discussion and help disputing parties reach a mutually acceptable resolution."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is arbitration?",
+    "output": "Arbitration is a formal dispute resolution process where a neutral arbitrator hears evidence and makes a binding decision."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a grievance?",
+    "output": "A grievance is a formal complaint filed by an employee alleging violation of workplace rights, policies, or contractual terms."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a grievance procedure?",
+    "output": "A grievance procedure is a formal process outlining steps employees must follow to file and resolve workplace complaints."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is workplace investigation?",
+    "output": "A workplace investigation is a systematic inquiry into alleged misconduct, policy violations, or complaints to determine facts and appropriate action."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is due process?",
+    "output": "Due process ensures fair treatment through established procedures before disciplinary action, including notice and opportunity to respond."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is documentation in HR?",
+    "output": "Documentation is creating written records of employment actions, performance issues, incidents, and decisions to maintain accurate histories."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a personnel file?",
+    "output": "A personnel file contains employment-related documents including applications, performance reviews, disciplinary records, and benefits information."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee privacy?",
+    "output": "Employee privacy involves protecting personal information and limiting access to confidential employment records to authorized personnel only."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is HIPAA?",
+    "output": "HIPAA is a federal law protecting the privacy and security of individuals' health information, including employee medical records."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is data protection in HR?",
+    "output": "Data protection involves safeguarding employee personal information through secure storage, limited access, and compliance with privacy regulations."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is GDPR?",
+    "output": "GDPR (General Data Protection Regulation) is a European law governing collection, processing, and storage of personal data, including employee information."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is background check?",
+    "output": "A background check verifies candidate information including employment history, education, criminal records, and references before hiring."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is reference check?",
+    "output": "A reference check contacts previous employers or professional contacts to verify a candidate's work history, skills, and character."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employment verification?",
+    "output": "Employment verification confirms a candidate's previous job titles, dates of employment, and sometimes salary with former employers."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a credit check?",
+    "output": "A credit check reviews a candidate's financial history and creditworthiness, typically for positions involving financial responsibilities."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is drug testing?",
+    "output": "Drug testing screens candidates or employees for illegal substances or alcohol, often required for safety-sensitive positions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is pre-employment screening?",
+    "output": "Pre-employment screening encompasses various checks including background, references, drug tests, and assessments before hiring decisions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is adverse action?",
+    "output": "Adverse action is an unfavorable employment decision based on background check results, requiring specific notice procedures under FCRA."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is ban the box?",
+    "output": "Ban the box laws prohibit employers from asking about criminal history on initial applications, delaying inquiry until later in hiring."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is skills assessment?",
+    "output": "Skills assessment evaluates candidates' technical abilities, knowledge, or competencies relevant to the job through tests or practical exercises."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is personality assessment?",
+    "output": "Personality assessment measures candidate traits, work styles, and behavioral tendencies to predict job fit and performance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is cognitive ability test?",
+    "output": "Cognitive ability tests measure mental capabilities like reasoning, problem-solving, and learning speed to predict job performance."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is situational judgment test?",
+    "output": "Situational judgment tests present work scenarios and ask candidates to choose appropriate responses, assessing decision-making and judgment."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is work sample test?",
+    "output": "Work sample tests require candidates to perform actual job tasks or simulations to demonstrate their abilities and work quality."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is assessment center?",
+    "output": "An assessment center uses multiple evaluation methods including exercises, simulations, and interviews to assess candidates for complex roles."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is predictive validity?",
+    "output": "Predictive validity measures how accurately a selection tool predicts future job performance or success in the role."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is adverse impact?",
+    "output": "Adverse impact occurs when a selection practice disproportionately excludes members of protected groups, potentially indicating discrimination."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is the four-fifths rule?",
+    "output": "The four-fifths rule suggests adverse impact when a protected group's selection rate is less than 80% of the highest group's rate."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is job analysis?",
+    "output": "Job analysis systematically identifies tasks, duties, skills, and knowledge required for a position to inform hiring, training, and evaluation."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is competency modeling?",
+    "output": "Competency modeling identifies the skills, behaviors, and attributes required for successful performance in specific roles or across the organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is person-job fit?",
+    "output": "Person-job fit assesses alignment between a candidate's skills, abilities, and preferences and the requirements of the position."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is person-organization fit?",
+    "output": "Person-organization fit evaluates compatibility between a candidate's values, beliefs, and work style and the company's culture."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employer branding?",
+    "output": "Employer branding promotes the company's reputation and value proposition to attract and retain talented employees."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee value proposition (EVP)?",
+    "output": "EVP is the unique combination of benefits, rewards, and experiences offered to employees in exchange for their skills and contributions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is recruitment marketing?",
+    "output": "Recruitment marketing applies marketing strategies to attract, engage, and nurture potential candidates throughout the hiring process."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a talent pipeline?",
+    "output": "A talent pipeline is a pool of qualified candidates identified and engaged for current or future job openings."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is passive candidate?",
+    "output": "A passive candidate is someone not actively job searching but potentially open to new opportunities if approached."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is active candidate?",
+    "output": "An active candidate is someone currently searching and applying for jobs, immediately available for employment opportunities."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is candidate experience?",
+    "output": "Candidate experience encompasses all interactions and perceptions applicants have with a company throughout the recruitment process."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is time to hire?",
+    "output": "Time to hire measures the days between when a candidate enters the pipeline and when they accept the job offer."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is time to fill?",
+    "output": "Time to fill tracks the days from when a job requisition opens until a candidate accepts the offer."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is cost per hire?",
+    "output": "Cost per hire calculates the total expenses incurred to fill a position, including advertising, recruiting staff time, and agency fees."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is quality of hire?",
+    "output": "Quality of hire measures new employees' performance, cultural fit, and retention to evaluate recruitment effectiveness."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is sourcing?",
+    "output": "Sourcing is proactively identifying and attracting potential candidates through various channels before they apply."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is Boolean search?",
+    "output": "Boolean search uses operators like AND, OR, and NOT to refine candidate searches in databases and platforms."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a job board?",
+    "output": "A job board is an online platform where employers post job openings and candidates search and apply for positions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a recruitment agency?",
+    "output": "A recruitment agency is a third-party firm that sources, screens, and presents candidates to employers for a fee."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is contingency recruitment?",
+    "output": "Contingency recruitment means agencies only receive payment when their candidate is successfully hired by the client."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is retained search?",
+    "output": "Retained search involves paying a recruiter upfront to exclusively conduct a thorough search for executive or specialized positions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is executive search?",
+    "output": "Executive search is specialized recruitment focusing on senior leadership and C-level positions requiring extensive expertise and networks."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is headhunting?",
+    "output": "Headhunting proactively identifies and recruits high-performing individuals from competitors or other organizations for specific roles."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is campus recruitment?",
+    "output": "Campus recruitment targets students and recent graduates through on-campus events, career fairs, and partnerships with universities."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an internship?",
+    "output": "An internship provides temporary work experience to students or recent graduates, offering practical skills and potential employment pathways."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a co-op program?",
+    "output": "A co-op program alternates periods of academic study with paid work experience related to the student's field of study."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is an apprenticeship?",
+    "output": "An apprenticeship combines on-the-job training with classroom instruction, leading to certification in a skilled trade or profession."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee referral program?",
+    "output": "An employee referral program incentivizes current employees to recommend qualified candidates from their networks for open positions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a boomerang employee?",
+    "output": "A boomerang employee is someone who returns to work for a former employer after leaving for another opportunity."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is rehire?",
+    "output": "Rehire involves bringing back a former employee, often one who left in good standing and maintained positive relationships."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a temp-to-perm position?",
+    "output": "A temp-to-perm position starts as temporary employment with the possibility of converting to permanent based on performance and business needs."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is contingent workforce?",
+    "output": "Contingent workforce includes temporary, contract, freelance, and gig workers who aren't permanent employees."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a contractor?",
+    "output": "A contractor is an independent worker hired for specific projects or timeframes, not classified as an employee."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a freelancer?",
+    "output": "A freelancer is a self-employed professional who provides services to multiple clients on a project or contract basis."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is the gig economy?",
+    "output": "The gig economy consists of short-term contracts and freelance work rather than permanent jobs, facilitated by digital platforms."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee classification?",
+    "output": "Employee classification determines whether workers are employees or independent contractors, affecting taxes, benefits, and legal obligations."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is misclassification?",
+    "output": "Misclassification occurs when workers are incorrectly classified as independent contractors rather than employees, violating labor laws."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is full-time employment?",
+    "output": "Full-time employment typically involves working 35-40 hours per week with eligibility for full benefits packages."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is part-time employment?",
+    "output": "Part-time employment involves working fewer hours than full-time, often with limited or no benefits depending on company policy."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is seasonal employment?",
+    "output": "Seasonal employment provides temporary work during peak business periods, such as holidays or harvest seasons."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a union?",
+    "output": "A union is an organized group of workers who collectively bargain with employers over wages, benefits, and working conditions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is collective bargaining?",
+    "output": "Collective bargaining is negotiation between union representatives and management to establish employment terms in a contract."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a collective bargaining agreement (CBA)?",
+    "output": "A CBA is a written contract between an employer and union specifying wages, hours, benefits, and working conditions."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is labor relations?",
+    "output": "Labor relations manages the relationship between an organization and its unionized workforce, including negotiations and dispute resolution."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is union organizing?",
+    "output": "Union organizing is the process by which workers form and seek recognition for a union to represent them collectively."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is union certification?",
+    "output": "Union certification is official recognition by a labor board that a union represents employees for collective bargaining purposes."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a strike?",
+    "output": "A strike is a work stoppage initiated by employees to pressure employers during labor disputes or contract negotiations."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is a lockout?",
+    "output": "A lockout occurs when employers prevent employees from working during labor disputes to pressure them in negotiations."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is union dues?",
+    "output": "Union dues are regular payments members make to fund union operations, including representation, bargaining, and administrative costs."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is right-to-work?",
+    "output": "Right-to-work laws allow employees in unionized workplaces to opt out of joining the union or paying dues."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is the NLRA?",
+    "output": "The NLRA (National Labor Relations Act) protects employees' rights to organize, join unions, and engage in collective bargaining."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is unfair labor practice?",
+    "output": "Unfair labor practice is conduct by employers or unions that violates workers' rights under the National Labor Relations Act."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is HR analytics?",
+    "output": "HR analytics uses data analysis to gain insights"
   },
   {
     "instruction": "Answer the HR-related question clearly.",
@@ -16,8 +1276,18 @@
   },
   {
     "instruction": "Answer the HR-related question clearly.",
+    "input": "What is employee onboarding?",
+    "output": "Employee onboarding is the structured process of integrating a new employee into the organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
     "input": "What is remote work policy?",
     "output": "remote work policy defines the rules and guidelines related to remote work policy in an organization."
+  },
+  {
+    "instruction": "Answer the HR-related question clearly.",
+    "input": "What is performance policy?",
+    "output": "performance policy defines the rules and guidelines related to performance policy in an organization."
   },
   {
     "instruction": "Answer the HR-related question clearly.",
@@ -28,11 +1298,6 @@
     "instruction": "Answer the HR-related question clearly.",
     "input": "What is code of conduct?",
     "output": "code of conduct defines the rules and guidelines related to code of conduct in an organization."
-  },
-  {
-    "instruction": "Answer the HR-related question clearly.",
-    "input": "What is performance policy?",
-    "output": "performance policy defines the rules and guidelines related to performance policy in an organization."
   },
   {
     "instruction": "Explain the HR concept step by step.",
@@ -63,1110 +1328,5 @@
     "instruction": "Explain the HR concept step by step.",
     "input": "Why is performance policy important in a company?",
     "output": "performance policy is important because it ensures consistency, compliance, and fairness across the organization."
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 6 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: HR Executive, Experience: 2 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"HR Executive\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Marketing Specialist, Experience: 7 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Product Manager, Experience: 11 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Product Manager\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Data Analyst, Experience: 3 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Data Analyst\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: HR Executive, Experience: 12 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Product Manager, Experience: 3 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Product Manager\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Software Engineer, Experience: 3 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Software Engineer\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Marketing Specialist, Experience: 10 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Marketing Specialist\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Data Analyst, Experience: 4 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Data Analyst\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Software Engineer, Experience: 5 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Software Engineer\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Marketing Specialist, Experience: 6 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Marketing Specialist\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Product Manager, Experience: 12 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Product Manager\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: HR Executive, Experience: 6 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 4 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: HR Executive, Experience: 10 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"HR Executive\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Product Manager, Experience: 3 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Product Manager\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Software Engineer, Experience: 9 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Software Engineer\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 10 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: HR Executive, Experience: 8 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"HR Executive\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 4 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 14 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Product Manager, Experience: 9 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Product Manager\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Marketing Specialist, Experience: 6 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Marketing Specialist\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 5 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Data Analyst, Experience: 5 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Data Analyst\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Marketing Specialist, Experience: 11 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Data Analyst, Experience: 3 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Data Analyst\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Sales Associate, Experience: 1 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Sales Associate\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 5 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Sales Associate, Experience: 1 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Sales Associate\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Sales Associate, Experience: 4 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Sales Associate\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 4 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Software Engineer, Experience: 2 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Software Engineer\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: HR Executive, Experience: 5 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"HR Executive\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: HR Executive, Experience: 4 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"HR Executive\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Product Manager, Experience: 3 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Product Manager\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: HR Executive, Experience: 4 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"HR Executive\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: HR Executive, Experience: 14 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"HR Executive\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 11 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Product Manager, Experience: 2 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Product Manager\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 11 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 3 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Product Manager, Experience: 1 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Marketing Specialist, Experience: 10 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Marketing Specialist\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: HR Executive, Experience: 14 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"HR Executive\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: HR Executive, Experience: 5 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"HR Executive\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Software Engineer, Experience: 5 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Software Engineer\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 11 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Software Engineer, Experience: 4 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Software Engineer\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Sales Associate, Experience: 7 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Sales Associate\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Sales Associate, Experience: 9 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Marketing Specialist, Experience: 8 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Marketing Specialist\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Marketing Specialist, Experience: 7 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Data Analyst, Experience: 2 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Data Analyst\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Product Manager, Experience: 3 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Product Manager\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 8 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Marketing Specialist, Experience: 9 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Marketing Specialist\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Product Manager, Experience: 6 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Product Manager\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 5 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Product Manager, Experience: 14 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Product Manager, Experience: 6 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Product Manager\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Product Manager, Experience: 5 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Product Manager\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Marketing Specialist, Experience: 5 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Marketing Specialist\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Product Manager, Experience: 11 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Product Manager\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Data Analyst, Experience: 12 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Data Analyst\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Data Analyst, Experience: 7 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Data Analyst\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Sales Associate, Experience: 2 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Sales Associate\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 7 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: HR Executive, Experience: 6 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"HR Executive\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Sales Associate, Experience: 3 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Sales Associate\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Sales Associate, Experience: 8 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Sales Associate\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Marketing Specialist, Experience: 11 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Product Manager, Experience: 7 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Product Manager\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Software Engineer, Experience: 1 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Software Engineer\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 7 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: HR Executive, Experience: 12 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"HR Executive\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Data Analyst, Experience: 8 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Data Analyst\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: HR Executive, Experience: 3 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"HR Executive\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 1 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Marketing Specialist, Experience: 3 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Marketing Specialist\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: HR Executive, Experience: 8 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"HR Executive\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Data Analyst, Experience: 6 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Product Manager, Experience: 11 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Product Manager\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Software Engineer, Experience: 12 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Software Engineer\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 14 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: HR Executive, Experience: 5 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: HR Executive, Experience: 2 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"HR Executive\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Marketing Specialist, Experience: 1 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Marketing Specialist\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Marketing Specialist, Experience: 6 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Marketing Specialist\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Software Engineer, Experience: 8 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Software Engineer\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: HR Executive, Experience: 6 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"HR Executive\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 9 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Software Engineer, Experience: 7 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Software Engineer\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Data Analyst, Experience: 6 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 4 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Marketing Specialist, Experience: 10 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Marketing Specialist\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 8 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Product Manager, Experience: 11 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Product Manager\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Software Engineer, Experience: 4 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Software Engineer\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Product Manager, Experience: 7 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Product Manager\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Data Analyst, Experience: 11 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Data Analyst\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 13 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 6 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Product Manager, Experience: 5 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Product Manager\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Data Analyst, Experience: 13 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Data Analyst\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Product Manager, Experience: 4 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Data Analyst, Experience: 6 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Product Manager, Experience: 3 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Product Manager\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Sales Associate, Experience: 9 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: HR Executive, Experience: 7 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"HR Executive\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Software Engineer, Experience: 6 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Software Engineer\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Data Analyst, Experience: 1 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Data Analyst\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 13 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Product Manager, Experience: 13 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Product Manager\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Data Analyst, Experience: 2 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Data Analyst\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 12 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 11 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 14 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 7 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Software Engineer, Experience: 12 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Software Engineer\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 8 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Product Manager, Experience: 8 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Product Manager\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: HR Executive, Experience: 2 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"HR Executive\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 3 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Product Manager, Experience: 14 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Product Manager\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Software Engineer, Experience: 2 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Software Engineer\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: HR Executive, Experience: 14 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"HR Executive\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Sales Associate, Experience: 10 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Sales Associate\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 9 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: HR Executive, Experience: 4 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"HR Executive\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: HR Executive, Experience: 5 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"HR Executive\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Product Manager, Experience: 8 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Product Manager\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 7 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 9 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 14 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Sales Associate, Experience: 9 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 13 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Marketing Specialist, Experience: 12 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Marketing Specialist\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Sales Associate, Experience: 11 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Sales Associate\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 6 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: HR Executive, Experience: 1 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Sales Associate, Experience: 14 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Sales Associate\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 5 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 8 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Software Engineer, Experience: 9 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Software Engineer\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Software Engineer, Experience: 2 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Software Engineer\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: HR Executive, Experience: 7 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"HR Executive\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Software Engineer, Experience: 10 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Software Engineer\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 4 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Data Analyst, Experience: 6 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Data Analyst, Experience: 3 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Data Analyst\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Product Manager, Experience: 13 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Product Manager\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Data Analyst, Experience: 7 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Data Analyst\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Product Manager, Experience: 10 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Product Manager\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: HR Executive, Experience: 1 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"HR Executive\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Sales Associate, Experience: 6 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Sales Associate\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Product Manager, Experience: 8 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Product Manager, Experience: 14 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Product Manager\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Data Analyst, Experience: 1 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Data Analyst\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 12 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: HR Executive, Experience: 11 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"HR Executive\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Pooja, Role: Data Analyst, Experience: 1 years",
-    "output": "{\"name\": \"Pooja\", \"role\": \"Data Analyst\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Data Analyst, Experience: 10 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Data Analyst\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Software Engineer, Experience: 11 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Software Engineer\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Vikas, Role: Marketing Specialist, Experience: 1 years",
-    "output": "{\"name\": \"Vikas\", \"role\": \"Marketing Specialist\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Data Analyst, Experience: 5 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Data Analyst\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Software Engineer, Experience: 11 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Software Engineer\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 2 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Sales Associate, Experience: 14 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Sales Associate\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 9 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Data Analyst, Experience: 13 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Data Analyst\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Sales Associate, Experience: 8 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Sales Associate\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Sales Associate, Experience: 7 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Sales Associate\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Sales Associate, Experience: 12 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Sales Associate\", \"experience_years\": 12}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: HR Executive, Experience: 6 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"HR Executive\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Sales Associate, Experience: 14 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Sales Associate\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: HR Executive, Experience: 8 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"HR Executive\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Data Analyst, Experience: 10 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Data Analyst\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Sales Associate, Experience: 2 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Sales Associate\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: HR Executive, Experience: 6 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"HR Executive\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 5 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Marketing Specialist, Experience: 9 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Marketing Specialist\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Software Engineer, Experience: 7 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Software Engineer\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: HR Executive, Experience: 3 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"HR Executive\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: HR Executive, Experience: 7 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"HR Executive\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Product Manager, Experience: 13 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Product Manager\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: HR Executive, Experience: 11 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"HR Executive\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Product Manager, Experience: 1 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Product Manager\", \"experience_years\": 1}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Marketing Specialist, Experience: 14 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Marketing Specialist\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rahul, Role: Sales Associate, Experience: 3 years",
-    "output": "{\"name\": \"Rahul\", \"role\": \"Sales Associate\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 13 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Sales Associate, Experience: 10 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Sales Associate\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Software Engineer, Experience: 7 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Software Engineer\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Software Engineer, Experience: 4 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Software Engineer\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Data Analyst, Experience: 13 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Data Analyst\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Marketing Specialist, Experience: 5 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Marketing Specialist\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Data Analyst, Experience: 14 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Data Analyst\", \"experience_years\": 14}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Data Analyst, Experience: 5 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Data Analyst\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Sales Associate, Experience: 6 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Sales Associate\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Marketing Specialist, Experience: 3 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Marketing Specialist\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Marketing Specialist, Experience: 4 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Marketing Specialist\", \"experience_years\": 4}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 11 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Sales Associate, Experience: 8 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Sales Associate\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Sales Associate, Experience: 10 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Sales Associate\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 6 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Suresh, Role: Sales Associate, Experience: 13 years",
-    "output": "{\"name\": \"Suresh\", \"role\": \"Sales Associate\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: Data Analyst, Experience: 10 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"Data Analyst\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Anita, Role: HR Executive, Experience: 13 years",
-    "output": "{\"name\": \"Anita\", \"role\": \"HR Executive\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Product Manager, Experience: 8 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Product Manager\", \"experience_years\": 8}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Product Manager, Experience: 10 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Product Manager\", \"experience_years\": 10}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: HR Executive, Experience: 6 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"HR Executive\", \"experience_years\": 6}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Karan, Role: Software Engineer, Experience: 5 years",
-    "output": "{\"name\": \"Karan\", \"role\": \"Software Engineer\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Rohit, Role: Software Engineer, Experience: 3 years",
-    "output": "{\"name\": \"Rohit\", \"role\": \"Software Engineer\", \"experience_years\": 3}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Sneha, Role: Marketing Specialist, Experience: 7 years",
-    "output": "{\"name\": \"Sneha\", \"role\": \"Marketing Specialist\", \"experience_years\": 7}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Product Manager, Experience: 2 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Product Manager\", \"experience_years\": 2}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Neha, Role: Product Manager, Experience: 5 years",
-    "output": "{\"name\": \"Neha\", \"role\": \"Product Manager\", \"experience_years\": 5}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Sales Associate, Experience: 9 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Sales Associate\", \"experience_years\": 9}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Priya, Role: Marketing Specialist, Experience: 11 years",
-    "output": "{\"name\": \"Priya\", \"role\": \"Marketing Specialist\", \"experience_years\": 11}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Amit, Role: Sales Associate, Experience: 13 years",
-    "output": "{\"name\": \"Amit\", \"role\": \"Sales Associate\", \"experience_years\": 13}"
-  },
-  {
-    "instruction": "Extract structured HR information.",
-    "input": "Employee Name: Meera, Role: Software Engineer, Experience: 13 years",
-    "output": "{\"name\": \"Meera\", \"role\": \"Software Engineer\", \"experience_years\": 13}"
   }
 ]
