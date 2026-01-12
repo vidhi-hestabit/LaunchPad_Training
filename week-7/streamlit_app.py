@@ -1,10 +1,26 @@
 import streamlit as st
 import requests
+from deployment import app
+import threading
+import time
+
+
+def run_api():
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+
+# Start FastAPI in a daemon thread
+threading.Thread(target=run_api, daemon=True).start()
+
+# Wait a second to ensure the backend is ready
+time.sleep(1)
+
+
 
 API_BASE = "http://localhost:8000"
 
 st.set_page_config(page_title="GenAI System", layout="wide")
-st.title("RAG + SQL + Image QA")
+st.title("RAG + SQL QA")
 
 
 def safe_post(url, **kwargs):
@@ -32,7 +48,7 @@ def safe_post(url, **kwargs):
 
 mode = st.sidebar.selectbox(
     "Choose Mode",
-    ["Text RAG", "SQL QA", "Image RAG"]
+    ["Text RAG", "SQL QA"]
 )
 
 # ---------------- TEXT RAG ----------------
@@ -82,33 +98,3 @@ elif mode == "SQL QA":
         st.markdown("### Answer")
         st.write(response["answer"])
 
-### Image RAG
-elif mode == "Image RAG":
-    st.subheader("Ask Image")
-
-    uploaded_file = st.file_uploader(
-        "Upload an image",
-        type=["png", "jpg", "jpeg"]
-    )
-
-    question = st.text_input("Ask about the image")
-
-    if uploaded_file and st.button("Ask Image") and question:
-        with st.spinner("Analyzing image..."):
-            response = requests.post(
-                f"{API_BASE}/ask-image",
-                params={"question": question},
-                files={
-                    "file": (
-                        uploaded_file.name,
-                        uploaded_file.getvalue(),
-                        uploaded_file.type
-                    )
-                }
-            )
-
-        if response.status_code != 200:
-            st.error(response.text)
-        else:
-            st.markdown("### Answer")
-            st.write(response.json()["answer"])

@@ -19,12 +19,12 @@ memory = MemoryStore()
 llm = get_openai_client()
 text_engine = QueryEngine()
 
-# TEXT RAG
 @app.post("/ask")
 def ask_text(question: str = Query(...)):
     memory_context = memory.get_context()
 
-    answer, retrieved_context = text_engine.ask(question)
+    answer = text_engine.ask(question)
+    retrieved_context = ""
 
     refined = refine_answer(
         llm,
@@ -43,6 +43,7 @@ def ask_text(question: str = Query(...)):
         "answer": refined,
         "evaluation": eval_metrics
     }
+
 
 # SQL QA
 @app.post("/ask-sql")

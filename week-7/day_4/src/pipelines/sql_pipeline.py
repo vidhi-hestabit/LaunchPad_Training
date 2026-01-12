@@ -28,29 +28,33 @@ EXAMPLE : The result showcase the entries which are greater than 5000
 """
 
     response = client.chat.completions.create(
-        model="llama-3.1-8b",
+        model="llama-3.1-8b-instant",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3
     )
 
     return response.choices[0].message.content.strip()
 
-
-def run_sql_qa(question: str, db_path: str):
-    # 1. Load schema
+def run_sql_pipeline(question: str, db_path: str):
+    # Load schema
     schema = load_schema(db_path)
 
-    # 2. Generate SQL
+    # Generate SQL
     sql = generate_sql(question, schema)
-    print("\nGenerated SQL:\n", sql)
 
-    # 3. Validate SQL
+    # Validate SQL
     validate_sql(sql)
 
-    # 4. Execute SQL
+    # Execute SQL
     columns, rows = execute_sql(db_path, sql)
 
-    # 5. Summarize result
+    # Summarize result
     answer = summarize_result(columns, rows)
 
-    return answer
+    # Return all info as dict
+    return {
+        "answer": answer,
+        "sql": sql,
+        "columns": columns,
+        "rows": rows
+    }
