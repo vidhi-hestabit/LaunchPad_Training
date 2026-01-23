@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append(os.path.abspath("."))
+sys.path.append(os.path.abspath(".."))
 import uuid
 import numpy as np
 from PIL import Image
@@ -45,3 +45,6 @@ def ingest_images():
     if len(vectors) == 0:
         raise RuntimeError("No embeddings generated")
     save_faiss(vectors, metadata)
+
+if __name__ == "__main__":
+    ingest_images()

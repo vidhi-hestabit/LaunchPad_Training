@@ -1,5 +1,9 @@
 # Image RAG (Retrieval-Augmented Generation) System
 
+Architecture :
+
+![alt text](image.png)
+
 ## Key Components
 
 ### 1. Image Embeddings (CLIP)

@@ -1,38 +1,62 @@
 [
   {
-    "id": "d5cb1cb1-0839-4c52-82aa-347345b5465c",
+    "id": "1166e1c2-2726-41df-abc1-6d31abb2d80d",
     "file_name": "dogs.webp",
     "caption": "a group of dogs sitting on a wooden deck",
     "ocr_text": "= ae |\n\na +) \u2018 sae\n. wii\nFe\n\nWa We, Bil"
   },
   {
-    "id": "3cc06d52-811a-4064-a4f5-a4177ea17818",
+    "id": "e2b9e019-6c8e-4c9d-83a1-dfd61c959625",
+    "file_name": "images.png",
+    "caption": "a poster with the words will take jobs?",
+    "ocr_text": "Will Al take our jobs?\n\n\\Wnose responsibility ist\nto instil values into A? ae\n\nHow will Al change the\nway we distribute weatth?\n\n\u2018Can you make that shorter?"
+  },
+  {
+    "id": "4e611700-a86a-465a-a1ef-726cdd8b62ea",
+    "file_name": "text-person.jpg",
+    "caption": "a man with glasses and a text over him",
+    "ocr_text": "Start of GuideRealm\n\n+ GuideRealm started by making useful how to videos, and\nthat idea remains to this day.\n\n+ We make videos everyday, so stay tuned for more.\n+ Have agreat day\n\n* Like and subscribe for more.\n\n+ Hello!"
+  },
+  {
+    "id": "b8c6b488-e81a-4e74-ac28-fbe3cb0d5659",
     "file_name": "im2.jpg",
     "caption": "a diagram of the smart key lock",
     "ocr_text": "\u2018mage |\n\nOPENING AND CLOSING\n\n\u2018SMART KEY (if available)\n\n[Keep the smart Key with user to perform]\nthe passive access. It is used for locking,\nlunlocking and starting the vehicle.\n\n1. Locking all doors\n12. Approach Light\n3. Tail gate opening\n\n[Locking All Doors\nPress the lock button once (1) to lock all\nthe doors of the vehicle.\n\n[Successful lock will be indicated by two!\n{ashes of tum signal indicators.\n|Approach Light\n\nThis feature helps to find and reach the\nparked vehicie.\n\nWhen you press approach light button (2)\nlonce, position lamps or low beam and po-\nsition lamps will tum \u2018ON\u2019.\n\nTo switch \u2018OFF the approach lights, press\nland release the same button or it automat-\nically turns \u2018OFF\u2019 after certain time.\n\n[Tail Gate Opening\n\nPress the tail gate opening button once (3)\nto unlock the tailgate.\n\n[Unlocking All Doors\nPress the unlock button once (4) to unlock\nall the doors.\n\n[Successful unlock will be indicated by one\nlashes of tum signal indicators.\n\nNOTE\n\nIf smart key battery is low/drained or ve-\nhicle battery is low/drained, user can\nunlock and enter into vehicle by using\n\u2018mechanical key blade, which is present\ninside the smart key.\n\n}4._Unlocking all doors\n\n|\n\nText\n\n|!\n\nText\n\nText\n\n7"
   },
   {
-    "id": "e34cfa48-9c17-40ae-a1c5-d77b574217c7",
+    "id": "cbce19b2-2719-4076-8cab-3ed9770ec33e",
     "file_name": "img_written.jpeg",
     "caption": "a black and white photo of a wall with the words ' pet summer eve '",
     "ocr_text": ""
   },
   {
-    "id": "d1d6eb97-da22-4340-b448-311c42768f78",
+    "id": "98119ad4-65b8-4acf-b7be-c64416c31a23",
     "file_name": "rag-types.png",
     "caption": "the top 10 types of the internet",
     "ocr_text": "Simple RAG\n(original)\n\nRAG types and their uses\n\nPulls documents once and\ngenerates a response based\non them.\n\nFor straightforward Q&A\ntasks.\n\nSimple RAG with\n\nAdds memory so it can\n\nFor chatbots or assistants\n\nmemory remember past conversations. that need context.\nAgentic RAG * Thinks in steps, deciding what \u00a2 For tasks that require\nto retrieve and do next. oelalalialer\nGraph RAG * Retrieves based on connections * Useful when working with\nina knowledge graph. structured or relational\ndata.\nSelf-RAG \u00a2 Rewrites your question to get \u00a2 Useful when the original\n\nbetter search results.\n\nquery is not clear.\n\nBranched RAG\n\nExplores multiple answer paths\nat once and picks the best one.\n\nFor questions with various\npossible approaches.\n\nMultimodal RAG\n\nWorks with text and other formats,\nsuch as images, audio, or video.\n\nFor tasks that go beyond\njust text, such as visual Q&A.\n\nAdaptive RAG\n\nChanges how it retrieves & generates\n\nresults depending on the task.\n\nUseful when queries vary in\ntype or depth.\n\nSpeculative RAG\n\nPredicts useful search results even\nbefore having the complete query.\n\nUseful when you want faster\nresponses.\n\nCorrective RAG \u00b0 Checks its answers and fixes them \u00a2 Ideal when accuracy\nusing better information. matters more than speed.\n\nModular RAG * You can plug in different retrievers or - For testing or swapping tools\ngenerators depending on what you without rebuilding everything.\nneed. It works like a toolkit.\n\nNaive RAG 3 \u00a2 For basic setups where\n\nRetrieves and generates responses\nwithout any refinement or feedback.\n\nquality is not essential.\n\nAdvanced RAG\n\nCombines several smart techniques\nto boost output quality.\n\nFor production-level systems\nrequiring high accuracy.\n\nHyDE (Hypotheticaldoc) .\n\nImagines the kind of document it\nneeds, then searches for something\nclose.\n\nFor vague queries where a\nstandard search is not useful.\n\n499 meilisearch"
   },
   {
-    "id": "1c8a1e80-e7c0-4f19-bcd3-76316817c5bf",
+    "id": "a3be315a-7818-4071-a238-b728f73c7d8a",
     "file_name": "fox.jpeg",
     "caption": "a red fox standing in the snow",
     "ocr_text": ""
   },
   {
-    "id": "cc54127f-17d7-4ed8-ab9d-41f43ae94043",
+    "id": "eb04c4a6-5e10-4b8b-be21-f0b4dc1cda99",
     "file_name": "im1.webp",
     "caption": "a small leopard cub cub",
+    "ocr_text": ""
+  },
+  {
+    "id": "bf284555-3ded-40b4-a917-035eacd6f913",
+    "file_name": "images.jpeg",
+    "caption": "a screenshote screen with the text ' create ' and a photo of a photo of a person",
+    "ocr_text": "F"
+  },
+  {
+    "id": "d34a1066-9cee-4808-a270-36c867de37c1",
+    "file_name": "wp-2023-11-nature-photography-featured.avif",
+    "caption": "a woman in a hat and black sweater is taking a photo in the woods",
     "ocr_text": ""
   }
 ]
