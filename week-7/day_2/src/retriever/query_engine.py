@@ -1,7 +1,7 @@
 from multiprocessing import context
 import sys, os
 from urllib import response
-sys.path.append(os.path.abspath("../../.."))
+sys.path.append(os.path.abspath(".."))
 
 from day_2.src.pipelines.ingest import ingest
 from day_2.src.retriever.hybrid_retriever import HybridRetriever

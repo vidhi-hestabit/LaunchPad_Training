@@ -1,5 +1,9 @@
 # Hybrid Retrieval-Augmented Generation (RAG) System
 
+Architecture :
+
+![alt text](image-2.png)
+
 ### Online (Run-time) Architecture
 
 At query time, the system performs the following steps:
@@ -12,6 +16,7 @@ At query time, the system performs the following steps:
 6. LLM generates an answer using **only retrieved context**
 
 #### Architecture for the Online tasks (performed at Run-time) -
+
 
 ![alt text](image.png)
 
