@@ -31,7 +31,7 @@ day-5/
 Dockerfile is located inside `deployment/`, so build using:
 
 ```bash
-docker build -t ml-api -f deployment/Dockerfile .
+docker build -t ml-api -f src/deployment/Dockerfile .
 ```
 
 ---
