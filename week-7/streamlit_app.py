@@ -1,20 +1,6 @@
 import streamlit as st
 import requests
 from deployment import app
-import threading
-import time
-
-
-def run_api():
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-
-# Start FastAPI in a daemon thread
-threading.Thread(target=run_api, daemon=True).start()
-
-# Wait a second to ensure the backend is ready
-time.sleep(1)
-
 
 
 API_BASE = "http://localhost:8000"
@@ -51,7 +37,7 @@ mode = st.sidebar.selectbox(
     ["Text RAG", "SQL QA"]
 )
 
-# ---------------- TEXT RAG ----------------
+# TEXT RAG
 if mode == "Text RAG":
     st.subheader("Ask Documents")
 
@@ -66,9 +52,6 @@ if mode == "Text RAG":
 
         st.markdown("### Answer")
         st.write(response["answer"])
-
-        st.markdown("### Evaluation")
-        st.json(response["evaluation"])
 
 # SQL QA
 elif mode == "SQL QA":
@@ -95,6 +78,6 @@ elif mode == "SQL QA":
         else:
             st.write("No rows returned.")
 
-        st.markdown("### Answer")
-        st.write(response["answer"])
+        # st.markdown("### Answer")
+        # st.write(response["answer"])
 
