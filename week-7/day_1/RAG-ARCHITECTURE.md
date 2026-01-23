@@ -19,6 +19,10 @@ LLM Generator
 Final Answer
 ```
 
+Architecture :
+
+![alt text](image.png)
+
 ---
 
 ## Project Folder Structure
