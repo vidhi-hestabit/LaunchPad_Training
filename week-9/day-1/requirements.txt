@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+transformers
+torch
+faiss-cpu
+sentence-transformers
+streamlit
