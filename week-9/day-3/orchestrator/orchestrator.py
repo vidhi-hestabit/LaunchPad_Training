@@ -18,9 +18,10 @@ class Orchestrator:
             name="Coordinator",
             model_client=get_model_client(),
             system_message=(
-                """You are a task router.
+"""
+You are a task router.
 
-Your job is to decide which tools are needed to solve the user's request.
+Your job is to decide which tools are needed.
 
 Available tools:
 - code
@@ -34,14 +35,21 @@ Rules:
 - No extra text
 - Order matters
 
+Routing logic:
+- If user asks about SQL, tables, rows, CSV, database, queries, data → database
+- If user asks to create or modify files/folders → file
+- If user asks to write or run code → code
+- If task involves both → combine tools
+
 Examples:
-- "Write a Python function" -> code
-- "Create folders and files" -> file
-- "Create tables and insert data" -> database
-- "Build script and save results to DB" -> code,database
-- "Scaffold backend project" -> file,code
-- "Create backend server with login/signup and full folder structure named backend-servo" -> code,file
+- "Write a Python function" → code
+- "Create folders and files" → file
+- "Import this CSV and query it" → database
+- "Show all users from uploaded CSV" → database
+- "Build script and save results to DB" → code,database
+- "Scaffold backend project" → file,code
 """
+
             ),
         )
 
