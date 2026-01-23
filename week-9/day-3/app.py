@@ -39,7 +39,6 @@ def main():
 
     st.title("AutoGen Multi-Agent System")
 
-    # 🔹 CSV Upload Section
     st.sidebar.header("Upload CSV to Database")
     uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type=["csv"])
 
@@ -52,13 +51,11 @@ def main():
 
         st.sidebar.success(f"Uploaded: {uploaded_file.name}")
 
-        # Auto-import into SQLite
         table_name = os.path.splitext(uploaded_file.name)[0]
         db_agent = st.session_state.orchestrator.agents["database"]
         msg = db_agent.import_csv(save_path, table_name)
         st.sidebar.info(msg)
 
-    # 🔹 Chat UI
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
