@@ -1,5 +1,5 @@
 
-MODEL_PATH = "/home/vidhiajmera/launchpad/week-8-modified/quantized/model-q8_0.gguf"
+MODEL_PATH = "/home/vidhiajmera/launchpad/week-8/quantized/model-q8_0.gguf"
 N_CTX = 2048
 N_THREADS = 8
 N_GPU_LAYERS = 0  

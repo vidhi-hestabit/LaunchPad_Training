@@ -1,5 +1,5 @@
 from llama_cpp import Llama
-from config import MODEL_PATH, N_CTX, N_THREADS, N_GPU_LAYERS
+from deploy.config import MODEL_PATH, N_CTX, N_THREADS, N_GPU_LAYERS
 
 
 llm = None

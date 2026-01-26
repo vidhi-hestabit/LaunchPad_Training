@@ -2,8 +2,8 @@ import uuid, logging
 from fastapi import FastAPI
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
-from config import DEFAULT_TEMP, DEFAULT_TOP_P, DEFAULT_TOP_K
-from model_loader import load_model
+from deploy.config import DEFAULT_TEMP, DEFAULT_TOP_P, DEFAULT_TOP_K
+from deploy.model_loader import load_model
 
 logging.basicConfig(level=logging.INFO)
 app = FastAPI(title="Local LLM API")
