@@ -1,0 +1,13 @@
+streamlit
+autogen-core
+autogen-ext
+openai
+python-dotenv
+faiss-cpu
+sentence-transformers
+torch
+numpy
+sqlite-utils
+streamlit
+pydantic
+tiktoken
