@@ -21,5 +21,5 @@ class AnswerAgent(BaseAgent):
             name="answer_agent",
             system_prompt=SYSTEM_PROMPT,
             llm=llm,
-            memory_file=None
+            memory_file="answer_memory.json"
         )
