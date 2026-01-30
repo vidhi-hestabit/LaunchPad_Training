@@ -1,13 +1,12 @@
 # Multi-Agent Planner–Executor Pipeline
 **Agents:**
 
-| Agent                |Role                     || -------------------- | ------------------------------------------------------------------------------- |
-| **Planner Agent**    | Breaks the user request into atomic tasks and creates a DAG with dependencies.  |
-| **Worker Agents**    | Execute individual tasks assigned by the planner in parallel whenever possible. |
-| **Reflection Agent** | Reviews the merged output of all tasks, suggesting refinements.                 |
-| **Validator Agent**  | Validates the final output for correctness, completeness, and quality.          |
-
----
+| Agent                | Role                                                                 |
+|----------------------|----------------------------------------------------------------------|
+| **Planner Agent**    | Breaks the user request into atomic tasks and creates a DAG with dependencies. |
+| **Worker Agents**    | Execute individual tasks assigned by the planner, in parallel when possible.   |
+| **Reflection Agent** | Reviews the merged output of all tasks and suggests refinements.               |
+| **Validator Agent**  | Validates the final output for correctness, completeness, and quality.         |
 
 ## Architecture
 
