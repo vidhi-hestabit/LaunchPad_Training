@@ -3,15 +3,15 @@
 Build Master Agent System called:
 PROJECT: NEXUS AI
 Capabilities:
-✔ Multi-agent orchestration
-✔ Tool use
-✔ Memory recall
-✔ Self-reflection
-✔ Self-improvement
-✔ Multi-step planning
-✔ Role switching
-✔ Logs + Tracing
-✔ Failure recovery
+- Multi-agent orchestration
+- Tool use
+- Memory recall
+- Self-reflection
+- Self-improvement
+- Multi-step planning
+- Role switching
+- Logs + Tracing
+- Failure recovery
 Example tasks it must solve:
 1. “Plan a startup in AI for healthcare”
 2. “Generate backend architecture for scalable app”
